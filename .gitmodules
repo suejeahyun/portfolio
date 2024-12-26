@@ -1,3 +1,4 @@
 [submodule "cctv"]
 	path = cctv
 	url = https://github.com/suejeahyun/Portfolio.git
+	branch = main
