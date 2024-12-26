@@ -1,0 +1,32 @@
+<style>
+    /* 모든 상태에서 검정색을 유지하는 링크 스타일 */
+    a.view-button {
+        color: black; /* 기본 색상 */
+        text-decoration: none; /* 밑줄 제거 */
+    }
+
+    /* 방문 후 상태 */
+    a.view-button:visited {
+        color: black; /* 방문 후에도 검정색 유지 */
+        text-decoration: none; /* 밑줄 제거 */
+    }
+
+    /* 호버 상태 */
+    a.view-button:hover {
+        color: black; /* 호버 상태에서도 검정색 유지 */
+        text-decoration: none; /* 밑줄 제거 */
+    }
+
+    /* 클릭(active) 상태 */
+    a.view-button:active {
+        color: black; /* 클릭 상태에서도 검정색 유지 */
+        text-decoration: none; /* 밑줄 제거 */
+    }
+
+    /* 포커스 상태 */
+    a.view-button:focus {
+        color: black; /* 포커스 상태에서도 검정색 유지 */
+        text-decoration: none; /* 밑줄 제거 */
+        outline: none; /* 선택된 상태의 기본 윤곽선 제거 */
+    }
+</style>

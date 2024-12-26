@@ -1,0 +1,49 @@
+{% extends 'home.html' %}
+
+{% block content %}
+<link rel="stylesheet" href="{{ url_for('static', filename='report.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='security.css') }}">
+<h1>정보 관리</h1>
+<!-- 사용자 정보 표시 -->
+<table>
+    <thead>
+        <tr>
+            <th>아이디</th>
+            <th>이름</th>
+            <th>이메일</th>
+            <th>전화번호</th>
+            <th>역할</th>
+            <th>삭제</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for user in users %}
+        <tr>
+            <td>{{ user.username }}</td>
+            <td>{{ user.name }}</td>
+            <td>{{ user.email }}</td>
+            <td>{{ user.phone }}</td>
+            <td>
+                <!-- 역할 수정 폼 -->
+                <form action="{{ url_for('update_role') }}" method="POST" style="display:inline;">
+                    <input type="hidden" name="user_id" value="{{ user.id }}">
+                    <select name="new_role">
+                        <option value="admin" {% if user.role == 'admin' %}selected{% endif %}>관리자</option>
+                        <option value="user" {% if user.role == 'user' %}selected{% endif %}>사용자</option>
+                        <option value="pending" {% if user.role == 'pending' %}selected{% endif %}>보류</option>
+                    </select>
+                    <button type="submit" class="btn btn-primary">수정</button>
+                </form>
+            </td>
+            <td>
+                <!-- 삭제 버튼 -->
+                <form method="POST" style="display:inline;">
+                    <input type="hidden" name="user_id_to_delete" value="{{ user.id }}">
+                    <button type="submit" class="btn btn-danger">삭제</button>
+                </form>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

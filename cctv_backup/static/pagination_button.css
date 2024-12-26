@@ -1,0 +1,15 @@
+.pagination-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* 버튼 배경색 */
+    color: white; /* 텍스트 색상 */
+    text-decoration: none; /* 링크 밑줄 제거 */
+    border-radius: 5px; /* 버튼 모서리 둥글게 */
+    margin: 0 5px; /* 버튼 간격 */
+    font-size: 16px; /* 텍스트 크기 */
+    transition: background-color 0.3s ease; /* 호버 효과 부드럽게 */
+}
+
+.pagination-button:hover {
+    background-color: #0056b3; /* 버튼 호버 시 색상 */
+}

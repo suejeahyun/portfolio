@@ -1,0 +1,25 @@
+{% extends 'home.html' %}
+
+{% block content %}
+<link rel="stylesheet" href="{{ url_for('static', filename='setting.css') }}">
+
+<div class="setting">
+    <h1>총 주차 가능 수 설정</h1>
+
+    <form method="POST" action="{{ url_for('total_parking_slots') }}">
+        <div class="form-row">
+            <label for="total_parking_slots">총 주차 가능 수:</label>
+            <input 
+                type="number" 
+                id="total_parking_slots" 
+                name="total_parking_slots" 
+                value="{{ setting.total_parking_slots if setting else 0 }}" 
+                min="0" 
+                required 
+                class="slots_input">
+        </div>
+        <button type="submit" class="fee_bnt">저장</button>
+    </form>
+
+</div>
+{% endblock %}
