@@ -1,0 +1,71 @@
+1. 관련 라이브러리 설치
+2. migrate upgrade하기
+	2-1 파일 내의 migrate 삭제
+	2-2 flask db init
+	2-3 flask db migrate -m " " 
+	2-4 flask db upgrade
+3. app.py 실행 후 hast번호 가져오기
+4. admin 계정 생성
+INSERT INTO users (username, password, email, name, phone, role)
+VALUES ('admin', '해쉬번호', 'admin@example.com', '관리자', '010-1234-5678', 'admin');
+5. flask run --debug 실행
+
+참조 
+user와 admin의 화면이 다르기에 회원가입 후 admin으로 로그인 후 로그인/보안 페이지에서 pending을 user로 바꿔야함
+
+DB에 가상정보입력
+CREATE PROCEDURE InsertRandom(IN total_rows INT)
+BEGIN
+    DECLARE i INT DEFAULT 0; -- 반복문을 위한 카운터
+    DECLARE han_char VARCHAR(20) DEFAULT '가나다라마바사아자차카타파하'; -- 한글 목록
+    DECLARE han_len INT DEFAULT CHAR_LENGTH(han_char); -- 한글 목록의 길이
+    DECLARE random_hangul CHAR(1); -- 선택된 한글
+    DECLARE random_entry_exit CHAR(5); -- entry_exit_input 필드 값
+    DECLARE random_vehicle_type VARCHAR(10); -- vehicle_type 필드 값
+
+    WHILE i < total_rows DO
+        -- 한글 중 랜덤으로 1글자 선택
+        SET random_hangul = SUBSTRING(han_char, FLOOR(1 + RAND() * han_len), 1);
+
+        -- entry_exit_input 랜덤 선택 ('entry' 또는 'exit')
+        SET random_entry_exit = IF(RAND() < 0.5, 'entry', 'exit');
+
+        -- vehicle_type 랜덤 선택 ('light', 'disabled', 'illegal', 'normal')
+        SET random_vehicle_type = CASE
+            WHEN RAND() < 0.25 THEN 'light'
+            WHEN RAND() < 0.5 THEN 'disabled'
+            WHEN RAND() < 0.75 THEN 'illegal'
+            ELSE 'normal'
+        END;
+
+        -- 데이터 삽입
+        INSERT INTO recognition (vehicle_number, phone_number, recognition_time, entry_exit_input, vehicle_type)
+        VALUES (
+            -- 차량 번호
+            CONCAT(
+                LPAD(FLOOR(RAND() * 90 + 10), 2, '0'), -- 숫자 두 자리 (10~99)
+                random_hangul, -- 미리 정의된 한글 중 랜덤 선택
+                ' ', -- 띄어쓰기
+                LPAD(FLOOR(RAND() * 9000 + 1000), 4, '0') -- 숫자 네 자리 (1000~9999)
+            ),
+            -- 핸드폰 번호
+            CONCAT(
+                '010-', 
+                LPAD(FLOOR(RAND() * 9000 + 1000), 4, '0'), -- 숫자 네 자리 (1000~9999)
+                '-', 
+                LPAD(FLOOR(RAND() * 9000 + 1000), 4, '0') -- 숫자 네 자리 (1000~9999)
+            ),
+            -- 현재 시간
+            NOW(),
+            -- 랜덤 entry_exit_input
+            random_entry_exit,
+            -- 랜덤 vehicle_type
+            random_vehicle_type
+        );
+
+        SET i = i + 1; -- 반복문 증가
+    END WHILE;
+END;
+//
+
+call InsertRandom(100)

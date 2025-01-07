@@ -1,0 +1,77 @@
+/* 검색 결과 테이블 스타일 */
+.search-results-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.search-results-table th,
+.search-results-table td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.search-results-table th {
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+}
+
+.search-results-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.search-results-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* 검색 결과 제목 */
+.search-category-title {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* 검색 입력 폼 스타일 */
+.fixed-form {
+    margin-top: 150px; /* 헤더 높이만큼 여백 추가 */
+    width: 100%; /* 화면 너비 전체 */
+    padding: 15px 20px; /* 내부 여백 */
+    margin-bottom: 20px; /* 검색 결과와 간격 추가 */
+    display: flex;
+    justify-content: center; /* 가운데 정렬 */
+    align-items: center; /* 세로 가운데 정렬 */
+}
+
+/* 검색 입력 필드와 버튼 스타일 */
+.fixed-form label {
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.fixed-form input {
+    padding: 8px;
+    font-size: 14px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.fixed-form button {
+    padding: 8px 16px;
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.fixed-form button:hover {
+    background-color: #333;
+}

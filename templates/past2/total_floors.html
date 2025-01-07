@@ -1,0 +1,25 @@
+{% extends 'home.html' %}
+
+{% block content %}
+<link rel="stylesheet" href="{{ url_for('static', filename='setting.css') }}">
+
+<div class="setting">
+    <h1>층 수 설정</h1>
+
+    <form method="POST" action="{{ url_for('total_floors') }}">
+        <div class="form-row">
+            <label for="total_floors">층 수:</label>
+            <input 
+                type="number" 
+                id="total_floors" 
+                name="total_floors" 
+                value="{{ setting.total_floors if setting else 0 }}" 
+                min="0" 
+                required 
+                class="floors_input">
+        </div>
+        <button type="submit" class="fee_bnt">저장</button>
+    </form>
+
+</div>
+{% endblock %}

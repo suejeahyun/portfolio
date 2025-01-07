@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>오류 발생</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/error.css') }}">
+</head>
+<body>
+    <div class="error-container">
+        <h1>죄송합니다!</h1>
+        <p>요청 처리 중 오류가 발생했습니다.</p>
+
+        {% if error %}
+            <div class="error-details">
+                <h2>오류 세부 정보:</h2>
+                <p>{{ error }}</p>
+            </div>
+        {% endif %}
+
+        <div class="actions">
+            <a href="{{ url_for('home') }}" class="button">홈으로 돌아가기</a>
+            <a href="javascript:history.back()" class="button">이전 페이지로</a>
+        </div>
+    </div>
+</body>
+</html>

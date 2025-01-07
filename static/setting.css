@@ -1,0 +1,75 @@
+/* 설정 페이지 메인 컨테이너 */
+.setting {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    background-color: #fff;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+/* 타이틀 스타일 */
+.setting h1 {
+    font-size: 24px;
+    color: #333;
+    margin: 0 0 20px;
+}
+
+/* 폼 레이아웃 */
+.setting .form-row {
+    display: grid;
+    gap: 10px;
+    text-align: left;
+}
+
+.setting label {
+    font-weight: bold;
+    color: #555;
+}
+
+/* 각 입력 필드와 레이블 간 스타일 */
+.setting .form-row {
+    display: grid;
+    gap: 10px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.setting label {
+    font-weight: bold;
+    color: #555;
+}
+
+.setting input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.setting input:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+/* 입력 필드 스타일 */
+.setting .fee_input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.setting .fee_input:focus {
+    border-color: #4CAF50;
+    outline: none;
+}

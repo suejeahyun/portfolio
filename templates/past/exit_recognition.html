@@ -1,0 +1,20 @@
+{% extends 'home.html' %}
+
+{% block content %}
+<link rel="stylesheet" href="{{ url_for('static', filename='video.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='exit_btn.css') }}">
+<div class="video-container">
+    <h1 class="video-title">출차 인식</h1>
+    <!-- 사람 인식 결과를 보여줄 영역 -->
+    <div class="video-grid">
+        <img class="video-stream1" src="{{ url_for('exit_video_feed') }}" alt="Live Stream1">
+        <img class="video-stream2" src="{{ url_for('exit_video_feed') }}" alt="Live Stream2">
+        <img class="video-stream3" src="{{ url_for('exit_video_feed') }}" alt="Live Stream3">
+        <img class="video-stream4" src="{{ url_for('exit_video_feed') }}" alt="Live Stream4">
+    </div>
+</div>
+
+<!-- 우측 하단 버튼 -->
+<button class="list-recognition-btn" onclick="location.href='{{ url_for('exit_recognition_data') }}'">출차 리스트</button>
+
+{% endblock %}

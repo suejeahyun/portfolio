@@ -1,0 +1,5 @@
+.inquiry-actions {
+    position: absolute; /* 부모 요소 기준 위치 지정 */
+    bottom: 20px; /* 부모 요소의 아래에서 20px */
+    right: 20px; /* 부모 요소의 오른쪽에서 20px */
+}

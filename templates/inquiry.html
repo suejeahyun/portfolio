@@ -1,0 +1,88 @@
+{% extends 'home.html' %}
+
+{% block content %}
+<link rel="stylesheet" href="{{ url_for('static', filename='report.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='inquiry_write_go.css') }}">
+
+<h1>문의 사항 보기</h1>
+<table class="inquiry-table">
+    <thead>
+        <tr>
+            <th>작성자</th>
+            <th>문의 사항</th>
+            <th>작성 시간</th>
+            <th>상태</th>
+            {% if session['role'] == 'admin' %}
+            <th>상태 수정</th>
+            {% endif %}
+        </tr>
+    </thead>
+    <tbody>
+        {% if not inquiries %}
+        <tr><td colspan="5">문의 사항이 없습니다.</td></tr>
+        {% else %}
+            {% for inquiry in inquiries %}
+            <tr>
+                <td>{{ inquiry.user.name if inquiry.user else '알 수 없음' }}</td>  <!-- inquiry.user.name으로 작성자 표시 -->
+                <td>{{ inquiry.message }}</td>
+                <td>{{ inquiry.created_at.strftime('%Y-%m-%d %H:%M:%S') }}</td>
+                <td>
+                    {% if inquiry.state == 'receipt' %}
+                        접수
+                    {% elif inquiry.state == 'progress' %}
+                        진행중
+                    {% elif inquiry.state == 'complete' %}
+                        완료
+                    {% elif inquiry.state == 'interruption' %}
+                        중단
+                    {% elif inquiry.state == 'custody' %}
+                        보류
+                    {% else %}
+                        알 수 없음
+                    {% endif %}
+                </td>
+                {% if session['role'] == 'admin' %}
+                <td>
+                    <!-- 문의 상태 업데이트 폼 -->
+                    <form action="{{ url_for('update_inquiry_state', inquiry_id=inquiry.id) }}" method="POST">
+                        <select name="state">
+                            <option value="receipt" {% if inquiry.state == 'receipt' %}selected{% endif %}>접수</option>
+                            <option value="progress" {% if inquiry.state == 'progress' %}selected{% endif %}>진행중</option>
+                            <option value="complete" {% if inquiry.state == 'complete' %}selected{% endif %}>완료</option>
+                            <option value="interruption" {% if inquiry.state == 'interruption' %}selected{% endif %}>중단</option>
+                            <option value="custody" {% if inquiry.state == 'custody' %}selected{% endif %}>보류</option>
+                        </select>
+                        <button type="submit">수정</button>
+                    </form>
+                </td>
+                {% endif %}
+            </tr>
+            {% endfor %}
+        {% endif %}
+    </tbody>
+</table>
+
+<!-- 페이지네이션 -->
+<div class="pagination">
+    {% if current_page > 1 %}
+        <a href="{{ url_for('inquiry', page=1) }}">처음</a>
+        <a href="{{ url_for('inquiry', page=current_page - 1) }}">이전</a>
+    {% endif %}
+
+    <span>페이지 {{ current_page }} / {{ total_pages }}</span>
+
+    {% if current_page < total_pages %}
+        <a href="{{ url_for('inquiry', page=current_page + 1) }}">다음</a>
+        <a href="{{ url_for('inquiry', page=total_pages) }}">끝</a>
+    {% endif %}
+</div>
+
+{% if session['role'] == 'user' %}
+<div class="inquiry-actions">
+    <form action="{{ url_for('inquiry_write') }}" method="get">
+        <button type="submit" class="btn btn-primary">문의 사항 작성</button>
+    </form>
+</div>
+{% endif %}
+
+{% endblock %}

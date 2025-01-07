@@ -1,0 +1,23 @@
+.download-buttons {
+    position: relative; /* 부모 요소를 기준으로 위치 지정 */
+    width: 100%; /* 버튼 영역을 전체 너비로 설정 */
+    margin-top: 20px;
+    display: flex; /* 버튼들을 가로로 정렬 */
+    justify-content: center; /* 버튼들을 중앙에 정렬 */
+    gap: 20px; /* 버튼 사이 간격 */
+}
+
+.download-button {
+    position: absolute; /* 버튼 위치를 독립적으로 제어 */
+    bottom: 20px; /* 아래쪽에서 20px 떨어짐 */
+    right: 20px; /* 오른쪽에서 20px 떨어짐 */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}

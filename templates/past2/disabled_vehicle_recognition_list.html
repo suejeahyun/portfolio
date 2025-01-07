@@ -1,0 +1,13 @@
+
+{% extends 'home.html' %}
+
+{% block content %}
+<h1>{{ category.name }}</h1>
+<p>{{ category.description }}</p>
+<ul>
+    <!-- 카테고리 데이터 표시 -->
+    {% for item in data %}
+        <li>{{ item }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}
