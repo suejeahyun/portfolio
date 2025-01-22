@@ -1,39 +1,40 @@
-{% extends 'home.html' %}
+{% extends 'home.html' %} {% block content %}
+<link
+  rel="stylesheet"
+  href="{{ url_for('static', filename='css/report.css') }}"
+/>
+<h1>알람 현황</h1>
 
-{% block content %}
-<link rel="stylesheet" href="{{ url_for('static', filename='report.css') }}">
-    <h1>알람 현황</h1>
+<!-- 모든 카테고리의 데이터를 시간순으로 정렬하여 10개씩 표시 -->
+<table>
+  <thead>
+    <tr>
+      <th>카테고리</th>
+      <th>차량 번호</th>
+      <th>인식 시간</th>
+      <th>이미지</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for item in all_data %}
+    <tr>
+      <td>{{ item.category }}</td>
+      <td>{{ item.vehicle_number }}</td>
+      <td>{{ item.recognition_time.strftime('%Y-%m-%d %H:%M:%S') }}</td>
+      <td>{{ item.image_path if item.image_path else '없음' }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
 
-    <!-- 모든 카테고리의 데이터를 시간순으로 정렬하여 10개씩 표시 -->
-    <table>
-        <thead>
-            <tr>
-                <th>카테고리</th>
-                <th>차량 번호</th>
-                <th>인식 시간</th>
-                <th>이미지</th>
-            </tr>
-        </thead>
-            <tbody>
-                {% for item in all_data %}
-                    <tr>
-                        <td>{{ item.category }}</td>
-                        <td>{{ item.vehicle_number }}</td>
-                        <td>{{ item.recognition_time.strftime('%Y-%m-%d %H:%M:%S') }}</td>
-                        <td>{{ item.image_path if item.image_path else '없음' }}</td>
-                    </tr>
-                {% endfor %}
-            </tbody>
-    </table>
-
-    <!-- 페이지네이션 -->
-    <div class="pagination">
-        {% if page > 1 %}
-            <a href="{{ url_for('alerts', page=page-1) }}">이전</a>
-        {% endif %}
-        <span>Page {{ page }} of {{ total_pages }}</span>
-        {% if page < total_pages %}
-            <a href="{{ url_for('alerts', page=page+1) }}">다음</a>
-        {% endif %}
-    </div>
+<!-- 페이지네이션 -->
+<div class="pagination">
+  {% if page > 1 %}
+  <a href="{{ url_for('alerts', page=page-1) }}">이전</a>
+  {% endif %}
+  <span>Page {{ page }} of {{ total_pages }}</span>
+  {% if page < total_pages %}
+  <a href="{{ url_for('alerts', page=page+1) }}">다음</a>
+  {% endif %}
+</div>
 {% endblock %}

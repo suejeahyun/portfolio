@@ -1,37 +1,44 @@
-{% set category_mapping = {
-    'entry': '입차 인식',
-    'exit': '출차 인식',
-    'light_vehicle': '경차 인식',
-    'disabled_vehicle': '장애인 차량 인식',
-    'illegal_parking': '불법 주차 차량 인식'
-} %}
-{% extends 'home.html' %}
-
-{% block content %}
-<link rel="stylesheet" href="{{ url_for('static', filename='report.css') }}">
-<link rel="stylesheet" href="{{ url_for('static', filename='view.css') }}">
+{% set category_mapping = { 'entry': '입차 인식', 'exit': '출차 인식',
+'light_vehicle': '경차 인식', 'disabled_vehicle': '장애인 차량 인식',
+'illegal_parking': '불법 주차 차량 인식' } %} {% extends 'home.html' %} {% block
+content %}
+<link
+  rel="stylesheet"
+  href="{{ url_for('static', filename='css/report.css') }}"
+/>
+<link
+  rel="stylesheet"
+  href="{{ url_for('static', filename='css/view.css') }}"
+/>
 
 <h1>검색 리스트</h1>
 <table border="1">
-    <thead>
-        <tr>
-            <th>카테고리</th>
-            <th>인식 횟수</th>
-            <th>마지막 인식 시간</th>
-            <th>자세히 보기</th>
-        </tr>
-    </thead>
-    <tbody>
-        {% for category, records in data.items() %}
-        <tr>
-            <td>{{ category_mapping[category] }}</td>
-            <td>{{ records|length }}</td>
-            <td>{{ records[0].recognition_time.strftime('%Y-%m-%d %H:%M:%S') if records else 'No Records' }}</td>
-            <td>
-                <a href="{{ url_for('recognition_list', category=category) }}" class="view-button">보기</a>
-            </td>
-        </tr>
-        {% endfor %}
-    </tbody>
+  <thead>
+    <tr>
+      <th>카테고리</th>
+      <th>인식 횟수</th>
+      <th>마지막 인식 시간</th>
+      <th>자세히 보기</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for category, records in data.items() %}
+    <tr>
+      <td>{{ category_mapping[category] }}</td>
+      <td>{{ records|length }}</td>
+      <td>
+        {{ records[0].recognition_time.strftime('%Y-%m-%d %H:%M:%S') if records
+        else 'No Records' }}
+      </td>
+      <td>
+        <a
+          href="{{ url_for('recognition_list', category=category) }}"
+          class="view-button"
+          >보기</a
+        >
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
 </table>
 {% endblock %}

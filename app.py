@@ -12,6 +12,7 @@ import io
 import easyocr
 import os
 import logging
+import re
 
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 
@@ -39,7 +40,7 @@ plain_password = "1234"
 
 # 비밀번호 해시 생성
 hashed_password = bcrypt.generate_password_hash(plain_password).decode('utf-8')
-
+print(hashed_password)
 # 전역 카메라 객체
 camera = None
 
@@ -96,7 +97,7 @@ class Setting(db.Model):
 class Recognition(db.Model):
     __tablename__ = 'recognition'
     id = db.Column(db.Integer, primary_key=True)
-    vehicle_number = db.Column(db.String(20), nullable=False)
+    vehicle_number = db.Column(db.String(20), nullable=True)
     phone_number = db.Column(db.String(20), nullable=True)
     recognition_time = db.Column(db.DateTime, default=datetime.utcnow)
     image_path = db.Column(db.String(255), nullable=True)
@@ -319,7 +320,6 @@ def capture_image():
         'illegal_parking': {'entry_exit_input': 'entry', 'vehicle_type': 'illegal'}
     }
 
-    # 클라이언트에서 받은 카테고리 값 수정 (하이픈을 언더스코어로 변환)
     category = data.get('category', '').replace('-', '_')
     app.logger.info(f"Received category: {category}")
 
@@ -327,53 +327,52 @@ def capture_image():
         app.logger.error(f"Invalid category received: {category}")
         return jsonify({"status": "error", "error": "Invalid category"}), 400
 
-    # 카테고리별 조건 가져오기
     model_conditions = category_models[category]
 
-    # 이미지 데이터 처리
     image_data = data['image_data'].split(",")[1]
     decoded_image = base64.b64decode(image_data)
     image = Image.open(io.BytesIO(decoded_image))
 
-    # 현재 시간
     timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-
-    # 이미지 저장 폴더 설정: 카테고리 구조
     save_image_folder = os.path.join("static", "captured_images", category)
     os.makedirs(save_image_folder, exist_ok=True)
 
-    # 이미지 파일 이름 설정
-    image_filename = f"{timestamp}.jpg"  # 시간만 파일명으로 사용
+    image_filename = f"{timestamp}.jpg"
     image_path = os.path.join(save_image_folder, image_filename)
     image.save(image_path)
 
-    # 데이터베이스에 저장할 경로
     image_db_path = f"captured_images/{category}/{image_filename}"
-    # 로그 추가
     app.logger.info(f"저장된 이미지 경로: {image_path}")
 
-    # OCR 처리
     try:
         ocr_results = ocr_reader.readtext(image_path)
-        vehicle_number = ocr_results[0][1] if ocr_results else "Unknown"
+        detected_text = ocr_results[0][1] if ocr_results else "Unknown"
     except Exception as e:
         app.logger.error(f"OCR 처리 중 오류: {str(e)}")
-        vehicle_number = "Unknown"
+        detected_text = "Unknown"
 
-    # vehicle_type은 entry일 경우만 설정
-    if model_conditions['entry_exit_input'] == 'entry':
-        vehicle_type = model_conditions.get('vehicle_type', 'normal')
-    else:
-        vehicle_type = 'normal'
+    # OCR 결과에서 숫자만 추출
+    numeric_text = re.sub(r'\D', '', detected_text)  # 숫자가 아닌 문자는 제거
 
-    # 데이터베이스 저장
+    phone_number = None
+    vehicle_number = None
+
+    # 전화번호와 차량 번호를 분리하여 저장
+    if len(numeric_text) == 11:  # 숫자가 11자리이면 전화번호로 저장
+        phone_number = numeric_text
+    elif numeric_text:  # 숫자가 있으나 11자리가 아닌 경우 차량 번호로 저장
+        vehicle_number = numeric_text
+    else:  # 숫자가 없으면 전체 텍스트를 차량 번호로 저장
+        vehicle_number = detected_text
+
+    # 데이터베이스에 저장
     new_record = Recognition(
-        vehicle_number=vehicle_number,  # OCR 결과 저장
-        phone_number=None,
+        vehicle_number=vehicle_number,
+        phone_number=phone_number,
         recognition_time=datetime.now(),
-        image_path=image_db_path,  # 데이터베이스 경로에 카테고리 기반 저장
+        image_path=image_db_path,
         entry_exit_input=model_conditions.get('entry_exit_input', 'unknown'),
-        vehicle_type=vehicle_type
+        vehicle_type=model_conditions.get('vehicle_type', 'normal')
     )
 
     db.session.add(new_record)
@@ -387,9 +386,12 @@ def capture_image():
 
     return jsonify({
         "status": "success",
-        "ocr_text": vehicle_number,  # OCR 결과 반환
-        "image_path": image_db_path  # 저장된 이미지 경로 반환
+        "ocr_text": detected_text,
+        "phone_number": phone_number,
+        "vehicle_number": vehicle_number,
+        "image_path": image_db_path
     })
+
 
 # -------------------------------
 

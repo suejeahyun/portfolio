@@ -17661,3 +17661,1143 @@ FROM inquiry LEFT OUTER JOIN users AS users_1 ON users_1.name = inquiry.user_id]
 2025-01-02 17:52:59,395:INFO:127.0.0.1 - - [02/Jan/2025 17:52:59] "GET /settings HTTP/1.1" 200 -
 2025-01-02 17:52:59,417:INFO:127.0.0.1 - - [02/Jan/2025 17:52:59] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
 2025-01-02 17:52:59,418:INFO:127.0.0.1 - - [02/Jan/2025 17:52:59] "[36mGET /static/setting.css HTTP/1.1[0m" 304 -
+2025-01-08 11:51:36,662:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-01-08 11:52:02,342:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-08 11:52:02,342:INFO:[33mPress CTRL+C to quit[0m
+2025-01-08 11:52:02,360:INFO: * Restarting with watchdog (windowsapi)
+2025-01-08 11:52:09,700:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-01-08 11:52:12,214:WARNING: * Debugger is active!
+2025-01-08 11:52:12,221:INFO: * Debugger PIN: 652-156-585
+2025-01-08 11:52:12,306:INFO:127.0.0.1 - - [08/Jan/2025 11:52:12] "[32mGET / HTTP/1.1[0m" 302 -
+2025-01-08 11:52:12,306:INFO:127.0.0.1 - - [08/Jan/2025 11:52:12] "[32mGET / HTTP/1.1[0m" 302 -
+2025-01-08 11:52:12,306:INFO:127.0.0.1 - - [08/Jan/2025 11:52:12] "[32mGET / HTTP/1.1[0m" 302 -
+2025-01-08 11:52:12,307:INFO:127.0.0.1 - - [08/Jan/2025 11:52:12] "[32mGET / HTTP/1.1[0m" 302 -
+2025-01-08 11:52:12,307:INFO:127.0.0.1 - - [08/Jan/2025 11:52:12] "[32mGET / HTTP/1.1[0m" 302 -
+2025-01-08 11:52:12,312:INFO:∑Œ±◊¿Œ Ω√µµ
+2025-01-08 11:52:12,362:INFO:127.0.0.1 - - [08/Jan/2025 11:52:12] "GET /login HTTP/1.1" 200 -
+2025-01-08 11:52:12,456:INFO:127.0.0.1 - - [08/Jan/2025 11:52:12] "GET /static/home.css HTTP/1.1" 200 -
+2025-01-08 11:52:16,474:INFO:∑Œ±◊¿Œ Ω√µµ
+2025-01-08 11:52:16,752:INFO:127.0.0.1 - - [08/Jan/2025 11:52:16] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-01-08 11:52:16,758:INFO:127.0.0.1 - - [08/Jan/2025 11:52:16] "GET / HTTP/1.1" 200 -
+2025-01-08 11:52:16,785:INFO:127.0.0.1 - - [08/Jan/2025 11:52:16] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 11:52:17,607:INFO:127.0.0.1 - - [08/Jan/2025 11:52:17] "GET /entry-recognition HTTP/1.1" 200 -
+2025-01-08 11:52:17,625:INFO:127.0.0.1 - - [08/Jan/2025 11:52:17] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 11:52:17,641:INFO:127.0.0.1 - - [08/Jan/2025 11:52:17] "GET /static/video.css HTTP/1.1" 200 -
+2025-01-08 11:52:17,641:INFO:127.0.0.1 - - [08/Jan/2025 11:52:17] "GET /static/exit_btn.css HTTP/1.1" 200 -
+2025-01-08 11:52:17,662:INFO:127.0.0.1 - - [08/Jan/2025 11:52:17] "GET /static/js/webcam.js HTTP/1.1" 200 -
+2025-01-08 11:52:24,882:INFO:Received category: entry
+2025-01-08 11:52:24,950:INFO:¿˙¿Âµ» ¿ÃπÃ¡ˆ ∞Ê∑Œ: static\captured_images\entry\20250108_115224.jpg
+2025-01-08 11:52:28,639:INFO:µ•¿Ã≈Õ∫£¿ÃΩ∫ø° ¿ÃπÃ¡ˆ ∞Ê∑Œ π◊ OCR ∞·∞˙ ¿˙¿Â øœ∑·
+2025-01-08 11:52:28,639:INFO:127.0.0.1 - - [08/Jan/2025 11:52:28] "POST /capture-image HTTP/1.1" 200 -
+2025-01-08 11:52:29,847:INFO:Received category: entry
+2025-01-08 11:52:29,869:INFO:¿˙¿Âµ» ¿ÃπÃ¡ˆ ∞Ê∑Œ: static\captured_images\entry\20250108_115229.jpg
+2025-01-08 11:52:33,309:INFO:µ•¿Ã≈Õ∫£¿ÃΩ∫ø° ¿ÃπÃ¡ˆ ∞Ê∑Œ π◊ OCR ∞·∞˙ ¿˙¿Â øœ∑·
+2025-01-08 11:52:33,309:INFO:127.0.0.1 - - [08/Jan/2025 11:52:33] "POST /capture-image HTTP/1.1" 200 -
+2025-01-08 11:52:34,877:INFO:Received category: entry
+2025-01-08 11:52:34,890:INFO:¿˙¿Âµ» ¿ÃπÃ¡ˆ ∞Ê∑Œ: static\captured_images\entry\20250108_115234.jpg
+2025-01-08 11:52:38,458:INFO:µ•¿Ã≈Õ∫£¿ÃΩ∫ø° ¿ÃπÃ¡ˆ ∞Ê∑Œ π◊ OCR ∞·∞˙ ¿˙¿Â øœ∑·
+2025-01-08 11:52:38,458:INFO:127.0.0.1 - - [08/Jan/2025 11:52:38] "POST /capture-image HTTP/1.1" 200 -
+2025-01-08 11:52:39,860:INFO:Received category: entry
+2025-01-08 11:52:39,885:INFO:¿˙¿Âµ» ¿ÃπÃ¡ˆ ∞Ê∑Œ: static\captured_images\entry\20250108_115239.jpg
+2025-01-08 11:52:44,382:INFO:µ•¿Ã≈Õ∫£¿ÃΩ∫ø° ¿ÃπÃ¡ˆ ∞Ê∑Œ π◊ OCR ∞·∞˙ ¿˙¿Â øœ∑·
+2025-01-08 11:52:44,383:INFO:127.0.0.1 - - [08/Jan/2025 11:52:44] "POST /capture-image HTTP/1.1" 200 -
+2025-01-08 11:52:56,571:INFO:127.0.0.1 - - [08/Jan/2025 11:52:56] "GET / HTTP/1.1" 200 -
+2025-01-08 11:52:56,593:INFO:127.0.0.1 - - [08/Jan/2025 11:52:56] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 11:53:38,788:INFO:127.0.0.1 - - [08/Jan/2025 11:53:38] "GET /entry-recognition HTTP/1.1" 200 -
+2025-01-08 11:53:38,808:INFO:127.0.0.1 - - [08/Jan/2025 11:53:38] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 11:53:38,822:INFO:127.0.0.1 - - [08/Jan/2025 11:53:38] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2025-01-08 11:53:38,823:INFO:127.0.0.1 - - [08/Jan/2025 11:53:38] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2025-01-08 11:53:38,824:INFO:127.0.0.1 - - [08/Jan/2025 11:53:38] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2025-01-08 11:53:46,071:INFO:Received category: entry
+2025-01-08 11:53:46,084:INFO:¿˙¿Âµ» ¿ÃπÃ¡ˆ ∞Ê∑Œ: static\captured_images\entry\20250108_115346.jpg
+2025-01-08 11:53:50,055:INFO:µ•¿Ã≈Õ∫£¿ÃΩ∫ø° ¿ÃπÃ¡ˆ ∞Ê∑Œ π◊ OCR ∞·∞˙ ¿˙¿Â øœ∑·
+2025-01-08 11:53:50,055:INFO:127.0.0.1 - - [08/Jan/2025 11:53:50] "POST /capture-image HTTP/1.1" 200 -
+2025-01-08 11:53:51,055:INFO:Received category: entry
+2025-01-08 11:53:51,085:INFO:¿˙¿Âµ» ¿ÃπÃ¡ˆ ∞Ê∑Œ: static\captured_images\entry\20250108_115351.jpg
+2025-01-08 11:53:54,996:INFO:µ•¿Ã≈Õ∫£¿ÃΩ∫ø° ¿ÃπÃ¡ˆ ∞Ê∑Œ π◊ OCR ∞·∞˙ ¿˙¿Â øœ∑·
+2025-01-08 11:53:54,997:INFO:127.0.0.1 - - [08/Jan/2025 11:53:54] "POST /capture-image HTTP/1.1" 200 -
+2025-01-08 11:53:56,040:INFO:Received category: entry
+2025-01-08 11:53:56,054:INFO:¿˙¿Âµ» ¿ÃπÃ¡ˆ ∞Ê∑Œ: static\captured_images\entry\20250108_115356.jpg
+2025-01-08 11:53:59,998:INFO:µ•¿Ã≈Õ∫£¿ÃΩ∫ø° ¿ÃπÃ¡ˆ ∞Ê∑Œ π◊ OCR ∞·∞˙ ¿˙¿Â øœ∑·
+2025-01-08 11:53:59,998:INFO:127.0.0.1 - - [08/Jan/2025 11:53:59] "POST /capture-image HTTP/1.1" 200 -
+2025-01-08 11:56:20,621:INFO: * Detected change in 'D:\\AI3\\cctv\\app.py', reloading
+2025-01-08 11:56:20,622:INFO: * Detected change in 'D:\\AI3\\cctv\\app.py', reloading
+2025-01-08 11:56:20,622:INFO: * Detected change in 'D:\\AI3\\cctv\\app.py', reloading
+2025-01-08 11:56:21,892:INFO: * Restarting with watchdog (windowsapi)
+2025-01-08 11:56:30,750:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-01-08 11:56:35,450:DEBUG:matplotlib data path: C:\Users\M\anaconda3\Lib\site-packages\matplotlib\mpl-data
+2025-01-08 11:56:35,460:DEBUG:CONFIGDIR=C:\Users\M\.matplotlib
+2025-01-08 11:56:35,462:DEBUG:interactive is False
+2025-01-08 11:56:35,462:DEBUG:platform is win32
+2025-01-08 11:56:35,576:DEBUG:CACHEDIR=C:\Users\M\.matplotlib
+2025-01-08 11:56:35,581:DEBUG:Using fontManager instance from C:\Users\M\.matplotlib\fontlist-v390.json
+2025-01-08 11:56:40,835:DEBUG:Loaded backend Agg version v2.2.
+2025-01-08 11:56:46,693:WARNING: * Debugger is active!
+2025-01-08 11:56:46,700:INFO: * Debugger PIN: 652-156-585
+2025-01-08 11:56:52,421:INFO: * Detected change in 'D:\\AI3\\cctv\\app.py', reloading
+2025-01-08 11:56:52,421:INFO: * Detected change in 'D:\\AI3\\cctv\\app.py', reloading
+2025-01-08 11:56:52,422:INFO: * Detected change in 'D:\\AI3\\cctv\\app.py', reloading
+2025-01-08 11:56:54,132:INFO: * Restarting with watchdog (windowsapi)
+2025-01-08 11:57:01,998:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-01-08 11:57:06,833:DEBUG:matplotlib data path: C:\Users\M\anaconda3\Lib\site-packages\matplotlib\mpl-data
+2025-01-08 11:57:06,847:DEBUG:CONFIGDIR=C:\Users\M\.matplotlib
+2025-01-08 11:57:06,851:DEBUG:interactive is False
+2025-01-08 11:57:06,852:DEBUG:platform is win32
+2025-01-08 11:57:06,944:DEBUG:CACHEDIR=C:\Users\M\.matplotlib
+2025-01-08 11:57:06,948:DEBUG:Using fontManager instance from C:\Users\M\.matplotlib\fontlist-v390.json
+2025-01-08 11:57:10,149:DEBUG:Loaded backend Agg version v2.2.
+2025-01-08 11:57:10,704:WARNING: * Debugger is active!
+2025-01-08 11:57:10,710:INFO: * Debugger PIN: 652-156-585
+2025-01-08 11:57:10,883:INFO:127.0.0.1 - - [08/Jan/2025 11:57:10] "[32mGET /entry-recognition HTTP/1.1[0m" 302 -
+2025-01-08 11:57:10,890:INFO:∑Œ±◊¿Œ Ω√µµ
+2025-01-08 11:57:10,899:INFO:127.0.0.1 - - [08/Jan/2025 11:57:10] "GET /login HTTP/1.1" 200 -
+2025-01-08 11:57:10,980:INFO:127.0.0.1 - - [08/Jan/2025 11:57:10] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 11:57:14,066:INFO:∑Œ±◊¿Œ Ω√µµ
+2025-01-08 11:57:14,343:INFO:127.0.0.1 - - [08/Jan/2025 11:57:14] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-01-08 11:57:14,350:INFO:127.0.0.1 - - [08/Jan/2025 11:57:14] "GET / HTTP/1.1" 200 -
+2025-01-08 11:57:14,373:INFO:127.0.0.1 - - [08/Jan/2025 11:57:14] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 11:57:15,490:INFO:127.0.0.1 - - [08/Jan/2025 11:57:15] "GET /entry-recognition HTTP/1.1" 200 -
+2025-01-08 11:57:15,510:INFO:127.0.0.1 - - [08/Jan/2025 11:57:15] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 11:57:15,516:INFO:127.0.0.1 - - [08/Jan/2025 11:57:15] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2025-01-08 11:57:15,517:INFO:127.0.0.1 - - [08/Jan/2025 11:57:15] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2025-01-08 11:57:15,538:INFO:127.0.0.1 - - [08/Jan/2025 11:57:15] "GET /static/js/webcam.js HTTP/1.1" 200 -
+2025-01-08 11:57:19,576:INFO:127.0.0.1 - - [08/Jan/2025 11:57:19] "POST /process-frame HTTP/1.1" 200 -
+2025-01-08 11:57:20,521:INFO:127.0.0.1 - - [08/Jan/2025 11:57:20] "POST /process-frame HTTP/1.1" 200 -
+2025-01-08 11:57:21,515:INFO:127.0.0.1 - - [08/Jan/2025 11:57:21] "POST /process-frame HTTP/1.1" 200 -
+2025-01-08 11:57:22,552:INFO:127.0.0.1 - - [08/Jan/2025 11:57:22] "POST /process-frame HTTP/1.1" 200 -
+2025-01-08 11:57:23,506:INFO:127.0.0.1 - - [08/Jan/2025 11:57:23] "POST /process-frame HTTP/1.1" 200 -
+2025-01-08 11:57:24,512:INFO:127.0.0.1 - - [08/Jan/2025 11:57:24] "POST /process-frame HTTP/1.1" 200 -
+2025-01-08 11:57:25,527:INFO:127.0.0.1 - - [08/Jan/2025 11:57:25] "POST /process-frame HTTP/1.1" 200 -
+2025-01-08 11:57:26,522:INFO:127.0.0.1 - - [08/Jan/2025 11:57:26] "POST /process-frame HTTP/1.1" 200 -
+2025-01-08 11:57:27,500:INFO:127.0.0.1 - - [08/Jan/2025 11:57:27] "POST /process-frame HTTP/1.1" 200 -
+2025-01-08 11:57:28,525:INFO:127.0.0.1 - - [08/Jan/2025 11:57:28] "POST /process-frame HTTP/1.1" 200 -
+2025-01-08 11:57:29,511:INFO:127.0.0.1 - - [08/Jan/2025 11:57:29] "POST /process-frame HTTP/1.1" 200 -
+2025-01-08 11:57:30,483:INFO:127.0.0.1 - - [08/Jan/2025 11:57:30] "POST /process-frame HTTP/1.1" 200 -
+2025-01-08 11:57:31,509:INFO:127.0.0.1 - - [08/Jan/2025 11:57:31] "POST /process-frame HTTP/1.1" 200 -
+2025-01-08 11:57:32,514:INFO:127.0.0.1 - - [08/Jan/2025 11:57:32] "POST /process-frame HTTP/1.1" 200 -
+2025-01-08 11:57:33,520:INFO:127.0.0.1 - - [08/Jan/2025 11:57:33] "POST /process-frame HTTP/1.1" 200 -
+2025-01-08 11:57:34,499:INFO:127.0.0.1 - - [08/Jan/2025 11:57:34] "POST /process-frame HTTP/1.1" 200 -
+2025-01-08 11:57:35,491:INFO:127.0.0.1 - - [08/Jan/2025 11:57:35] "POST /process-frame HTTP/1.1" 200 -
+2025-01-08 11:57:36,504:INFO:127.0.0.1 - - [08/Jan/2025 11:57:36] "POST /process-frame HTTP/1.1" 200 -
+2025-01-08 11:57:37,526:INFO:127.0.0.1 - - [08/Jan/2025 11:57:37] "POST /process-frame HTTP/1.1" 200 -
+2025-01-08 11:57:38,529:INFO:127.0.0.1 - - [08/Jan/2025 11:57:38] "POST /process-frame HTTP/1.1" 200 -
+2025-01-08 11:57:39,491:INFO:127.0.0.1 - - [08/Jan/2025 11:57:39] "POST /process-frame HTTP/1.1" 200 -
+2025-01-08 11:57:40,532:INFO:127.0.0.1 - - [08/Jan/2025 11:57:40] "POST /process-frame HTTP/1.1" 200 -
+2025-01-08 11:58:56,257:INFO: * Detected change in 'D:\\AI3\\cctv\\app.py', reloading
+2025-01-08 11:58:56,258:INFO: * Detected change in 'D:\\AI3\\cctv\\app.py', reloading
+2025-01-08 11:58:56,277:INFO: * Detected change in 'D:\\AI3\\cctv\\app.py', reloading
+2025-01-08 11:58:58,086:INFO: * Restarting with watchdog (windowsapi)
+2025-01-08 11:59:05,218:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-01-08 11:59:07,677:WARNING: * Debugger is active!
+2025-01-08 11:59:07,683:INFO: * Debugger PIN: 652-156-585
+2025-01-08 11:59:07,730:INFO:127.0.0.1 - - [08/Jan/2025 11:59:07] "[32mGET /entry-recognition HTTP/1.1[0m" 302 -
+2025-01-08 11:59:07,735:INFO:∑Œ±◊¿Œ Ω√µµ
+2025-01-08 11:59:07,745:INFO:127.0.0.1 - - [08/Jan/2025 11:59:07] "GET /login HTTP/1.1" 200 -
+2025-01-08 11:59:07,818:INFO:127.0.0.1 - - [08/Jan/2025 11:59:07] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 15:24:19,127:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-01-08 15:24:21,683:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-08 15:24:21,683:INFO:[33mPress CTRL+C to quit[0m
+2025-01-08 15:24:21,686:INFO: * Restarting with stat
+2025-01-08 15:24:28,061:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-01-08 15:24:30,732:WARNING: * Debugger is active!
+2025-01-08 15:24:30,738:INFO: * Debugger PIN: 123-224-856
+2025-01-08 15:24:30,779:INFO:127.0.0.1 - - [08/Jan/2025 15:24:30] "[32mGET / HTTP/1.1[0m" 302 -
+2025-01-08 15:24:30,784:INFO:∑Œ±◊¿Œ Ω√µµ
+2025-01-08 15:24:30,795:INFO:127.0.0.1 - - [08/Jan/2025 15:24:30] "GET /login HTTP/1.1" 200 -
+2025-01-08 15:24:30,878:INFO:127.0.0.1 - - [08/Jan/2025 15:24:30] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 15:24:38,219:INFO:∑Œ±◊¿Œ Ω√µµ
+2025-01-08 15:24:38,496:INFO:127.0.0.1 - - [08/Jan/2025 15:24:38] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-01-08 15:24:38,502:INFO:127.0.0.1 - - [08/Jan/2025 15:24:38] "GET / HTTP/1.1" 200 -
+2025-01-08 15:24:38,526:INFO:127.0.0.1 - - [08/Jan/2025 15:24:38] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 15:24:40,118:INFO:127.0.0.1 - - [08/Jan/2025 15:24:40] "GET /entry-recognition HTTP/1.1" 200 -
+2025-01-08 15:24:40,138:INFO:127.0.0.1 - - [08/Jan/2025 15:24:40] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 15:24:40,151:INFO:127.0.0.1 - - [08/Jan/2025 15:24:40] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2025-01-08 15:24:40,155:INFO:127.0.0.1 - - [08/Jan/2025 15:24:40] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2025-01-08 15:24:40,172:INFO:127.0.0.1 - - [08/Jan/2025 15:24:40] "GET /static/js/webcam.js HTTP/1.1" 200 -
+2025-01-08 15:24:45,765:INFO:127.0.0.1 - - [08/Jan/2025 15:24:45] "GET /search HTTP/1.1" 200 -
+2025-01-08 15:24:45,781:INFO:127.0.0.1 - - [08/Jan/2025 15:24:45] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 15:24:45,791:INFO:127.0.0.1 - - [08/Jan/2025 15:24:45] "GET /static/report.css HTTP/1.1" 200 -
+2025-01-08 15:24:45,792:INFO:127.0.0.1 - - [08/Jan/2025 15:24:45] "GET /static/view.css HTTP/1.1" 200 -
+2025-01-08 16:12:04,161:INFO:127.0.0.1 - - [08/Jan/2025 16:12:04] "GET / HTTP/1.1" 200 -
+2025-01-08 16:12:04,180:INFO:127.0.0.1 - - [08/Jan/2025 16:12:04] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:12:05,495:INFO:127.0.0.1 - - [08/Jan/2025 16:12:05] "GET /entry-recognition HTTP/1.1" 200 -
+2025-01-08 16:12:05,516:INFO:127.0.0.1 - - [08/Jan/2025 16:12:05] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:12:05,521:INFO:127.0.0.1 - - [08/Jan/2025 16:12:05] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2025-01-08 16:12:05,522:INFO:127.0.0.1 - - [08/Jan/2025 16:12:05] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2025-01-08 16:12:05,528:INFO:127.0.0.1 - - [08/Jan/2025 16:12:05] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2025-01-08 16:12:06,845:INFO:127.0.0.1 - - [08/Jan/2025 16:12:06] "GET /light-vehicle-recognition HTTP/1.1" 200 -
+2025-01-08 16:12:06,869:INFO:127.0.0.1 - - [08/Jan/2025 16:12:06] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:12:06,871:INFO:127.0.0.1 - - [08/Jan/2025 16:12:06] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2025-01-08 16:12:06,873:INFO:127.0.0.1 - - [08/Jan/2025 16:12:06] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2025-01-08 16:12:06,881:INFO:127.0.0.1 - - [08/Jan/2025 16:12:06] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2025-01-08 16:12:07,194:INFO:127.0.0.1 - - [08/Jan/2025 16:12:07] "GET /disabled-vehicle-recognition HTTP/1.1" 200 -
+2025-01-08 16:12:07,219:INFO:127.0.0.1 - - [08/Jan/2025 16:12:07] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:12:07,222:INFO:127.0.0.1 - - [08/Jan/2025 16:12:07] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2025-01-08 16:12:07,223:INFO:127.0.0.1 - - [08/Jan/2025 16:12:07] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2025-01-08 16:12:07,224:INFO:127.0.0.1 - - [08/Jan/2025 16:12:07] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2025-01-08 16:12:07,506:INFO:127.0.0.1 - - [08/Jan/2025 16:12:07] "GET /illegal-parking-recognition HTTP/1.1" 200 -
+2025-01-08 16:12:07,527:INFO:127.0.0.1 - - [08/Jan/2025 16:12:07] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:12:07,531:INFO:127.0.0.1 - - [08/Jan/2025 16:12:07] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2025-01-08 16:12:07,537:INFO:127.0.0.1 - - [08/Jan/2025 16:12:07] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2025-01-08 16:12:07,538:INFO:127.0.0.1 - - [08/Jan/2025 16:12:07] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2025-01-08 16:12:09,108:INFO:127.0.0.1 - - [08/Jan/2025 16:12:09] "GET /search HTTP/1.1" 200 -
+2025-01-08 16:12:09,132:INFO:127.0.0.1 - - [08/Jan/2025 16:12:09] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:12:09,132:INFO:127.0.0.1 - - [08/Jan/2025 16:12:09] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:12:09,134:INFO:127.0.0.1 - - [08/Jan/2025 16:12:09] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2025-01-08 16:12:10,197:INFO:127.0.0.1 - - [08/Jan/2025 16:12:10] "GET /search HTTP/1.1" 200 -
+2025-01-08 16:12:10,215:INFO:127.0.0.1 - - [08/Jan/2025 16:12:10] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:12:10,217:INFO:127.0.0.1 - - [08/Jan/2025 16:12:10] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:12:10,218:INFO:127.0.0.1 - - [08/Jan/2025 16:12:10] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2025-01-08 16:12:12,604:INFO:127.0.0.1 - - [08/Jan/2025 16:12:12] "GET /recognition-list/exit HTTP/1.1" 200 -
+2025-01-08 16:12:12,625:INFO:127.0.0.1 - - [08/Jan/2025 16:12:12] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:12:12,630:INFO:127.0.0.1 - - [08/Jan/2025 16:12:12] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:12:12,634:INFO:127.0.0.1 - - [08/Jan/2025 16:12:12] "GET /static/back.css HTTP/1.1" 200 -
+2025-01-08 16:12:12,634:INFO:127.0.0.1 - - [08/Jan/2025 16:12:12] "GET /static/excel_pdf.css HTTP/1.1" 200 -
+2025-01-08 16:13:06,167:INFO:127.0.0.1 - - [08/Jan/2025 16:13:06] "GET /recognition-list/exit?page=2 HTTP/1.1" 200 -
+2025-01-08 16:13:06,189:INFO:127.0.0.1 - - [08/Jan/2025 16:13:06] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:06,200:INFO:127.0.0.1 - - [08/Jan/2025 16:13:06] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:06,204:INFO:127.0.0.1 - - [08/Jan/2025 16:13:06] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:06,205:INFO:127.0.0.1 - - [08/Jan/2025 16:13:06] "[36mGET /static/excel_pdf.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:06,439:INFO:127.0.0.1 - - [08/Jan/2025 16:13:06] "GET /recognition-list/exit?page=3 HTTP/1.1" 200 -
+2025-01-08 16:13:06,466:INFO:127.0.0.1 - - [08/Jan/2025 16:13:06] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:06,470:INFO:127.0.0.1 - - [08/Jan/2025 16:13:06] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:06,470:INFO:127.0.0.1 - - [08/Jan/2025 16:13:06] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:06,473:INFO:127.0.0.1 - - [08/Jan/2025 16:13:06] "[36mGET /static/excel_pdf.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:06,667:INFO:127.0.0.1 - - [08/Jan/2025 16:13:06] "GET /recognition-list/exit?page=4 HTTP/1.1" 200 -
+2025-01-08 16:13:06,687:INFO:127.0.0.1 - - [08/Jan/2025 16:13:06] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:06,702:INFO:127.0.0.1 - - [08/Jan/2025 16:13:06] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:06,703:INFO:127.0.0.1 - - [08/Jan/2025 16:13:06] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:06,704:INFO:127.0.0.1 - - [08/Jan/2025 16:13:06] "[36mGET /static/excel_pdf.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:07,372:INFO:127.0.0.1 - - [08/Jan/2025 16:13:07] "GET /recognition-list/exit?page=3 HTTP/1.1" 200 -
+2025-01-08 16:13:07,415:INFO:127.0.0.1 - - [08/Jan/2025 16:13:07] "GET /recognition-list/exit?page=3 HTTP/1.1" 200 -
+2025-01-08 16:13:07,435:INFO:127.0.0.1 - - [08/Jan/2025 16:13:07] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:07,447:INFO:127.0.0.1 - - [08/Jan/2025 16:13:07] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:07,451:INFO:127.0.0.1 - - [08/Jan/2025 16:13:07] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:07,452:INFO:127.0.0.1 - - [08/Jan/2025 16:13:07] "[36mGET /static/excel_pdf.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:07,661:INFO:127.0.0.1 - - [08/Jan/2025 16:13:07] "GET /recognition-list/exit?page=2 HTTP/1.1" 200 -
+2025-01-08 16:13:07,685:INFO:127.0.0.1 - - [08/Jan/2025 16:13:07] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:07,691:INFO:127.0.0.1 - - [08/Jan/2025 16:13:07] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:07,694:INFO:127.0.0.1 - - [08/Jan/2025 16:13:07] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:07,695:INFO:127.0.0.1 - - [08/Jan/2025 16:13:07] "[36mGET /static/excel_pdf.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:07,915:INFO:127.0.0.1 - - [08/Jan/2025 16:13:07] "GET /recognition-list/exit?page=1 HTTP/1.1" 200 -
+2025-01-08 16:13:07,936:INFO:127.0.0.1 - - [08/Jan/2025 16:13:07] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:07,948:INFO:127.0.0.1 - - [08/Jan/2025 16:13:07] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:07,950:INFO:127.0.0.1 - - [08/Jan/2025 16:13:07] "[36mGET /static/excel_pdf.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:07,950:INFO:127.0.0.1 - - [08/Jan/2025 16:13:07] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:08,984:INFO:127.0.0.1 - - [08/Jan/2025 16:13:08] "GET /static/captured_images/exit/20241226_101640.jpg HTTP/1.1" 200 -
+2025-01-08 16:13:36,995:INFO:127.0.0.1 - - [08/Jan/2025 16:13:36] "GET /alerts HTTP/1.1" 200 -
+2025-01-08 16:13:37,019:INFO:127.0.0.1 - - [08/Jan/2025 16:13:37] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:37,028:INFO:127.0.0.1 - - [08/Jan/2025 16:13:37] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:37,271:INFO:127.0.0.1 - - [08/Jan/2025 16:13:37] "GET /alerts HTTP/1.1" 200 -
+2025-01-08 16:13:37,289:INFO:127.0.0.1 - - [08/Jan/2025 16:13:37] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:37,290:INFO:127.0.0.1 - - [08/Jan/2025 16:13:37] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:37,810:INFO:127.0.0.1 - - [08/Jan/2025 16:13:37] "GET /work HTTP/1.1" 200 -
+2025-01-08 16:13:37,838:INFO:127.0.0.1 - - [08/Jan/2025 16:13:37] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:37,840:INFO:127.0.0.1 - - [08/Jan/2025 16:13:37] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:37,841:INFO:127.0.0.1 - - [08/Jan/2025 16:13:37] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:38,828:INFO:127.0.0.1 - - [08/Jan/2025 16:13:38] "GET /alerts HTTP/1.1" 200 -
+2025-01-08 16:13:38,851:INFO:127.0.0.1 - - [08/Jan/2025 16:13:38] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:38,852:INFO:127.0.0.1 - - [08/Jan/2025 16:13:38] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:42,829:INFO:127.0.0.1 - - [08/Jan/2025 16:13:42] "GET /security HTTP/1.1" 200 -
+2025-01-08 16:13:42,852:INFO:127.0.0.1 - - [08/Jan/2025 16:13:42] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:42,865:INFO:127.0.0.1 - - [08/Jan/2025 16:13:42] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:42,866:INFO:127.0.0.1 - - [08/Jan/2025 16:13:42] "GET /static/security.css HTTP/1.1" 200 -
+2025-01-08 16:13:43,251:INFO:127.0.0.1 - - [08/Jan/2025 16:13:43] "GET /settings HTTP/1.1" 200 -
+2025-01-08 16:13:43,271:INFO:127.0.0.1 - - [08/Jan/2025 16:13:43] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:43,277:INFO:127.0.0.1 - - [08/Jan/2025 16:13:43] "GET /static/setting.css HTTP/1.1" 200 -
+2025-01-08 16:13:44,121:INFO:127.0.0.1 - - [08/Jan/2025 16:13:44] "GET /security HTTP/1.1" 200 -
+2025-01-08 16:13:44,145:INFO:127.0.0.1 - - [08/Jan/2025 16:13:44] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:44,152:INFO:127.0.0.1 - - [08/Jan/2025 16:13:44] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:44,153:INFO:127.0.0.1 - - [08/Jan/2025 16:13:44] "[36mGET /static/security.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:45,846:INFO:127.0.0.1 - - [08/Jan/2025 16:13:45] "GET /work HTTP/1.1" 200 -
+2025-01-08 16:13:45,872:INFO:127.0.0.1 - - [08/Jan/2025 16:13:45] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:45,872:INFO:127.0.0.1 - - [08/Jan/2025 16:13:45] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:45,873:INFO:127.0.0.1 - - [08/Jan/2025 16:13:45] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:46,509:INFO:127.0.0.1 - - [08/Jan/2025 16:13:46] "GET /search-results HTTP/1.1" 200 -
+2025-01-08 16:13:46,534:INFO:127.0.0.1 - - [08/Jan/2025 16:13:46] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:46,539:INFO:127.0.0.1 - - [08/Jan/2025 16:13:46] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:46,540:INFO:127.0.0.1 - - [08/Jan/2025 16:13:46] "GET /static/search_results.css HTTP/1.1" 200 -
+2025-01-08 16:13:47,118:INFO:127.0.0.1 - - [08/Jan/2025 16:13:47] "GET /search HTTP/1.1" 200 -
+2025-01-08 16:13:47,147:INFO:127.0.0.1 - - [08/Jan/2025 16:13:47] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:47,148:INFO:127.0.0.1 - - [08/Jan/2025 16:13:47] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:47,150:INFO:127.0.0.1 - - [08/Jan/2025 16:13:47] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:50,717:INFO:127.0.0.1 - - [08/Jan/2025 16:13:50] "GET / HTTP/1.1" 200 -
+2025-01-08 16:13:50,741:INFO:127.0.0.1 - - [08/Jan/2025 16:13:50] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:52,523:INFO:127.0.0.1 - - [08/Jan/2025 16:13:52] "GET /search HTTP/1.1" 200 -
+2025-01-08 16:13:52,548:INFO:127.0.0.1 - - [08/Jan/2025 16:13:52] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:52,552:INFO:127.0.0.1 - - [08/Jan/2025 16:13:52] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:52,554:INFO:127.0.0.1 - - [08/Jan/2025 16:13:52] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:53,200:INFO:127.0.0.1 - - [08/Jan/2025 16:13:53] "GET /search-results HTTP/1.1" 200 -
+2025-01-08 16:13:53,224:INFO:127.0.0.1 - - [08/Jan/2025 16:13:53] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:53,232:INFO:127.0.0.1 - - [08/Jan/2025 16:13:53] "[36mGET /static/search_results.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:53,233:INFO:127.0.0.1 - - [08/Jan/2025 16:13:53] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:54,032:INFO:127.0.0.1 - - [08/Jan/2025 16:13:54] "GET /search HTTP/1.1" 200 -
+2025-01-08 16:13:54,056:INFO:127.0.0.1 - - [08/Jan/2025 16:13:54] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:54,065:INFO:127.0.0.1 - - [08/Jan/2025 16:13:54] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:54,067:INFO:127.0.0.1 - - [08/Jan/2025 16:13:54] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:55,474:INFO:127.0.0.1 - - [08/Jan/2025 16:13:55] "GET /recognition-list/entry HTTP/1.1" 200 -
+2025-01-08 16:13:55,505:INFO:127.0.0.1 - - [08/Jan/2025 16:13:55] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:55,507:INFO:127.0.0.1 - - [08/Jan/2025 16:13:55] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:55,508:INFO:127.0.0.1 - - [08/Jan/2025 16:13:55] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:55,515:INFO:127.0.0.1 - - [08/Jan/2025 16:13:55] "[36mGET /static/excel_pdf.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:59,464:INFO:127.0.0.1 - - [08/Jan/2025 16:13:59] "GET /recognition-list/entry HTTP/1.1" 200 -
+2025-01-08 16:13:59,488:INFO:127.0.0.1 - - [08/Jan/2025 16:13:59] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:59,500:INFO:127.0.0.1 - - [08/Jan/2025 16:13:59] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:59,500:INFO:127.0.0.1 - - [08/Jan/2025 16:13:59] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2025-01-08 16:13:59,502:INFO:127.0.0.1 - - [08/Jan/2025 16:13:59] "[36mGET /static/excel_pdf.css HTTP/1.1[0m" 304 -
+2025-01-08 16:14:00,769:INFO:127.0.0.1 - - [08/Jan/2025 16:14:00] "GET /recognition-list/light_vehicle HTTP/1.1" 200 -
+2025-01-08 16:14:00,791:INFO:127.0.0.1 - - [08/Jan/2025 16:14:00] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:14:00,801:INFO:127.0.0.1 - - [08/Jan/2025 16:14:00] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2025-01-08 16:14:00,801:INFO:127.0.0.1 - - [08/Jan/2025 16:14:00] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:14:00,804:INFO:127.0.0.1 - - [08/Jan/2025 16:14:00] "[36mGET /static/excel_pdf.css HTTP/1.1[0m" 304 -
+2025-01-08 16:14:02,147:INFO:127.0.0.1 - - [08/Jan/2025 16:14:02] "GET /recognition-list/disabled_vehicle HTTP/1.1" 200 -
+2025-01-08 16:14:02,170:INFO:127.0.0.1 - - [08/Jan/2025 16:14:02] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:14:02,181:INFO:127.0.0.1 - - [08/Jan/2025 16:14:02] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:14:02,182:INFO:127.0.0.1 - - [08/Jan/2025 16:14:02] "[36mGET /static/excel_pdf.css HTTP/1.1[0m" 304 -
+2025-01-08 16:14:02,183:INFO:127.0.0.1 - - [08/Jan/2025 16:14:02] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2025-01-08 16:14:03,306:INFO:127.0.0.1 - - [08/Jan/2025 16:14:03] "GET /recognition-list/illegal_parking HTTP/1.1" 200 -
+2025-01-08 16:14:03,333:INFO:127.0.0.1 - - [08/Jan/2025 16:14:03] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:14:03,338:INFO:127.0.0.1 - - [08/Jan/2025 16:14:03] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:14:03,339:INFO:127.0.0.1 - - [08/Jan/2025 16:14:03] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2025-01-08 16:14:03,339:INFO:127.0.0.1 - - [08/Jan/2025 16:14:03] "[36mGET /static/excel_pdf.css HTTP/1.1[0m" 304 -
+2025-01-08 16:14:04,807:INFO:127.0.0.1 - - [08/Jan/2025 16:14:04] "GET /recognition-list/entry HTTP/1.1" 200 -
+2025-01-08 16:14:04,834:INFO:127.0.0.1 - - [08/Jan/2025 16:14:04] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:14:04,839:INFO:127.0.0.1 - - [08/Jan/2025 16:14:04] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2025-01-08 16:14:04,842:INFO:127.0.0.1 - - [08/Jan/2025 16:14:04] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:14:04,843:INFO:127.0.0.1 - - [08/Jan/2025 16:14:04] "[36mGET /static/excel_pdf.css HTTP/1.1[0m" 304 -
+2025-01-08 16:26:16,364:INFO: * Detected change in 'D:\\AI3\\cctv\\app.py', reloading
+2025-01-08 16:26:17,147:INFO: * Restarting with stat
+2025-01-08 16:26:25,508:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-01-08 16:26:28,012:WARNING: * Debugger is active!
+2025-01-08 16:26:28,018:INFO: * Debugger PIN: 123-224-856
+2025-01-08 16:28:16,575:INFO:127.0.0.1 - - [08/Jan/2025 16:28:16] "[32mGET /recognition-list/entry HTTP/1.1[0m" 302 -
+2025-01-08 16:28:16,580:INFO:∑Œ±◊¿Œ Ω√µµ
+2025-01-08 16:28:16,591:INFO:127.0.0.1 - - [08/Jan/2025 16:28:16] "GET /login HTTP/1.1" 200 -
+2025-01-08 16:28:16,674:INFO:127.0.0.1 - - [08/Jan/2025 16:28:16] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:28:19,719:INFO:∑Œ±◊¿Œ Ω√µµ
+2025-01-08 16:28:19,999:INFO:127.0.0.1 - - [08/Jan/2025 16:28:19] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-01-08 16:28:20,006:INFO:127.0.0.1 - - [08/Jan/2025 16:28:20] "GET / HTTP/1.1" 200 -
+2025-01-08 16:28:20,027:INFO:127.0.0.1 - - [08/Jan/2025 16:28:20] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:28:22,091:INFO:127.0.0.1 - - [08/Jan/2025 16:28:22] "GET /entry-recognition HTTP/1.1" 200 -
+2025-01-08 16:28:22,112:INFO:127.0.0.1 - - [08/Jan/2025 16:28:22] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:28:22,122:INFO:127.0.0.1 - - [08/Jan/2025 16:28:22] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2025-01-08 16:28:22,128:INFO:127.0.0.1 - - [08/Jan/2025 16:28:22] "GET /static/js/webcam.js HTTP/1.1" 200 -
+2025-01-08 16:28:22,129:INFO:127.0.0.1 - - [08/Jan/2025 16:28:22] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2025-01-08 16:28:41,202:INFO:Received category: entry
+2025-01-08 16:28:41,254:INFO:¿˙¿Âµ» ¿ÃπÃ¡ˆ ∞Ê∑Œ: static\captured_images\entry\20250108_162841.jpg
+2025-01-08 16:28:45,124:INFO:µ•¿Ã≈Õ∫£¿ÃΩ∫ø° ¿ÃπÃ¡ˆ ∞Ê∑Œ π◊ OCR ∞·∞˙ ¿˙¿Â øœ∑·
+2025-01-08 16:28:45,126:INFO:127.0.0.1 - - [08/Jan/2025 16:28:45] "POST /capture-image HTTP/1.1" 200 -
+2025-01-08 16:29:02,622:INFO:Received category: entry
+2025-01-08 16:29:02,633:INFO:¿˙¿Âµ» ¿ÃπÃ¡ˆ ∞Ê∑Œ: static\captured_images\entry\20250108_162902.jpg
+2025-01-08 16:29:06,076:INFO:µ•¿Ã≈Õ∫£¿ÃΩ∫ø° ¿ÃπÃ¡ˆ ∞Ê∑Œ π◊ OCR ∞·∞˙ ¿˙¿Â øœ∑·
+2025-01-08 16:29:06,077:INFO:127.0.0.1 - - [08/Jan/2025 16:29:06] "POST /capture-image HTTP/1.1" 200 -
+2025-01-08 16:29:12,607:INFO:Received category: entry
+2025-01-08 16:29:12,618:INFO:¿˙¿Âµ» ¿ÃπÃ¡ˆ ∞Ê∑Œ: static\captured_images\entry\20250108_162912.jpg
+2025-01-08 16:29:16,103:INFO:µ•¿Ã≈Õ∫£¿ÃΩ∫ø° ¿ÃπÃ¡ˆ ∞Ê∑Œ π◊ OCR ∞·∞˙ ¿˙¿Â øœ∑·
+2025-01-08 16:29:16,104:INFO:127.0.0.1 - - [08/Jan/2025 16:29:16] "POST /capture-image HTTP/1.1" 200 -
+2025-01-08 16:30:07,578:INFO:Received category: entry
+2025-01-08 16:30:07,601:INFO:¿˙¿Âµ» ¿ÃπÃ¡ˆ ∞Ê∑Œ: static\captured_images\entry\20250108_163007.jpg
+2025-01-08 16:30:11,271:INFO:µ•¿Ã≈Õ∫£¿ÃΩ∫ø° ¿ÃπÃ¡ˆ ∞Ê∑Œ π◊ OCR ∞·∞˙ ¿˙¿Â øœ∑·
+2025-01-08 16:30:11,271:INFO:127.0.0.1 - - [08/Jan/2025 16:30:11] "POST /capture-image HTTP/1.1" 200 -
+2025-01-08 16:30:19,899:INFO:Received category: entry
+2025-01-08 16:30:19,910:INFO:¿˙¿Âµ» ¿ÃπÃ¡ˆ ∞Ê∑Œ: static\captured_images\entry\20250108_163019.jpg
+2025-01-08 16:30:23,453:INFO:µ•¿Ã≈Õ∫£¿ÃΩ∫ø° ¿ÃπÃ¡ˆ ∞Ê∑Œ π◊ OCR ∞·∞˙ ¿˙¿Â øœ∑·
+2025-01-08 16:30:23,453:INFO:127.0.0.1 - - [08/Jan/2025 16:30:23] "POST /capture-image HTTP/1.1" 200 -
+2025-01-08 16:31:34,595:INFO: * Detected change in 'D:\\AI3\\cctv\\app.py', reloading
+2025-01-08 16:31:35,855:INFO: * Restarting with stat
+2025-01-08 16:31:43,673:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-01-08 16:31:46,695:WARNING: * Debugger is active!
+2025-01-08 16:31:46,702:INFO: * Debugger PIN: 123-224-856
+2025-01-08 16:31:55,804:INFO: * Detected change in 'D:\\AI3\\cctv\\app.py', reloading
+2025-01-08 16:31:56,716:INFO: * Restarting with stat
+2025-01-08 16:32:03,869:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-01-08 16:32:06,708:WARNING: * Debugger is active!
+2025-01-08 16:32:06,714:INFO: * Debugger PIN: 123-224-856
+2025-01-08 16:32:06,753:INFO:127.0.0.1 - - [08/Jan/2025 16:32:06] "[32mGET /entry-recognition HTTP/1.1[0m" 302 -
+2025-01-08 16:32:06,759:INFO:∑Œ±◊¿Œ Ω√µµ
+2025-01-08 16:32:06,769:INFO:127.0.0.1 - - [08/Jan/2025 16:32:06] "GET /login HTTP/1.1" 200 -
+2025-01-08 16:32:06,853:INFO:127.0.0.1 - - [08/Jan/2025 16:32:06] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:32:11,116:INFO:∑Œ±◊¿Œ Ω√µµ
+2025-01-08 16:32:11,398:INFO:127.0.0.1 - - [08/Jan/2025 16:32:11] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-01-08 16:32:11,405:INFO:127.0.0.1 - - [08/Jan/2025 16:32:11] "GET / HTTP/1.1" 200 -
+2025-01-08 16:32:11,427:INFO:127.0.0.1 - - [08/Jan/2025 16:32:11] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:32:20,954:INFO:127.0.0.1 - - [08/Jan/2025 16:32:20] "GET /entry-recognition HTTP/1.1" 200 -
+2025-01-08 16:32:20,979:INFO:127.0.0.1 - - [08/Jan/2025 16:32:20] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:32:20,989:INFO:127.0.0.1 - - [08/Jan/2025 16:32:20] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2025-01-08 16:32:20,992:INFO:127.0.0.1 - - [08/Jan/2025 16:32:20] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2025-01-08 16:32:20,996:INFO:127.0.0.1 - - [08/Jan/2025 16:32:20] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2025-01-08 16:32:26,638:INFO:Received category: entry
+2025-01-08 16:32:26,662:INFO:¿˙¿Âµ» ¿ÃπÃ¡ˆ ∞Ê∑Œ: static\captured_images\entry\20250108_163226.jpg
+2025-01-08 16:32:30,229:ERROR:µ•¿Ã≈Õ∫£¿ÃΩ∫ ¿˙¿Â ¡ﬂ ø¿∑˘: (MySQLdb.IntegrityError) (1048, "Column 'vehicle_number' cannot be null")
+[SQL: INSERT INTO recognition (vehicle_number, phone_number, recognition_time, image_path, entry_exit_input, vehicle_type) VALUES (%s, %s, %s, %s, %s, %s)]
+[parameters: (None, '01023456789', datetime.datetime(2025, 1, 8, 16, 32, 30, 226307), 'captured_images/entry/20250108_163226.jpg', 'entry', 'normal')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-01-08 16:32:30,229:INFO:127.0.0.1 - - [08/Jan/2025 16:32:30] "[35m[1mPOST /capture-image HTTP/1.1[0m" 500 -
+2025-01-08 16:32:39,489:INFO:Received category: entry
+2025-01-08 16:32:39,500:INFO:¿˙¿Âµ» ¿ÃπÃ¡ˆ ∞Ê∑Œ: static\captured_images\entry\20250108_163239.jpg
+2025-01-08 16:32:43,039:ERROR:µ•¿Ã≈Õ∫£¿ÃΩ∫ ¿˙¿Â ¡ﬂ ø¿∑˘: (MySQLdb.IntegrityError) (1048, "Column 'vehicle_number' cannot be null")
+[SQL: INSERT INTO recognition (vehicle_number, phone_number, recognition_time, image_path, entry_exit_input, vehicle_type) VALUES (%s, %s, %s, %s, %s, %s)]
+[parameters: (None, '01023456789', datetime.datetime(2025, 1, 8, 16, 32, 43, 38236), 'captured_images/entry/20250108_163239.jpg', 'entry', 'normal')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-01-08 16:32:43,040:INFO:127.0.0.1 - - [08/Jan/2025 16:32:43] "[35m[1mPOST /capture-image HTTP/1.1[0m" 500 -
+2025-01-08 16:34:10,248:INFO: * Detected change in 'D:\\AI3\\cctv\\app.py', reloading
+2025-01-08 16:34:11,165:INFO: * Restarting with stat
+2025-01-08 16:34:18,194:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-01-08 16:34:20,827:WARNING: * Debugger is active!
+2025-01-08 16:34:20,833:INFO: * Debugger PIN: 123-224-856
+2025-01-08 16:34:20,871:INFO:127.0.0.1 - - [08/Jan/2025 16:34:20] "[32mGET /entry-recognition HTTP/1.1[0m" 302 -
+2025-01-08 16:34:20,877:INFO:∑Œ±◊¿Œ Ω√µµ
+2025-01-08 16:34:20,887:INFO:127.0.0.1 - - [08/Jan/2025 16:34:20] "GET /login HTTP/1.1" 200 -
+2025-01-08 16:34:20,963:INFO:127.0.0.1 - - [08/Jan/2025 16:34:20] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:34:29,800:INFO:∑Œ±◊¿Œ Ω√µµ
+2025-01-08 16:34:30,078:INFO:127.0.0.1 - - [08/Jan/2025 16:34:30] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-01-08 16:34:30,084:INFO:127.0.0.1 - - [08/Jan/2025 16:34:30] "GET / HTTP/1.1" 200 -
+2025-01-08 16:34:30,110:INFO:127.0.0.1 - - [08/Jan/2025 16:34:30] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:34:31,027:INFO:127.0.0.1 - - [08/Jan/2025 16:34:31] "GET /entry-recognition HTTP/1.1" 200 -
+2025-01-08 16:34:31,049:INFO:127.0.0.1 - - [08/Jan/2025 16:34:31] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:34:31,059:INFO:127.0.0.1 - - [08/Jan/2025 16:34:31] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2025-01-08 16:34:31,065:INFO:127.0.0.1 - - [08/Jan/2025 16:34:31] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2025-01-08 16:34:31,065:INFO:127.0.0.1 - - [08/Jan/2025 16:34:31] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2025-01-08 16:34:36,684:INFO:Received category: entry
+2025-01-08 16:34:36,708:INFO:¿˙¿Âµ» ¿ÃπÃ¡ˆ ∞Ê∑Œ: static\captured_images\entry\20250108_163436.jpg
+2025-01-08 16:34:40,376:INFO:µ•¿Ã≈Õ∫£¿ÃΩ∫ø° ¿ÃπÃ¡ˆ ∞Ê∑Œ π◊ OCR ∞·∞˙ ¿˙¿Â øœ∑·
+2025-01-08 16:34:40,377:INFO:127.0.0.1 - - [08/Jan/2025 16:34:40] "POST /capture-image HTTP/1.1" 200 -
+2025-01-08 16:34:56,044:INFO:Received category: entry
+2025-01-08 16:34:56,054:INFO:¿˙¿Âµ» ¿ÃπÃ¡ˆ ∞Ê∑Œ: static\captured_images\entry\20250108_163456.jpg
+2025-01-08 16:34:59,569:INFO:µ•¿Ã≈Õ∫£¿ÃΩ∫ø° ¿ÃπÃ¡ˆ ∞Ê∑Œ π◊ OCR ∞·∞˙ ¿˙¿Â øœ∑·
+2025-01-08 16:34:59,569:INFO:127.0.0.1 - - [08/Jan/2025 16:34:59] "POST /capture-image HTTP/1.1" 200 -
+2025-01-08 16:35:13,416:INFO:Received category: entry
+2025-01-08 16:35:13,427:INFO:¿˙¿Âµ» ¿ÃπÃ¡ˆ ∞Ê∑Œ: static\captured_images\entry\20250108_163513.jpg
+2025-01-08 16:35:16,910:INFO:µ•¿Ã≈Õ∫£¿ÃΩ∫ø° ¿ÃπÃ¡ˆ ∞Ê∑Œ π◊ OCR ∞·∞˙ ¿˙¿Â øœ∑·
+2025-01-08 16:35:16,911:INFO:127.0.0.1 - - [08/Jan/2025 16:35:16] "POST /capture-image HTTP/1.1" 200 -
+2025-01-08 16:35:20,879:INFO:Received category: entry
+2025-01-08 16:35:20,890:INFO:¿˙¿Âµ» ¿ÃπÃ¡ˆ ∞Ê∑Œ: static\captured_images\entry\20250108_163520.jpg
+2025-01-08 16:35:24,358:INFO:µ•¿Ã≈Õ∫£¿ÃΩ∫ø° ¿ÃπÃ¡ˆ ∞Ê∑Œ π◊ OCR ∞·∞˙ ¿˙¿Â øœ∑·
+2025-01-08 16:35:24,358:INFO:127.0.0.1 - - [08/Jan/2025 16:35:24] "POST /capture-image HTTP/1.1" 200 -
+2025-01-08 16:35:25,160:INFO:Received category: entry
+2025-01-08 16:35:25,170:INFO:¿˙¿Âµ» ¿ÃπÃ¡ˆ ∞Ê∑Œ: static\captured_images\entry\20250108_163525.jpg
+2025-01-08 16:35:28,653:INFO:µ•¿Ã≈Õ∫£¿ÃΩ∫ø° ¿ÃπÃ¡ˆ ∞Ê∑Œ π◊ OCR ∞·∞˙ ¿˙¿Â øœ∑·
+2025-01-08 16:35:28,654:INFO:127.0.0.1 - - [08/Jan/2025 16:35:28] "POST /capture-image HTTP/1.1" 200 -
+2025-01-08 16:35:31,964:INFO:Received category: entry
+2025-01-08 16:35:31,975:INFO:¿˙¿Âµ» ¿ÃπÃ¡ˆ ∞Ê∑Œ: static\captured_images\entry\20250108_163531.jpg
+2025-01-08 16:35:35,439:INFO:µ•¿Ã≈Õ∫£¿ÃΩ∫ø° ¿ÃπÃ¡ˆ ∞Ê∑Œ π◊ OCR ∞·∞˙ ¿˙¿Â øœ∑·
+2025-01-08 16:35:35,440:INFO:127.0.0.1 - - [08/Jan/2025 16:35:35] "POST /capture-image HTTP/1.1" 200 -
+2025-01-08 16:36:06,206:INFO:Received category: entry
+2025-01-08 16:36:06,217:INFO:¿˙¿Âµ» ¿ÃπÃ¡ˆ ∞Ê∑Œ: static\captured_images\entry\20250108_163606.jpg
+2025-01-08 16:36:09,735:INFO:µ•¿Ã≈Õ∫£¿ÃΩ∫ø° ¿ÃπÃ¡ˆ ∞Ê∑Œ π◊ OCR ∞·∞˙ ¿˙¿Â øœ∑·
+2025-01-08 16:36:09,735:INFO:127.0.0.1 - - [08/Jan/2025 16:36:09] "POST /capture-image HTTP/1.1" 200 -
+2025-01-08 16:36:19,583:INFO:Received category: entry
+2025-01-08 16:36:19,594:INFO:¿˙¿Âµ» ¿ÃπÃ¡ˆ ∞Ê∑Œ: static\captured_images\entry\20250108_163619.jpg
+2025-01-08 16:36:23,100:INFO:µ•¿Ã≈Õ∫£¿ÃΩ∫ø° ¿ÃπÃ¡ˆ ∞Ê∑Œ π◊ OCR ∞·∞˙ ¿˙¿Â øœ∑·
+2025-01-08 16:36:23,101:INFO:127.0.0.1 - - [08/Jan/2025 16:36:23] "POST /capture-image HTTP/1.1" 200 -
+2025-01-08 16:36:39,875:INFO:Received category: entry
+2025-01-08 16:36:39,887:INFO:¿˙¿Âµ» ¿ÃπÃ¡ˆ ∞Ê∑Œ: static\captured_images\entry\20250108_163639.jpg
+2025-01-08 16:36:43,326:INFO:µ•¿Ã≈Õ∫£¿ÃΩ∫ø° ¿ÃπÃ¡ˆ ∞Ê∑Œ π◊ OCR ∞·∞˙ ¿˙¿Â øœ∑·
+2025-01-08 16:36:43,326:INFO:127.0.0.1 - - [08/Jan/2025 16:36:43] "POST /capture-image HTTP/1.1" 200 -
+2025-01-08 16:36:49,813:INFO:Received category: entry
+2025-01-08 16:36:49,829:INFO:¿˙¿Âµ» ¿ÃπÃ¡ˆ ∞Ê∑Œ: static\captured_images\entry\20250108_163649.jpg
+2025-01-08 16:36:53,289:ERROR:µ•¿Ã≈Õ∫£¿ÃΩ∫ ¿˙¿Â ¡ﬂ ø¿∑˘: (MySQLdb.IntegrityError) (1048, "Column 'vehicle_number' cannot be null")
+[SQL: INSERT INTO recognition (vehicle_number, phone_number, recognition_time, image_path, entry_exit_input, vehicle_type) VALUES (%s, %s, %s, %s, %s, %s)]
+[parameters: (None, '01023456789', datetime.datetime(2025, 1, 8, 16, 36, 53, 288478), 'captured_images/entry/20250108_163649.jpg', 'entry', 'normal')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-01-08 16:36:53,289:INFO:127.0.0.1 - - [08/Jan/2025 16:36:53] "[35m[1mPOST /capture-image HTTP/1.1[0m" 500 -
+2025-01-08 16:36:56,645:INFO:Received category: entry
+2025-01-08 16:36:56,655:INFO:¿˙¿Âµ» ¿ÃπÃ¡ˆ ∞Ê∑Œ: static\captured_images\entry\20250108_163656.jpg
+2025-01-08 16:37:00,199:ERROR:µ•¿Ã≈Õ∫£¿ÃΩ∫ ¿˙¿Â ¡ﬂ ø¿∑˘: (MySQLdb.IntegrityError) (1048, "Column 'vehicle_number' cannot be null")
+[SQL: INSERT INTO recognition (vehicle_number, phone_number, recognition_time, image_path, entry_exit_input, vehicle_type) VALUES (%s, %s, %s, %s, %s, %s)]
+[parameters: (None, '01023456789', datetime.datetime(2025, 1, 8, 16, 37, 0, 197977), 'captured_images/entry/20250108_163656.jpg', 'entry', 'normal')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-01-08 16:37:00,199:INFO:127.0.0.1 - - [08/Jan/2025 16:37:00] "[35m[1mPOST /capture-image HTTP/1.1[0m" 500 -
+2025-01-08 16:37:21,275:INFO:Received category: entry
+2025-01-08 16:37:21,287:INFO:¿˙¿Âµ» ¿ÃπÃ¡ˆ ∞Ê∑Œ: static\captured_images\entry\20250108_163721.jpg
+2025-01-08 16:37:24,872:INFO:µ•¿Ã≈Õ∫£¿ÃΩ∫ø° ¿ÃπÃ¡ˆ ∞Ê∑Œ π◊ OCR ∞·∞˙ ¿˙¿Â øœ∑·
+2025-01-08 16:37:24,873:INFO:127.0.0.1 - - [08/Jan/2025 16:37:24] "POST /capture-image HTTP/1.1" 200 -
+2025-01-08 16:37:32,663:INFO:Received category: entry
+2025-01-08 16:37:32,674:INFO:¿˙¿Âµ» ¿ÃπÃ¡ˆ ∞Ê∑Œ: static\captured_images\entry\20250108_163732.jpg
+2025-01-08 16:37:36,141:INFO:µ•¿Ã≈Õ∫£¿ÃΩ∫ø° ¿ÃπÃ¡ˆ ∞Ê∑Œ π◊ OCR ∞·∞˙ ¿˙¿Â øœ∑·
+2025-01-08 16:37:36,142:INFO:127.0.0.1 - - [08/Jan/2025 16:37:36] "POST /capture-image HTTP/1.1" 200 -
+2025-01-08 16:37:46,047:INFO:Received category: entry
+2025-01-08 16:37:46,074:INFO:¿˙¿Âµ» ¿ÃπÃ¡ˆ ∞Ê∑Œ: static\captured_images\entry\20250108_163746.jpg
+2025-01-08 16:37:49,523:INFO:µ•¿Ã≈Õ∫£¿ÃΩ∫ø° ¿ÃπÃ¡ˆ ∞Ê∑Œ π◊ OCR ∞·∞˙ ¿˙¿Â øœ∑·
+2025-01-08 16:37:49,523:INFO:127.0.0.1 - - [08/Jan/2025 16:37:49] "POST /capture-image HTTP/1.1" 200 -
+2025-01-08 16:38:10,716:INFO:Received category: entry
+2025-01-08 16:38:10,727:INFO:¿˙¿Âµ» ¿ÃπÃ¡ˆ ∞Ê∑Œ: static\captured_images\entry\20250108_163810.jpg
+2025-01-08 16:38:14,237:INFO:µ•¿Ã≈Õ∫£¿ÃΩ∫ø° ¿ÃπÃ¡ˆ ∞Ê∑Œ π◊ OCR ∞·∞˙ ¿˙¿Â øœ∑·
+2025-01-08 16:38:14,238:INFO:127.0.0.1 - - [08/Jan/2025 16:38:14] "POST /capture-image HTTP/1.1" 200 -
+2025-01-08 16:38:48,030:INFO:Received category: entry
+2025-01-08 16:38:48,040:INFO:¿˙¿Âµ» ¿ÃπÃ¡ˆ ∞Ê∑Œ: static\captured_images\entry\20250108_163848.jpg
+2025-01-08 16:38:52,083:ERROR:µ•¿Ã≈Õ∫£¿ÃΩ∫ ¿˙¿Â ¡ﬂ ø¿∑˘: (MySQLdb.IntegrityError) (1048, "Column 'vehicle_number' cannot be null")
+[SQL: INSERT INTO recognition (vehicle_number, phone_number, recognition_time, image_path, entry_exit_input, vehicle_type) VALUES (%s, %s, %s, %s, %s, %s)]
+[parameters: (None, '00088866666', datetime.datetime(2025, 1, 8, 16, 38, 52, 83856), 'captured_images/entry/20250108_163848.jpg', 'entry', 'normal')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-01-08 16:38:52,083:INFO:127.0.0.1 - - [08/Jan/2025 16:38:52] "[35m[1mPOST /capture-image HTTP/1.1[0m" 500 -
+2025-01-08 16:38:54,490:INFO:Received category: entry
+2025-01-08 16:38:54,501:INFO:¿˙¿Âµ» ¿ÃπÃ¡ˆ ∞Ê∑Œ: static\captured_images\entry\20250108_163854.jpg
+2025-01-08 16:38:57,975:ERROR:µ•¿Ã≈Õ∫£¿ÃΩ∫ ¿˙¿Â ¡ﬂ ø¿∑˘: (MySQLdb.IntegrityError) (1048, "Column 'vehicle_number' cannot be null")
+[SQL: INSERT INTO recognition (vehicle_number, phone_number, recognition_time, image_path, entry_exit_input, vehicle_type) VALUES (%s, %s, %s, %s, %s, %s)]
+[parameters: (None, '00088866666', datetime.datetime(2025, 1, 8, 16, 38, 57, 974241), 'captured_images/entry/20250108_163854.jpg', 'entry', 'normal')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-01-08 16:38:57,975:INFO:127.0.0.1 - - [08/Jan/2025 16:38:57] "[35m[1mPOST /capture-image HTTP/1.1[0m" 500 -
+2025-01-08 16:39:53,378:INFO: * Detected change in 'D:\\AI3\\cctv\\app.py', reloading
+2025-01-08 16:39:54,122:INFO: * Restarting with stat
+2025-01-08 16:40:37,151:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-01-08 16:40:54,511:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-01-08 16:42:59,160:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-01-08 16:43:24,655:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-01-08 16:44:15,263:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-01-08 16:44:40,704:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-01-08 16:45:10,319:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-01-08 16:45:26,095:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-01-08 16:45:44,665:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-01-08 16:45:47,159:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-08 16:45:47,159:INFO:[33mPress CTRL+C to quit[0m
+2025-01-08 16:45:47,161:INFO: * Restarting with stat
+2025-01-08 16:45:53,897:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-01-08 16:45:56,408:WARNING: * Debugger is active!
+2025-01-08 16:45:56,415:INFO: * Debugger PIN: 123-224-856
+2025-01-08 16:45:56,457:INFO:127.0.0.1 - - [08/Jan/2025 16:45:56] "[32mGET /entry-recognition HTTP/1.1[0m" 302 -
+2025-01-08 16:45:56,458:INFO:127.0.0.1 - - [08/Jan/2025 16:45:56] "[32mGET /entry-recognition HTTP/1.1[0m" 302 -
+2025-01-08 16:45:56,462:INFO:∑Œ±◊¿Œ Ω√µµ
+2025-01-08 16:45:56,470:INFO:127.0.0.1 - - [08/Jan/2025 16:45:56] "GET /login HTTP/1.1" 200 -
+2025-01-08 16:45:56,563:INFO:127.0.0.1 - - [08/Jan/2025 16:45:56] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:46:03,024:INFO:∑Œ±◊¿Œ Ω√µµ
+2025-01-08 16:46:03,024:WARNING:∑Œ±◊¿Œ Ω«∆– - ªÁøÎ¿⁄: admin
+2025-01-08 16:46:03,024:INFO:127.0.0.1 - - [08/Jan/2025 16:46:03] "POST /login HTTP/1.1" 200 -
+2025-01-08 16:46:03,052:INFO:127.0.0.1 - - [08/Jan/2025 16:46:03] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:46:45,790:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-01-08 16:46:48,221:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.100.13:8000
+2025-01-08 16:46:48,221:INFO:[33mPress CTRL+C to quit[0m
+2025-01-08 16:46:48,238:INFO: * Restarting with watchdog (windowsapi)
+2025-01-08 16:46:55,764:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-01-08 16:46:58,460:WARNING: * Debugger is active!
+2025-01-08 16:46:58,476:INFO: * Debugger PIN: 652-156-585
+2025-01-08 16:47:22,566:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-01-08 16:47:23,263:INFO: * Detected change in 'D:\\AI3\\cctv\\app.py', reloading
+2025-01-08 16:47:23,962:INFO: * Restarting with stat
+2025-01-08 16:47:25,436:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.100.13:8000
+2025-01-08 16:47:25,436:INFO:[33mPress CTRL+C to quit[0m
+2025-01-08 16:47:25,447:INFO: * Restarting with watchdog (windowsapi)
+2025-01-08 16:47:30,675:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-01-08 16:47:32,269:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-01-08 16:47:33,301:WARNING: * Debugger is active!
+2025-01-08 16:47:33,303:INFO: * Debugger PIN: 123-224-856
+2025-01-08 16:47:34,720:WARNING: * Debugger is active!
+2025-01-08 16:47:34,736:INFO: * Debugger PIN: 652-156-585
+2025-01-08 16:47:57,082:INFO:∑Œ±◊¿Œ Ω√µµ
+2025-01-08 16:47:57,354:INFO:127.0.0.1 - - [08/Jan/2025 16:47:57] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-01-08 16:47:57,369:INFO:127.0.0.1 - - [08/Jan/2025 16:47:57] "GET / HTTP/1.1" 200 -
+2025-01-08 16:47:57,449:INFO:127.0.0.1 - - [08/Jan/2025 16:47:57] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:47:58,482:INFO:127.0.0.1 - - [08/Jan/2025 16:47:58] "GET /entry-recognition HTTP/1.1" 200 -
+2025-01-08 16:47:58,502:INFO:127.0.0.1 - - [08/Jan/2025 16:47:58] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:47:58,510:INFO:127.0.0.1 - - [08/Jan/2025 16:47:58] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2025-01-08 16:47:58,511:INFO:127.0.0.1 - - [08/Jan/2025 16:47:58] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2025-01-08 16:47:58,516:INFO:127.0.0.1 - - [08/Jan/2025 16:47:58] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2025-01-08 16:48:09,421:INFO:Received category: entry
+2025-01-08 16:48:09,445:INFO:¿˙¿Âµ» ¿ÃπÃ¡ˆ ∞Ê∑Œ: static\captured_images\entry\20250108_164809.jpg
+2025-01-08 16:48:13,025:INFO:µ•¿Ã≈Õ∫£¿ÃΩ∫ø° ¿ÃπÃ¡ˆ ∞Ê∑Œ π◊ OCR ∞·∞˙ ¿˙¿Â øœ∑·
+2025-01-08 16:48:13,026:INFO:127.0.0.1 - - [08/Jan/2025 16:48:13] "POST /capture-image HTTP/1.1" 200 -
+2025-01-08 16:48:49,053:INFO:Received category: entry
+2025-01-08 16:48:49,065:INFO:¿˙¿Âµ» ¿ÃπÃ¡ˆ ∞Ê∑Œ: static\captured_images\entry\20250108_164849.jpg
+2025-01-08 16:48:52,584:INFO:µ•¿Ã≈Õ∫£¿ÃΩ∫ø° ¿ÃπÃ¡ˆ ∞Ê∑Œ π◊ OCR ∞·∞˙ ¿˙¿Â øœ∑·
+2025-01-08 16:48:52,592:INFO:127.0.0.1 - - [08/Jan/2025 16:48:52] "POST /capture-image HTTP/1.1" 200 -
+2025-01-08 16:49:23,393:INFO:127.0.0.1 - - [08/Jan/2025 16:49:23] "GET / HTTP/1.1" 200 -
+2025-01-08 16:49:23,410:INFO:127.0.0.1 - - [08/Jan/2025 16:49:23] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:49:24,440:INFO:127.0.0.1 - - [08/Jan/2025 16:49:24] "GET /entry-recognition HTTP/1.1" 200 -
+2025-01-08 16:49:24,462:INFO:127.0.0.1 - - [08/Jan/2025 16:49:24] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:49:24,466:INFO:127.0.0.1 - - [08/Jan/2025 16:49:24] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2025-01-08 16:49:24,468:INFO:127.0.0.1 - - [08/Jan/2025 16:49:24] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2025-01-08 16:49:24,468:INFO:127.0.0.1 - - [08/Jan/2025 16:49:24] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2025-01-08 16:49:25,058:INFO:127.0.0.1 - - [08/Jan/2025 16:49:25] "GET /exit-recognition HTTP/1.1" 200 -
+2025-01-08 16:49:25,078:INFO:127.0.0.1 - - [08/Jan/2025 16:49:25] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:49:25,084:INFO:127.0.0.1 - - [08/Jan/2025 16:49:25] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2025-01-08 16:49:25,086:INFO:127.0.0.1 - - [08/Jan/2025 16:49:25] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2025-01-08 16:49:25,086:INFO:127.0.0.1 - - [08/Jan/2025 16:49:25] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2025-01-08 16:49:25,358:INFO:127.0.0.1 - - [08/Jan/2025 16:49:25] "GET /light-vehicle-recognition HTTP/1.1" 200 -
+2025-01-08 16:49:25,376:INFO:127.0.0.1 - - [08/Jan/2025 16:49:25] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:49:25,387:INFO:127.0.0.1 - - [08/Jan/2025 16:49:25] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2025-01-08 16:49:25,390:INFO:127.0.0.1 - - [08/Jan/2025 16:49:25] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2025-01-08 16:49:25,391:INFO:127.0.0.1 - - [08/Jan/2025 16:49:25] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2025-01-08 16:49:25,708:INFO:127.0.0.1 - - [08/Jan/2025 16:49:25] "GET /disabled-vehicle-recognition HTTP/1.1" 200 -
+2025-01-08 16:49:25,728:INFO:127.0.0.1 - - [08/Jan/2025 16:49:25] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:49:25,733:INFO:127.0.0.1 - - [08/Jan/2025 16:49:25] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2025-01-08 16:49:25,733:INFO:127.0.0.1 - - [08/Jan/2025 16:49:25] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2025-01-08 16:49:25,733:INFO:127.0.0.1 - - [08/Jan/2025 16:49:25] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2025-01-08 16:49:26,123:INFO:127.0.0.1 - - [08/Jan/2025 16:49:26] "GET /illegal-parking-recognition HTTP/1.1" 200 -
+2025-01-08 16:49:26,141:INFO:127.0.0.1 - - [08/Jan/2025 16:49:26] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:49:26,149:INFO:127.0.0.1 - - [08/Jan/2025 16:49:26] "[36mGET /static/video.css HTTP/1.1[0m" 304 -
+2025-01-08 16:49:26,151:INFO:127.0.0.1 - - [08/Jan/2025 16:49:26] "[36mGET /static/exit_btn.css HTTP/1.1[0m" 304 -
+2025-01-08 16:49:26,151:INFO:127.0.0.1 - - [08/Jan/2025 16:49:26] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2025-01-08 16:49:28,175:INFO:127.0.0.1 - - [08/Jan/2025 16:49:28] "GET /search HTTP/1.1" 200 -
+2025-01-08 16:49:28,194:INFO:127.0.0.1 - - [08/Jan/2025 16:49:28] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:49:28,201:INFO:127.0.0.1 - - [08/Jan/2025 16:49:28] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:49:28,202:INFO:127.0.0.1 - - [08/Jan/2025 16:49:28] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2025-01-08 16:49:28,884:INFO:127.0.0.1 - - [08/Jan/2025 16:49:28] "GET /search-results HTTP/1.1" 200 -
+2025-01-08 16:49:28,905:INFO:127.0.0.1 - - [08/Jan/2025 16:49:28] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:49:28,911:INFO:127.0.0.1 - - [08/Jan/2025 16:49:28] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:49:28,912:INFO:127.0.0.1 - - [08/Jan/2025 16:49:28] "[36mGET /static/search_results.css HTTP/1.1[0m" 304 -
+2025-01-08 16:49:29,943:INFO:127.0.0.1 - - [08/Jan/2025 16:49:29] "GET /alerts HTTP/1.1" 200 -
+2025-01-08 16:49:29,970:INFO:127.0.0.1 - - [08/Jan/2025 16:49:29] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:49:29,970:INFO:127.0.0.1 - - [08/Jan/2025 16:49:29] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:49:30,458:INFO:127.0.0.1 - - [08/Jan/2025 16:49:30] "GET /work HTTP/1.1" 200 -
+2025-01-08 16:49:30,479:INFO:127.0.0.1 - - [08/Jan/2025 16:49:30] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:49:30,487:INFO:127.0.0.1 - - [08/Jan/2025 16:49:30] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:49:30,488:INFO:127.0.0.1 - - [08/Jan/2025 16:49:30] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2025-01-08 16:49:30,977:INFO:127.0.0.1 - - [08/Jan/2025 16:49:30] "GET /security HTTP/1.1" 200 -
+2025-01-08 16:49:31,005:INFO:127.0.0.1 - - [08/Jan/2025 16:49:31] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:49:31,006:INFO:127.0.0.1 - - [08/Jan/2025 16:49:31] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:49:31,007:INFO:127.0.0.1 - - [08/Jan/2025 16:49:31] "[36mGET /static/security.css HTTP/1.1[0m" 304 -
+2025-01-08 16:49:31,403:INFO:127.0.0.1 - - [08/Jan/2025 16:49:31] "GET /work HTTP/1.1" 200 -
+2025-01-08 16:49:31,436:INFO:127.0.0.1 - - [08/Jan/2025 16:49:31] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:49:31,439:INFO:127.0.0.1 - - [08/Jan/2025 16:49:31] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2025-01-08 16:49:31,440:INFO:127.0.0.1 - - [08/Jan/2025 16:49:31] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:49:31,724:INFO:127.0.0.1 - - [08/Jan/2025 16:49:31] "GET /alerts HTTP/1.1" 200 -
+2025-01-08 16:49:31,742:INFO:127.0.0.1 - - [08/Jan/2025 16:49:31] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:49:31,750:INFO:127.0.0.1 - - [08/Jan/2025 16:49:31] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:49:42,948:INFO:0∞≥¿« πÆ¿«ªÁ«◊¿ª ∫“∑Øø‘Ω¿¥œ¥Ÿ.
+2025-01-08 16:49:42,964:INFO:127.0.0.1 - - [08/Jan/2025 16:49:42] "GET /inquiry HTTP/1.1" 200 -
+2025-01-08 16:49:42,989:INFO:127.0.0.1 - - [08/Jan/2025 16:49:42] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:49:42,994:INFO:127.0.0.1 - - [08/Jan/2025 16:49:42] "GET /static/inquiry_write_go.css HTTP/1.1" 200 -
+2025-01-08 16:49:42,995:INFO:127.0.0.1 - - [08/Jan/2025 16:49:42] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:49:43,336:INFO:127.0.0.1 - - [08/Jan/2025 16:49:43] "GET /settings HTTP/1.1" 200 -
+2025-01-08 16:49:43,357:INFO:127.0.0.1 - - [08/Jan/2025 16:49:43] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:49:43,359:INFO:127.0.0.1 - - [08/Jan/2025 16:49:43] "[36mGET /static/setting.css HTTP/1.1[0m" 304 -
+2025-01-08 16:49:44,428:INFO:127.0.0.1 - - [08/Jan/2025 16:49:44] "GET /security HTTP/1.1" 200 -
+2025-01-08 16:49:44,450:INFO:127.0.0.1 - - [08/Jan/2025 16:49:44] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:49:44,458:INFO:127.0.0.1 - - [08/Jan/2025 16:49:44] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:49:44,460:INFO:127.0.0.1 - - [08/Jan/2025 16:49:44] "[36mGET /static/security.css HTTP/1.1[0m" 304 -
+2025-01-08 16:49:46,379:INFO:127.0.0.1 - - [08/Jan/2025 16:49:46] "GET / HTTP/1.1" 200 -
+2025-01-08 16:49:46,400:INFO:127.0.0.1 - - [08/Jan/2025 16:49:46] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:50:03,750:INFO: * Detected change in 'd:\\AI3\\cctv\\moels.py', reloading
+2025-01-08 16:50:05,583:INFO: * Restarting with watchdog (windowsapi)
+2025-01-08 16:50:13,119:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-01-08 16:50:15,744:WARNING: * Debugger is active!
+2025-01-08 16:50:15,759:INFO: * Debugger PIN: 652-156-585
+2025-01-08 16:50:42,639:INFO:127.0.0.1 - - [08/Jan/2025 16:50:42] "GET /search HTTP/1.1" 200 -
+2025-01-08 16:50:42,660:INFO:127.0.0.1 - - [08/Jan/2025 16:50:42] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:50:42,673:INFO:127.0.0.1 - - [08/Jan/2025 16:50:42] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:50:42,674:INFO:127.0.0.1 - - [08/Jan/2025 16:50:42] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2025-01-08 16:50:43,027:INFO:127.0.0.1 - - [08/Jan/2025 16:50:43] "GET /search-results HTTP/1.1" 200 -
+2025-01-08 16:50:43,047:INFO:127.0.0.1 - - [08/Jan/2025 16:50:43] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:50:43,057:INFO:127.0.0.1 - - [08/Jan/2025 16:50:43] "[36mGET /static/search_results.css HTTP/1.1[0m" 304 -
+2025-01-08 16:50:43,058:INFO:127.0.0.1 - - [08/Jan/2025 16:50:43] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:50:43,986:INFO:127.0.0.1 - - [08/Jan/2025 16:50:43] "GET /alerts HTTP/1.1" 200 -
+2025-01-08 16:50:44,006:INFO:127.0.0.1 - - [08/Jan/2025 16:50:44] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:50:44,011:INFO:127.0.0.1 - - [08/Jan/2025 16:50:44] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:50:44,689:INFO:127.0.0.1 - - [08/Jan/2025 16:50:44] "GET /work HTTP/1.1" 200 -
+2025-01-08 16:50:44,709:INFO:127.0.0.1 - - [08/Jan/2025 16:50:44] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:50:44,721:INFO:127.0.0.1 - - [08/Jan/2025 16:50:44] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:50:44,721:INFO:127.0.0.1 - - [08/Jan/2025 16:50:44] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2025-01-08 16:50:45,257:INFO:127.0.0.1 - - [08/Jan/2025 16:50:45] "GET /security HTTP/1.1" 200 -
+2025-01-08 16:50:45,276:INFO:127.0.0.1 - - [08/Jan/2025 16:50:45] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:50:45,285:INFO:127.0.0.1 - - [08/Jan/2025 16:50:45] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:50:45,287:INFO:127.0.0.1 - - [08/Jan/2025 16:50:45] "[36mGET /static/security.css HTTP/1.1[0m" 304 -
+2025-01-08 16:50:46,239:INFO:127.0.0.1 - - [08/Jan/2025 16:50:46] "GET /security HTTP/1.1" 200 -
+2025-01-08 16:50:46,259:INFO:127.0.0.1 - - [08/Jan/2025 16:50:46] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:50:46,259:INFO:127.0.0.1 - - [08/Jan/2025 16:50:46] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:50:46,260:INFO:127.0.0.1 - - [08/Jan/2025 16:50:46] "[36mGET /static/security.css HTTP/1.1[0m" 304 -
+2025-01-08 16:50:46,699:INFO:127.0.0.1 - - [08/Jan/2025 16:50:46] "GET /search HTTP/1.1" 200 -
+2025-01-08 16:50:46,726:INFO:127.0.0.1 - - [08/Jan/2025 16:50:46] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:50:46,726:INFO:127.0.0.1 - - [08/Jan/2025 16:50:46] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:50:46,728:INFO:127.0.0.1 - - [08/Jan/2025 16:50:46] "[36mGET /static/view.css HTTP/1.1[0m" 304 -
+2025-01-08 16:50:48,380:INFO:127.0.0.1 - - [08/Jan/2025 16:50:48] "GET /recognition-list/entry HTTP/1.1" 200 -
+2025-01-08 16:50:48,404:INFO:127.0.0.1 - - [08/Jan/2025 16:50:48] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:50:48,410:INFO:127.0.0.1 - - [08/Jan/2025 16:50:48] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:50:48,412:INFO:127.0.0.1 - - [08/Jan/2025 16:50:48] "[36mGET /static/excel_pdf.css HTTP/1.1[0m" 304 -
+2025-01-08 16:50:48,413:INFO:127.0.0.1 - - [08/Jan/2025 16:50:48] "[36mGET /static/back.css HTTP/1.1[0m" 304 -
+2025-01-08 16:50:49,534:INFO:127.0.0.1 - - [08/Jan/2025 16:50:49] "GET /export/entry/pdf HTTP/1.1" 200 -
+2025-01-08 16:50:52,250:INFO:127.0.0.1 - - [08/Jan/2025 16:50:52] "GET /export/entry/excel HTTP/1.1" 200 -
+2025-01-08 16:53:33,758:INFO:127.0.0.1 - - [08/Jan/2025 16:53:33] "GET /recognition-list/entry HTTP/1.1" 200 -
+2025-01-08 16:53:33,775:INFO:127.0.0.1 - - [08/Jan/2025 16:53:33] "GET /static/css/home.css HTTP/1.1" 200 -
+2025-01-08 16:53:33,782:INFO:127.0.0.1 - - [08/Jan/2025 16:53:33] "GET /static/css/report.css HTTP/1.1" 200 -
+2025-01-08 16:53:33,782:INFO:127.0.0.1 - - [08/Jan/2025 16:53:33] "GET /static/css/back.css HTTP/1.1" 200 -
+2025-01-08 16:53:33,783:INFO:127.0.0.1 - - [08/Jan/2025 16:53:33] "GET /static/css/excel_pdf.css HTTP/1.1" 200 -
+2025-01-08 16:53:34,644:INFO:127.0.0.1 - - [08/Jan/2025 16:53:34] "GET /search HTTP/1.1" 200 -
+2025-01-08 16:53:34,665:INFO:127.0.0.1 - - [08/Jan/2025 16:53:34] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:53:34,676:INFO:127.0.0.1 - - [08/Jan/2025 16:53:34] "GET /static/css/view.css HTTP/1.1" 200 -
+2025-01-08 16:53:34,676:INFO:127.0.0.1 - - [08/Jan/2025 16:53:34] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:53:35,078:ERROR:Unhandled Exception: 'css' is undefined
+2025-01-08 16:53:35,086:INFO:127.0.0.1 - - [08/Jan/2025 16:53:35] "[35m[1mGET /search-results HTTP/1.1[0m" 500 -
+2025-01-08 16:53:35,111:INFO:127.0.0.1 - - [08/Jan/2025 16:53:35] "GET /static/css/error.css HTTP/1.1" 200 -
+2025-01-08 16:53:40,049:ERROR:Unhandled Exception: 'css' is undefined
+2025-01-08 16:53:40,050:INFO:127.0.0.1 - - [08/Jan/2025 16:53:40] "[35m[1mGET /search-results HTTP/1.1[0m" 500 -
+2025-01-08 16:53:40,070:INFO:127.0.0.1 - - [08/Jan/2025 16:53:40] "[36mGET /static/css/error.css HTTP/1.1[0m" 304 -
+2025-01-08 16:53:53,963:INFO:127.0.0.1 - - [08/Jan/2025 16:53:53] "GET /search-results HTTP/1.1" 200 -
+2025-01-08 16:53:53,970:INFO:127.0.0.1 - - [08/Jan/2025 16:53:53] "GET /static/css/search_results.css HTTP/1.1" 200 -
+2025-01-08 16:53:53,986:INFO:127.0.0.1 - - [08/Jan/2025 16:53:53] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:53:53,987:INFO:127.0.0.1 - - [08/Jan/2025 16:53:53] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:53:55,282:INFO:127.0.0.1 - - [08/Jan/2025 16:53:55] "GET /search HTTP/1.1" 200 -
+2025-01-08 16:53:55,308:INFO:127.0.0.1 - - [08/Jan/2025 16:53:55] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:53:55,314:INFO:127.0.0.1 - - [08/Jan/2025 16:53:55] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:53:55,314:INFO:127.0.0.1 - - [08/Jan/2025 16:53:55] "[36mGET /static/css/view.css HTTP/1.1[0m" 304 -
+2025-01-08 16:53:55,616:INFO:127.0.0.1 - - [08/Jan/2025 16:53:55] "GET /search-results HTTP/1.1" 200 -
+2025-01-08 16:53:55,636:INFO:127.0.0.1 - - [08/Jan/2025 16:53:55] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:53:55,642:INFO:127.0.0.1 - - [08/Jan/2025 16:53:55] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:53:55,646:INFO:127.0.0.1 - - [08/Jan/2025 16:53:55] "[36mGET /static/css/search_results.css HTTP/1.1[0m" 304 -
+2025-01-08 16:53:56,008:INFO:127.0.0.1 - - [08/Jan/2025 16:53:56] "GET /alerts HTTP/1.1" 200 -
+2025-01-08 16:53:56,028:INFO:127.0.0.1 - - [08/Jan/2025 16:53:56] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:53:56,033:INFO:127.0.0.1 - - [08/Jan/2025 16:53:56] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:53:56,583:INFO:127.0.0.1 - - [08/Jan/2025 16:53:56] "GET /work HTTP/1.1" 200 -
+2025-01-08 16:53:56,603:INFO:127.0.0.1 - - [08/Jan/2025 16:53:56] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:53:56,610:INFO:127.0.0.1 - - [08/Jan/2025 16:53:56] "[36mGET /static/css/back.css HTTP/1.1[0m" 304 -
+2025-01-08 16:53:56,611:INFO:127.0.0.1 - - [08/Jan/2025 16:53:56] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:53:57,005:INFO:127.0.0.1 - - [08/Jan/2025 16:53:57] "GET /security HTTP/1.1" 200 -
+2025-01-08 16:53:57,029:INFO:127.0.0.1 - - [08/Jan/2025 16:53:57] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:53:57,029:INFO:127.0.0.1 - - [08/Jan/2025 16:53:57] "GET /static/css/security.css HTTP/1.1" 200 -
+2025-01-08 16:53:57,030:INFO:127.0.0.1 - - [08/Jan/2025 16:53:57] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:53:57,645:INFO:127.0.0.1 - - [08/Jan/2025 16:53:57] "GET /settings HTTP/1.1" 200 -
+2025-01-08 16:53:57,665:INFO:127.0.0.1 - - [08/Jan/2025 16:53:57] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:53:57,672:INFO:127.0.0.1 - - [08/Jan/2025 16:53:57] "GET /static/css/setting.css HTTP/1.1" 200 -
+2025-01-08 16:53:57,997:INFO:0∞≥¿« πÆ¿«ªÁ«◊¿ª ∫“∑Øø‘Ω¿¥œ¥Ÿ.
+2025-01-08 16:53:58,019:INFO:127.0.0.1 - - [08/Jan/2025 16:53:58] "GET /inquiry HTTP/1.1" 200 -
+2025-01-08 16:53:58,045:INFO:127.0.0.1 - - [08/Jan/2025 16:53:58] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:53:58,046:INFO:127.0.0.1 - - [08/Jan/2025 16:53:58] "GET /static/css/inquiry_write_go.css HTTP/1.1" 200 -
+2025-01-08 16:53:58,046:INFO:127.0.0.1 - - [08/Jan/2025 16:53:58] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:58:12,995:INFO:127.0.0.1 - - [08/Jan/2025 16:58:12] "GET /entry-recognition HTTP/1.1" 200 -
+2025-01-08 16:58:13,026:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-01-08 16:58:13,026:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-01-08 16:58:13,030:INFO:127.0.0.1 - - [08/Jan/2025 16:58:13] "[35m[1mGET /static/css/home.css HTTP/1.1[0m" 500 -
+2025-01-08 16:58:13,030:INFO:127.0.0.1 - - [08/Jan/2025 16:58:13] "[35m[1mGET /static/css/video.css HTTP/1.1[0m" 500 -
+2025-01-08 16:58:13,036:INFO:127.0.0.1 - - [08/Jan/2025 16:58:13] "GET /static/css/exit_btn.css HTTP/1.1" 200 -
+2025-01-08 16:58:13,037:INFO:127.0.0.1 - - [08/Jan/2025 16:58:13] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2025-01-08 16:58:15,460:INFO:127.0.0.1 - - [08/Jan/2025 16:58:15] "GET /entry-recognition HTTP/1.1" 200 -
+2025-01-08 16:58:15,479:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-01-08 16:58:15,481:INFO:127.0.0.1 - - [08/Jan/2025 16:58:15] "[35m[1mGET /static/css/home.css HTTP/1.1[0m" 500 -
+2025-01-08 16:58:15,484:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-01-08 16:58:15,489:INFO:127.0.0.1 - - [08/Jan/2025 16:58:15] "[35m[1mGET /static/css/video.css HTTP/1.1[0m" 500 -
+2025-01-08 16:58:15,493:INFO:127.0.0.1 - - [08/Jan/2025 16:58:15] "[36mGET /static/css/exit_btn.css HTTP/1.1[0m" 304 -
+2025-01-08 16:58:15,494:INFO:127.0.0.1 - - [08/Jan/2025 16:58:15] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2025-01-08 16:58:16,747:INFO:0∞≥¿« πÆ¿«ªÁ«◊¿ª ∫“∑Øø‘Ω¿¥œ¥Ÿ.
+2025-01-08 16:58:16,750:INFO:127.0.0.1 - - [08/Jan/2025 16:58:16] "GET /inquiry HTTP/1.1" 200 -
+2025-01-08 16:58:16,771:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-01-08 16:58:16,775:INFO:127.0.0.1 - - [08/Jan/2025 16:58:16] "[35m[1mGET /static/css/home.css HTTP/1.1[0m" 500 -
+2025-01-08 16:58:16,775:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-01-08 16:58:16,777:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-01-08 16:58:16,777:INFO:127.0.0.1 - - [08/Jan/2025 16:58:16] "[35m[1mGET /static/css/report.css HTTP/1.1[0m" 500 -
+2025-01-08 16:58:16,778:INFO:127.0.0.1 - - [08/Jan/2025 16:58:16] "[35m[1mGET /static/css/inquiry_write_go.css HTTP/1.1[0m" 500 -
+2025-01-08 16:58:19,586:INFO:127.0.0.1 - - [08/Jan/2025 16:58:19] "GET /search HTTP/1.1" 200 -
+2025-01-08 16:58:19,608:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-01-08 16:58:19,609:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-01-08 16:58:19,610:INFO:127.0.0.1 - - [08/Jan/2025 16:58:19] "[35m[1mGET /static/css/home.css HTTP/1.1[0m" 500 -
+2025-01-08 16:58:19,613:INFO:127.0.0.1 - - [08/Jan/2025 16:58:19] "[35m[1mGET /static/css/report.css HTTP/1.1[0m" 500 -
+2025-01-08 16:58:19,614:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-01-08 16:58:19,616:INFO:127.0.0.1 - - [08/Jan/2025 16:58:19] "[35m[1mGET /static/css/view.css HTTP/1.1[0m" 500 -
+2025-01-08 16:58:25,638:INFO:127.0.0.1 - - [08/Jan/2025 16:58:25] "GET /search HTTP/1.1" 200 -
+2025-01-08 16:58:25,674:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-01-08 16:58:25,678:INFO:127.0.0.1 - - [08/Jan/2025 16:58:25] "[35m[1mGET /static/css/home.css HTTP/1.1[0m" 500 -
+2025-01-08 16:58:25,678:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-01-08 16:58:25,679:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-01-08 16:58:25,681:INFO:127.0.0.1 - - [08/Jan/2025 16:58:25] "[35m[1mGET /static/css/report.css HTTP/1.1[0m" 500 -
+2025-01-08 16:58:25,681:INFO:127.0.0.1 - - [08/Jan/2025 16:58:25] "[35m[1mGET /static/css/view.css HTTP/1.1[0m" 500 -
+2025-01-08 16:58:27,465:INFO:127.0.0.1 - - [08/Jan/2025 16:58:27] "GET /search HTTP/1.1" 200 -
+2025-01-08 16:58:27,490:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-01-08 16:58:27,492:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-01-08 16:58:27,493:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-01-08 16:58:27,493:INFO:127.0.0.1 - - [08/Jan/2025 16:58:27] "[35m[1mGET /static/css/home.css HTTP/1.1[0m" 500 -
+2025-01-08 16:58:27,494:INFO:127.0.0.1 - - [08/Jan/2025 16:58:27] "[35m[1mGET /static/css/view.css HTTP/1.1[0m" 500 -
+2025-01-08 16:58:27,494:INFO:127.0.0.1 - - [08/Jan/2025 16:58:27] "[35m[1mGET /static/css/report.css HTTP/1.1[0m" 500 -
+2025-01-08 16:58:45,441:INFO:127.0.0.1 - - [08/Jan/2025 16:58:45] "GET /search HTTP/1.1" 200 -
+2025-01-08 16:58:45,465:INFO:127.0.0.1 - - [08/Jan/2025 16:58:45] "GET /static/css/home.css HTTP/1.1" 200 -
+2025-01-08 16:58:45,470:INFO:127.0.0.1 - - [08/Jan/2025 16:58:45] "GET /static/css/view.css HTTP/1.1" 200 -
+2025-01-08 16:58:45,474:INFO:127.0.0.1 - - [08/Jan/2025 16:58:45] "GET /static/css/report.css HTTP/1.1" 200 -
+2025-01-08 16:58:46,434:INFO:127.0.0.1 - - [08/Jan/2025 16:58:46] "GET /entry-recognition HTTP/1.1" 200 -
+2025-01-08 16:58:46,457:INFO:127.0.0.1 - - [08/Jan/2025 16:58:46] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:58:46,465:INFO:127.0.0.1 - - [08/Jan/2025 16:58:46] "GET /static/css/video.css HTTP/1.1" 200 -
+2025-01-08 16:58:46,468:INFO:127.0.0.1 - - [08/Jan/2025 16:58:46] "[36mGET /static/css/exit_btn.css HTTP/1.1[0m" 304 -
+2025-01-08 16:58:46,471:INFO:127.0.0.1 - - [08/Jan/2025 16:58:46] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2025-01-08 16:58:46,890:INFO:127.0.0.1 - - [08/Jan/2025 16:58:46] "GET /exit-recognition HTTP/1.1" 200 -
+2025-01-08 16:58:46,920:INFO:127.0.0.1 - - [08/Jan/2025 16:58:46] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:58:46,932:INFO:127.0.0.1 - - [08/Jan/2025 16:58:46] "[36mGET /static/css/video.css HTTP/1.1[0m" 304 -
+2025-01-08 16:58:46,935:INFO:127.0.0.1 - - [08/Jan/2025 16:58:46] "[36mGET /static/css/exit_btn.css HTTP/1.1[0m" 304 -
+2025-01-08 16:58:46,936:INFO:127.0.0.1 - - [08/Jan/2025 16:58:46] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2025-01-08 16:58:47,426:INFO:127.0.0.1 - - [08/Jan/2025 16:58:47] "GET /light-vehicle-recognition HTTP/1.1" 200 -
+2025-01-08 16:58:47,445:INFO:127.0.0.1 - - [08/Jan/2025 16:58:47] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:58:47,455:INFO:127.0.0.1 - - [08/Jan/2025 16:58:47] "[36mGET /static/css/video.css HTTP/1.1[0m" 304 -
+2025-01-08 16:58:47,460:INFO:127.0.0.1 - - [08/Jan/2025 16:58:47] "[36mGET /static/css/exit_btn.css HTTP/1.1[0m" 304 -
+2025-01-08 16:58:47,462:INFO:127.0.0.1 - - [08/Jan/2025 16:58:47] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2025-01-08 16:58:48,158:INFO:127.0.0.1 - - [08/Jan/2025 16:58:48] "GET /disabled-vehicle-recognition HTTP/1.1" 200 -
+2025-01-08 16:58:48,194:INFO:127.0.0.1 - - [08/Jan/2025 16:58:48] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:58:48,198:INFO:127.0.0.1 - - [08/Jan/2025 16:58:48] "[36mGET /static/css/video.css HTTP/1.1[0m" 304 -
+2025-01-08 16:58:48,200:INFO:127.0.0.1 - - [08/Jan/2025 16:58:48] "[36mGET /static/css/exit_btn.css HTTP/1.1[0m" 304 -
+2025-01-08 16:58:48,201:INFO:127.0.0.1 - - [08/Jan/2025 16:58:48] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2025-01-08 16:58:48,433:INFO:127.0.0.1 - - [08/Jan/2025 16:58:48] "GET /illegal-parking-recognition HTTP/1.1" 200 -
+2025-01-08 16:58:48,456:INFO:127.0.0.1 - - [08/Jan/2025 16:58:48] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:58:48,464:INFO:127.0.0.1 - - [08/Jan/2025 16:58:48] "[36mGET /static/css/video.css HTTP/1.1[0m" 304 -
+2025-01-08 16:58:48,467:INFO:127.0.0.1 - - [08/Jan/2025 16:58:48] "[36mGET /static/css/exit_btn.css HTTP/1.1[0m" 304 -
+2025-01-08 16:58:48,469:INFO:127.0.0.1 - - [08/Jan/2025 16:58:48] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2025-01-08 16:58:49,305:INFO:127.0.0.1 - - [08/Jan/2025 16:58:49] "GET /search HTTP/1.1" 200 -
+2025-01-08 16:58:49,331:INFO:127.0.0.1 - - [08/Jan/2025 16:58:49] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:58:49,332:INFO:127.0.0.1 - - [08/Jan/2025 16:58:49] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:58:49,332:INFO:127.0.0.1 - - [08/Jan/2025 16:58:49] "[36mGET /static/css/view.css HTTP/1.1[0m" 304 -
+2025-01-08 16:58:50,203:INFO:127.0.0.1 - - [08/Jan/2025 16:58:50] "GET /recognition-list/entry HTTP/1.1" 200 -
+2025-01-08 16:58:50,227:INFO:127.0.0.1 - - [08/Jan/2025 16:58:50] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:58:50,235:INFO:127.0.0.1 - - [08/Jan/2025 16:58:50] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:58:50,236:INFO:127.0.0.1 - - [08/Jan/2025 16:58:50] "[36mGET /static/css/back.css HTTP/1.1[0m" 304 -
+2025-01-08 16:58:50,237:INFO:127.0.0.1 - - [08/Jan/2025 16:58:50] "[36mGET /static/css/excel_pdf.css HTTP/1.1[0m" 304 -
+2025-01-08 16:58:51,123:INFO:127.0.0.1 - - [08/Jan/2025 16:58:51] "GET /export/entry/pdf HTTP/1.1" 200 -
+2025-01-08 16:58:52,557:INFO:127.0.0.1 - - [08/Jan/2025 16:58:52] "GET /export/entry/excel HTTP/1.1" 200 -
+2025-01-08 16:58:53,648:INFO:127.0.0.1 - - [08/Jan/2025 16:58:53] "GET /search HTTP/1.1" 200 -
+2025-01-08 16:58:53,672:INFO:127.0.0.1 - - [08/Jan/2025 16:58:53] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:58:53,679:INFO:127.0.0.1 - - [08/Jan/2025 16:58:53] "[36mGET /static/css/view.css HTTP/1.1[0m" 304 -
+2025-01-08 16:58:53,679:INFO:127.0.0.1 - - [08/Jan/2025 16:58:53] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:58:55,345:INFO:127.0.0.1 - - [08/Jan/2025 16:58:55] "GET /search-results HTTP/1.1" 200 -
+2025-01-08 16:58:55,366:INFO:127.0.0.1 - - [08/Jan/2025 16:58:55] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:58:55,375:INFO:127.0.0.1 - - [08/Jan/2025 16:58:55] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:58:55,376:INFO:127.0.0.1 - - [08/Jan/2025 16:58:55] "[36mGET /static/css/search_results.css HTTP/1.1[0m" 304 -
+2025-01-08 16:58:58,979:INFO:127.0.0.1 - - [08/Jan/2025 16:58:58] "POST /search-results HTTP/1.1" 200 -
+2025-01-08 16:58:59,002:INFO:127.0.0.1 - - [08/Jan/2025 16:58:59] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:58:59,004:INFO:127.0.0.1 - - [08/Jan/2025 16:58:59] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:58:59,005:INFO:127.0.0.1 - - [08/Jan/2025 16:58:59] "[36mGET /static/css/search_results.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:00,547:INFO:127.0.0.1 - - [08/Jan/2025 16:59:00] "GET /search-results HTTP/1.1" 200 -
+2025-01-08 16:59:00,562:INFO:127.0.0.1 - - [08/Jan/2025 16:59:00] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:00,567:INFO:127.0.0.1 - - [08/Jan/2025 16:59:00] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:00,567:INFO:127.0.0.1 - - [08/Jan/2025 16:59:00] "[36mGET /static/css/search_results.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:00,861:INFO:127.0.0.1 - - [08/Jan/2025 16:59:00] "GET /alerts HTTP/1.1" 200 -
+2025-01-08 16:59:00,880:INFO:127.0.0.1 - - [08/Jan/2025 16:59:00] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:00,890:INFO:127.0.0.1 - - [08/Jan/2025 16:59:00] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:06,788:INFO:127.0.0.1 - - [08/Jan/2025 16:59:06] "GET /search HTTP/1.1" 200 -
+2025-01-08 16:59:06,812:INFO:127.0.0.1 - - [08/Jan/2025 16:59:06] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:06,812:INFO:127.0.0.1 - - [08/Jan/2025 16:59:06] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:06,817:INFO:127.0.0.1 - - [08/Jan/2025 16:59:06] "[36mGET /static/css/view.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:08,843:INFO:127.0.0.1 - - [08/Jan/2025 16:59:08] "GET /search-results HTTP/1.1" 200 -
+2025-01-08 16:59:08,865:INFO:127.0.0.1 - - [08/Jan/2025 16:59:08] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:08,875:INFO:127.0.0.1 - - [08/Jan/2025 16:59:08] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:08,879:INFO:127.0.0.1 - - [08/Jan/2025 16:59:08] "[36mGET /static/css/search_results.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:11,323:INFO:127.0.0.1 - - [08/Jan/2025 16:59:11] "POST /search-results HTTP/1.1" 200 -
+2025-01-08 16:59:11,341:INFO:127.0.0.1 - - [08/Jan/2025 16:59:11] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:11,344:INFO:127.0.0.1 - - [08/Jan/2025 16:59:11] "[36mGET /static/css/search_results.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:11,347:INFO:127.0.0.1 - - [08/Jan/2025 16:59:11] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:13,749:INFO:127.0.0.1 - - [08/Jan/2025 16:59:13] "GET /search-results HTTP/1.1" 200 -
+2025-01-08 16:59:13,771:INFO:127.0.0.1 - - [08/Jan/2025 16:59:13] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:13,774:INFO:127.0.0.1 - - [08/Jan/2025 16:59:13] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:13,776:INFO:127.0.0.1 - - [08/Jan/2025 16:59:13] "[36mGET /static/css/search_results.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:14,175:INFO:127.0.0.1 - - [08/Jan/2025 16:59:14] "GET /alerts HTTP/1.1" 200 -
+2025-01-08 16:59:14,199:INFO:127.0.0.1 - - [08/Jan/2025 16:59:14] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:14,201:INFO:127.0.0.1 - - [08/Jan/2025 16:59:14] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:16,101:INFO:127.0.0.1 - - [08/Jan/2025 16:59:16] "GET /work HTTP/1.1" 200 -
+2025-01-08 16:59:16,123:INFO:127.0.0.1 - - [08/Jan/2025 16:59:16] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:16,125:INFO:127.0.0.1 - - [08/Jan/2025 16:59:16] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:16,131:INFO:127.0.0.1 - - [08/Jan/2025 16:59:16] "[36mGET /static/css/back.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:16,874:INFO:127.0.0.1 - - [08/Jan/2025 16:59:16] "GET /security HTTP/1.1" 200 -
+2025-01-08 16:59:16,899:INFO:127.0.0.1 - - [08/Jan/2025 16:59:16] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:16,899:INFO:127.0.0.1 - - [08/Jan/2025 16:59:16] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:16,900:INFO:127.0.0.1 - - [08/Jan/2025 16:59:16] "[36mGET /static/css/security.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:19,062:INFO:127.0.0.1 - - [08/Jan/2025 16:59:19] "GET /settings HTTP/1.1" 200 -
+2025-01-08 16:59:19,082:INFO:127.0.0.1 - - [08/Jan/2025 16:59:19] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:19,088:INFO:127.0.0.1 - - [08/Jan/2025 16:59:19] "[36mGET /static/css/setting.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:20,141:INFO:0∞≥¿« πÆ¿«ªÁ«◊¿ª ∫“∑Øø‘Ω¿¥œ¥Ÿ.
+2025-01-08 16:59:20,143:INFO:127.0.0.1 - - [08/Jan/2025 16:59:20] "GET /inquiry HTTP/1.1" 200 -
+2025-01-08 16:59:20,163:INFO:127.0.0.1 - - [08/Jan/2025 16:59:20] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:20,174:INFO:127.0.0.1 - - [08/Jan/2025 16:59:20] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:20,175:INFO:127.0.0.1 - - [08/Jan/2025 16:59:20] "GET /static/css/inquiry_write_go.css HTTP/1.1" 200 -
+2025-01-08 16:59:21,675:INFO:127.0.0.1 - - [08/Jan/2025 16:59:21] "[32mPOST /logout HTTP/1.1[0m" 302 -
+2025-01-08 16:59:21,692:INFO:∑Œ±◊¿Œ Ω√µµ
+2025-01-08 16:59:21,692:INFO:127.0.0.1 - - [08/Jan/2025 16:59:21] "GET /login HTTP/1.1" 200 -
+2025-01-08 16:59:21,718:INFO:127.0.0.1 - - [08/Jan/2025 16:59:21] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:22,579:INFO:127.0.0.1 - - [08/Jan/2025 16:59:22] "GET /signup HTTP/1.1" 200 -
+2025-01-08 16:59:22,602:INFO:127.0.0.1 - - [08/Jan/2025 16:59:22] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:37,361:INFO:127.0.0.1 - - [08/Jan/2025 16:59:37] "[32mPOST /signup HTTP/1.1[0m" 302 -
+2025-01-08 16:59:37,366:INFO:∑Œ±◊¿Œ Ω√µµ
+2025-01-08 16:59:37,368:INFO:127.0.0.1 - - [08/Jan/2025 16:59:37] "GET /login HTTP/1.1" 200 -
+2025-01-08 16:59:37,396:INFO:127.0.0.1 - - [08/Jan/2025 16:59:37] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:40,173:INFO:∑Œ±◊¿Œ Ω√µµ
+2025-01-08 16:59:40,440:INFO:127.0.0.1 - - [08/Jan/2025 16:59:40] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-01-08 16:59:40,460:INFO:127.0.0.1 - - [08/Jan/2025 16:59:40] "GET / HTTP/1.1" 200 -
+2025-01-08 16:59:40,484:INFO:127.0.0.1 - - [08/Jan/2025 16:59:40] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:41,718:INFO:127.0.0.1 - - [08/Jan/2025 16:59:41] "GET /security HTTP/1.1" 200 -
+2025-01-08 16:59:41,740:INFO:127.0.0.1 - - [08/Jan/2025 16:59:41] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:41,747:INFO:127.0.0.1 - - [08/Jan/2025 16:59:41] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:41,749:INFO:127.0.0.1 - - [08/Jan/2025 16:59:41] "[36mGET /static/css/security.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:43,657:INFO:127.0.0.1 - - [08/Jan/2025 16:59:43] "[32mPOST /update-role HTTP/1.1[0m" 302 -
+2025-01-08 16:59:43,657:INFO:127.0.0.1 - - [08/Jan/2025 16:59:43] "GET /security HTTP/1.1" 200 -
+2025-01-08 16:59:43,681:INFO:127.0.0.1 - - [08/Jan/2025 16:59:43] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:43,692:INFO:127.0.0.1 - - [08/Jan/2025 16:59:43] "[36mGET /static/css/security.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:43,693:INFO:127.0.0.1 - - [08/Jan/2025 16:59:43] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:44,475:INFO:127.0.0.1 - - [08/Jan/2025 16:59:44] "[32mPOST /logout HTTP/1.1[0m" 302 -
+2025-01-08 16:59:44,475:INFO:∑Œ±◊¿Œ Ω√µµ
+2025-01-08 16:59:44,475:INFO:127.0.0.1 - - [08/Jan/2025 16:59:44] "GET /login HTTP/1.1" 200 -
+2025-01-08 16:59:44,502:INFO:127.0.0.1 - - [08/Jan/2025 16:59:44] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:46,436:INFO:∑Œ±◊¿Œ Ω√µµ
+2025-01-08 16:59:46,706:INFO:127.0.0.1 - - [08/Jan/2025 16:59:46] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-01-08 16:59:46,706:INFO:127.0.0.1 - - [08/Jan/2025 16:59:46] "GET / HTTP/1.1" 200 -
+2025-01-08 16:59:46,740:INFO:127.0.0.1 - - [08/Jan/2025 16:59:46] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:47,800:INFO:0∞≥¿« πÆ¿«ªÁ«◊¿ª ∫“∑Øø‘Ω¿¥œ¥Ÿ.
+2025-01-08 16:59:47,801:INFO:127.0.0.1 - - [08/Jan/2025 16:59:47] "GET /inquiry HTTP/1.1" 200 -
+2025-01-08 16:59:47,831:INFO:127.0.0.1 - - [08/Jan/2025 16:59:47] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:47,834:INFO:127.0.0.1 - - [08/Jan/2025 16:59:47] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:47,835:INFO:127.0.0.1 - - [08/Jan/2025 16:59:47] "[36mGET /static/css/inquiry_write_go.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:48,629:INFO:πÆ¿« ¿€º∫ ∆‰¿Ã¡ˆ ¡¢±Ÿ
+2025-01-08 16:59:48,632:INFO:127.0.0.1 - - [08/Jan/2025 16:59:48] "GET /inquiry_write HTTP/1.1" 200 -
+2025-01-08 16:59:48,661:INFO:127.0.0.1 - - [08/Jan/2025 16:59:48] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:48,662:INFO:127.0.0.1 - - [08/Jan/2025 16:59:48] "GET /static/css/inquiry.css HTTP/1.1" 200 -
+2025-01-08 16:59:50,351:INFO:0∞≥¿« πÆ¿«ªÁ«◊¿ª ∫“∑Øø‘Ω¿¥œ¥Ÿ.
+2025-01-08 16:59:50,352:INFO:127.0.0.1 - - [08/Jan/2025 16:59:50] "GET /inquiry HTTP/1.1" 200 -
+2025-01-08 16:59:50,375:INFO:127.0.0.1 - - [08/Jan/2025 16:59:50] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:50,377:INFO:127.0.0.1 - - [08/Jan/2025 16:59:50] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:50,383:INFO:127.0.0.1 - - [08/Jan/2025 16:59:50] "[36mGET /static/css/inquiry_write_go.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:50,765:INFO:127.0.0.1 - - [08/Jan/2025 16:59:50] "GET /report HTTP/1.1" 200 -
+2025-01-08 16:59:50,784:INFO:127.0.0.1 - - [08/Jan/2025 16:59:50] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:50,794:INFO:127.0.0.1 - - [08/Jan/2025 16:59:50] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:50,795:INFO:127.0.0.1 - - [08/Jan/2025 16:59:50] "[36mGET /static/css/back.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:51,741:INFO:127.0.0.1 - - [08/Jan/2025 16:59:51] "POST /report HTTP/1.1" 200 -
+2025-01-08 16:59:51,771:INFO:127.0.0.1 - - [08/Jan/2025 16:59:51] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:51,772:INFO:127.0.0.1 - - [08/Jan/2025 16:59:51] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:51,775:INFO:127.0.0.1 - - [08/Jan/2025 16:59:51] "[36mGET /static/css/back.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:52,257:INFO:127.0.0.1 - - [08/Jan/2025 16:59:52] "POST /report HTTP/1.1" 200 -
+2025-01-08 16:59:52,281:INFO:127.0.0.1 - - [08/Jan/2025 16:59:52] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:52,283:INFO:127.0.0.1 - - [08/Jan/2025 16:59:52] "[36mGET /static/css/back.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:52,283:INFO:127.0.0.1 - - [08/Jan/2025 16:59:52] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:53,077:INFO:127.0.0.1 - - [08/Jan/2025 16:59:53] "GET /alerts HTTP/1.1" 200 -
+2025-01-08 16:59:53,093:INFO:127.0.0.1 - - [08/Jan/2025 16:59:53] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:53,094:INFO:127.0.0.1 - - [08/Jan/2025 16:59:53] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:53,419:INFO:127.0.0.1 - - [08/Jan/2025 16:59:53] "GET /search-results HTTP/1.1" 200 -
+2025-01-08 16:59:53,445:INFO:127.0.0.1 - - [08/Jan/2025 16:59:53] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:53,448:INFO:127.0.0.1 - - [08/Jan/2025 16:59:53] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:53,451:INFO:127.0.0.1 - - [08/Jan/2025 16:59:53] "[36mGET /static/css/search_results.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:54,512:INFO:127.0.0.1 - - [08/Jan/2025 16:59:54] "GET /search HTTP/1.1" 200 -
+2025-01-08 16:59:54,533:INFO:127.0.0.1 - - [08/Jan/2025 16:59:54] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:54,542:INFO:127.0.0.1 - - [08/Jan/2025 16:59:54] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-08 16:59:54,544:INFO:127.0.0.1 - - [08/Jan/2025 16:59:54] "[36mGET /static/css/view.css HTTP/1.1[0m" 304 -
+2025-01-08 17:00:33,409:INFO: * Detected change in 'd:\\AI3\\cctv\\static\\fonts\\Nanum_Brush_Script,Nanum_Gothic,Noto_Sans_KR.zip', reloading
+2025-01-08 17:00:34,929:INFO: * Restarting with watchdog (windowsapi)
+2025-01-08 17:00:42,609:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-01-08 17:00:45,173:WARNING: * Debugger is active!
+2025-01-08 17:00:45,190:INFO: * Debugger PIN: 652-156-585
+2025-01-08 17:00:52,690:INFO:127.0.0.1 - - [08/Jan/2025 17:00:52] "GET /search HTTP/1.1" 200 -
+2025-01-08 17:00:52,709:INFO:127.0.0.1 - - [08/Jan/2025 17:00:52] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-08 17:00:52,710:INFO:127.0.0.1 - - [08/Jan/2025 17:00:52] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 17:00:52,713:INFO:127.0.0.1 - - [08/Jan/2025 17:00:52] "[36mGET /static/css/view.css HTTP/1.1[0m" 304 -
+2025-01-08 17:00:54,092:INFO:127.0.0.1 - - [08/Jan/2025 17:00:54] "GET /recognition-list/entry HTTP/1.1" 200 -
+2025-01-08 17:00:54,119:INFO:127.0.0.1 - - [08/Jan/2025 17:00:54] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 17:00:54,121:INFO:127.0.0.1 - - [08/Jan/2025 17:00:54] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-08 17:00:54,122:INFO:127.0.0.1 - - [08/Jan/2025 17:00:54] "[36mGET /static/css/back.css HTTP/1.1[0m" 304 -
+2025-01-08 17:00:54,127:INFO:127.0.0.1 - - [08/Jan/2025 17:00:54] "[36mGET /static/css/excel_pdf.css HTTP/1.1[0m" 304 -
+2025-01-08 17:00:55,057:INFO:127.0.0.1 - - [08/Jan/2025 17:00:55] "GET /export/entry/pdf HTTP/1.1" 200 -
+2025-01-08 17:00:56,342:INFO:127.0.0.1 - - [08/Jan/2025 17:00:56] "GET /export/entry/excel HTTP/1.1" 200 -
+2025-01-08 17:01:22,991:INFO:127.0.0.1 - - [08/Jan/2025 17:01:22] "GET /recognition-list/entry HTTP/1.1" 200 -
+2025-01-08 17:01:23,012:INFO:127.0.0.1 - - [08/Jan/2025 17:01:23] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 17:01:23,017:INFO:127.0.0.1 - - [08/Jan/2025 17:01:23] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-08 17:01:23,017:INFO:127.0.0.1 - - [08/Jan/2025 17:01:23] "[36mGET /static/css/back.css HTTP/1.1[0m" 304 -
+2025-01-08 17:01:23,017:INFO:127.0.0.1 - - [08/Jan/2025 17:01:23] "[36mGET /static/css/excel_pdf.css HTTP/1.1[0m" 304 -
+2025-01-08 17:01:23,463:INFO:127.0.0.1 - - [08/Jan/2025 17:01:23] "GET /entry-recognition HTTP/1.1" 200 -
+2025-01-08 17:01:23,483:INFO:127.0.0.1 - - [08/Jan/2025 17:01:23] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 17:01:23,496:INFO:127.0.0.1 - - [08/Jan/2025 17:01:23] "[36mGET /static/css/video.css HTTP/1.1[0m" 304 -
+2025-01-08 17:01:23,499:INFO:127.0.0.1 - - [08/Jan/2025 17:01:23] "[36mGET /static/css/exit_btn.css HTTP/1.1[0m" 304 -
+2025-01-08 17:01:23,499:INFO:127.0.0.1 - - [08/Jan/2025 17:01:23] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2025-01-08 17:01:26,192:INFO:127.0.0.1 - - [08/Jan/2025 17:01:26] "GET /exit-recognition HTTP/1.1" 200 -
+2025-01-08 17:01:26,224:INFO:127.0.0.1 - - [08/Jan/2025 17:01:26] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-08 17:01:26,224:INFO:127.0.0.1 - - [08/Jan/2025 17:01:26] "[36mGET /static/css/video.css HTTP/1.1[0m" 304 -
+2025-01-08 17:01:26,224:INFO:127.0.0.1 - - [08/Jan/2025 17:01:26] "[36mGET /static/css/exit_btn.css HTTP/1.1[0m" 304 -
+2025-01-08 17:01:26,224:INFO:127.0.0.1 - - [08/Jan/2025 17:01:26] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2025-01-08 17:02:41,006:INFO: * Detected change in 'd:\\AI3\\cctv\\static\\fonts\\Nanum_Brush_Script,Nanum_Gothic,Noto_Sans_KR.zip', reloading
+2025-01-08 17:02:41,006:INFO: * Detected change in 'd:\\AI3\\cctv\\static\\fonts\\Nanum_Brush_Script,Nanum_Gothic,Noto_Sans_KR.zip', reloading
+2025-01-08 17:02:42,609:INFO: * Restarting with watchdog (windowsapi)
+2025-01-08 17:02:50,996:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-01-08 17:02:53,658:WARNING: * Debugger is active!
+2025-01-08 17:02:53,664:INFO: * Debugger PIN: 652-156-585
+2025-01-09 17:49:17,393:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-01-09 17:49:21,094:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-09 17:49:21,094:INFO:[33mPress CTRL+C to quit[0m
+2025-01-09 17:49:21,097:INFO: * Restarting with stat
+2025-01-09 17:49:28,483:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-01-09 17:49:34,303:WARNING: * Debugger is active!
+2025-01-09 17:49:34,310:INFO: * Debugger PIN: 142-677-485
+2025-01-09 17:49:34,367:INFO:127.0.0.1 - - [09/Jan/2025 17:49:34] "[32mGET / HTTP/1.1[0m" 302 -
+2025-01-09 17:49:34,371:INFO:∑Œ±◊¿Œ Ω√µµ
+2025-01-09 17:49:34,420:INFO:127.0.0.1 - - [09/Jan/2025 17:49:34] "GET /login HTTP/1.1" 200 -
+2025-01-09 17:49:34,700:INFO:127.0.0.1 - - [09/Jan/2025 17:49:34] "GET /static/css/home.css HTTP/1.1" 200 -
+2025-01-09 17:49:41,797:INFO:127.0.0.1 - - [09/Jan/2025 17:49:41] "[32mGET /entry-recognition HTTP/1.1[0m" 302 -
+2025-01-09 17:49:41,803:INFO:∑Œ±◊¿Œ Ω√µµ
+2025-01-09 17:49:41,804:INFO:127.0.0.1 - - [09/Jan/2025 17:49:41] "GET /login HTTP/1.1" 200 -
+2025-01-09 17:49:41,819:INFO:127.0.0.1 - - [09/Jan/2025 17:49:41] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-09 17:51:52,357:INFO:∑Œ±◊¿Œ Ω√µµ
+2025-01-09 17:51:52,635:INFO:127.0.0.1 - - [09/Jan/2025 17:51:52] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-01-09 17:51:52,641:INFO:127.0.0.1 - - [09/Jan/2025 17:51:52] "GET / HTTP/1.1" 200 -
+2025-01-09 17:51:52,664:INFO:127.0.0.1 - - [09/Jan/2025 17:51:52] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-09 17:51:53,984:INFO:127.0.0.1 - - [09/Jan/2025 17:51:53] "GET /entry-recognition HTTP/1.1" 200 -
+2025-01-09 17:51:54,005:INFO:127.0.0.1 - - [09/Jan/2025 17:51:54] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-09 17:51:54,016:INFO:127.0.0.1 - - [09/Jan/2025 17:51:54] "[36mGET /static/css/exit_btn.css HTTP/1.1[0m" 304 -
+2025-01-09 17:51:54,017:INFO:127.0.0.1 - - [09/Jan/2025 17:51:54] "[36mGET /static/css/video.css HTTP/1.1[0m" 304 -
+2025-01-09 17:51:54,049:INFO:127.0.0.1 - - [09/Jan/2025 17:51:54] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2025-01-09 17:51:54,450:INFO:127.0.0.1 - - [09/Jan/2025 17:51:54] "GET /exit-recognition HTTP/1.1" 200 -
+2025-01-09 17:51:54,471:INFO:127.0.0.1 - - [09/Jan/2025 17:51:54] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-09 17:51:54,472:INFO:127.0.0.1 - - [09/Jan/2025 17:51:54] "[36mGET /static/css/video.css HTTP/1.1[0m" 304 -
+2025-01-09 17:51:54,477:INFO:127.0.0.1 - - [09/Jan/2025 17:51:54] "[36mGET /static/css/exit_btn.css HTTP/1.1[0m" 304 -
+2025-01-09 17:51:54,483:INFO:127.0.0.1 - - [09/Jan/2025 17:51:54] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2025-01-09 17:51:56,770:INFO:127.0.0.1 - - [09/Jan/2025 17:51:56] "GET /light-vehicle-recognition HTTP/1.1" 200 -
+2025-01-09 17:51:56,790:INFO:127.0.0.1 - - [09/Jan/2025 17:51:56] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-09 17:51:56,806:INFO:127.0.0.1 - - [09/Jan/2025 17:51:56] "[36mGET /static/css/video.css HTTP/1.1[0m" 304 -
+2025-01-09 17:51:56,808:INFO:127.0.0.1 - - [09/Jan/2025 17:51:56] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2025-01-09 17:51:56,808:INFO:127.0.0.1 - - [09/Jan/2025 17:51:56] "[36mGET /static/css/exit_btn.css HTTP/1.1[0m" 304 -
+2025-01-09 17:51:57,035:INFO:127.0.0.1 - - [09/Jan/2025 17:51:57] "GET /disabled-vehicle-recognition HTTP/1.1" 200 -
+2025-01-09 17:51:57,054:INFO:127.0.0.1 - - [09/Jan/2025 17:51:57] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-09 17:51:57,068:INFO:127.0.0.1 - - [09/Jan/2025 17:51:57] "[36mGET /static/css/video.css HTTP/1.1[0m" 304 -
+2025-01-09 17:51:57,072:INFO:127.0.0.1 - - [09/Jan/2025 17:51:57] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2025-01-09 17:51:57,072:INFO:127.0.0.1 - - [09/Jan/2025 17:51:57] "[36mGET /static/css/exit_btn.css HTTP/1.1[0m" 304 -
+2025-01-09 17:51:57,354:INFO:127.0.0.1 - - [09/Jan/2025 17:51:57] "GET /illegal-parking-recognition HTTP/1.1" 200 -
+2025-01-09 17:51:57,375:INFO:127.0.0.1 - - [09/Jan/2025 17:51:57] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-09 17:51:57,377:INFO:127.0.0.1 - - [09/Jan/2025 17:51:57] "[36mGET /static/css/video.css HTTP/1.1[0m" 304 -
+2025-01-09 17:51:57,384:INFO:127.0.0.1 - - [09/Jan/2025 17:51:57] "[36mGET /static/css/exit_btn.css HTTP/1.1[0m" 304 -
+2025-01-09 17:51:57,390:INFO:127.0.0.1 - - [09/Jan/2025 17:51:57] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2025-01-09 17:52:12,900:INFO:127.0.0.1 - - [09/Jan/2025 17:52:12] "GET /search HTTP/1.1" 200 -
+2025-01-09 17:52:12,922:INFO:127.0.0.1 - - [09/Jan/2025 17:52:12] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-09 17:52:12,925:INFO:127.0.0.1 - - [09/Jan/2025 17:52:12] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-09 17:52:12,926:INFO:127.0.0.1 - - [09/Jan/2025 17:52:12] "[36mGET /static/css/view.css HTTP/1.1[0m" 304 -
+2025-01-09 17:52:15,850:INFO:127.0.0.1 - - [09/Jan/2025 17:52:15] "GET /search-results HTTP/1.1" 200 -
+2025-01-09 17:52:15,874:INFO:127.0.0.1 - - [09/Jan/2025 17:52:15] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-09 17:52:15,877:INFO:127.0.0.1 - - [09/Jan/2025 17:52:15] "[36mGET /static/css/search_results.css HTTP/1.1[0m" 304 -
+2025-01-09 17:52:15,878:INFO:127.0.0.1 - - [09/Jan/2025 17:52:15] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-09 17:52:16,480:INFO:127.0.0.1 - - [09/Jan/2025 17:52:16] "GET /alerts HTTP/1.1" 200 -
+2025-01-09 17:52:16,503:INFO:127.0.0.1 - - [09/Jan/2025 17:52:16] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-09 17:52:16,504:INFO:127.0.0.1 - - [09/Jan/2025 17:52:16] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-09 17:52:53,736:INFO:127.0.0.1 - - [09/Jan/2025 17:52:53] "GET /settings HTTP/1.1" 200 -
+2025-01-09 17:52:53,761:INFO:127.0.0.1 - - [09/Jan/2025 17:52:53] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-09 17:52:53,762:INFO:127.0.0.1 - - [09/Jan/2025 17:52:53] "[36mGET /static/css/setting.css HTTP/1.1[0m" 304 -
+2025-01-09 17:53:12,756:INFO:0∞≥¿« πÆ¿«ªÁ«◊¿ª ∫“∑Øø‘Ω¿¥œ¥Ÿ.
+2025-01-09 17:53:12,791:INFO:127.0.0.1 - - [09/Jan/2025 17:53:12] "GET /inquiry HTTP/1.1" 200 -
+2025-01-09 17:53:12,820:INFO:127.0.0.1 - - [09/Jan/2025 17:53:12] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-09 17:53:12,822:INFO:127.0.0.1 - - [09/Jan/2025 17:53:12] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-09 17:53:12,822:INFO:127.0.0.1 - - [09/Jan/2025 17:53:12] "[36mGET /static/css/inquiry_write_go.css HTTP/1.1[0m" 304 -
+2025-01-09 17:53:41,877:INFO:127.0.0.1 - - [09/Jan/2025 17:53:41] "GET /work HTTP/1.1" 200 -
+2025-01-09 17:53:41,907:INFO:127.0.0.1 - - [09/Jan/2025 17:53:41] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-09 17:53:41,909:INFO:127.0.0.1 - - [09/Jan/2025 17:53:41] "[36mGET /static/css/back.css HTTP/1.1[0m" 304 -
+2025-01-09 17:53:41,910:INFO:127.0.0.1 - - [09/Jan/2025 17:53:41] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-09 17:54:18,639:INFO:127.0.0.1 - - [09/Jan/2025 17:54:18] "GET /search-results HTTP/1.1" 200 -
+2025-01-09 17:54:18,661:INFO:127.0.0.1 - - [09/Jan/2025 17:54:18] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-09 17:54:18,670:INFO:127.0.0.1 - - [09/Jan/2025 17:54:18] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-09 17:54:18,671:INFO:127.0.0.1 - - [09/Jan/2025 17:54:18] "[36mGET /static/css/search_results.css HTTP/1.1[0m" 304 -
+2025-01-09 17:54:37,962:INFO:127.0.0.1 - - [09/Jan/2025 17:54:37] "GET /search HTTP/1.1" 200 -
+2025-01-09 17:54:37,990:INFO:127.0.0.1 - - [09/Jan/2025 17:54:37] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-09 17:54:37,990:INFO:127.0.0.1 - - [09/Jan/2025 17:54:37] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-09 17:54:37,990:INFO:127.0.0.1 - - [09/Jan/2025 17:54:37] "[36mGET /static/css/view.css HTTP/1.1[0m" 304 -
+2025-01-16 17:27:51,380:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-01-16 17:27:54,843:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-16 17:27:54,843:INFO:[33mPress CTRL+C to quit[0m
+2025-01-16 17:27:54,846:INFO: * Restarting with stat
+2025-01-16 17:28:02,102:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-01-16 17:28:04,777:WARNING: * Debugger is active!
+2025-01-16 17:28:04,785:INFO: * Debugger PIN: 123-224-856
+2025-01-16 17:28:04,887:INFO:127.0.0.1 - - [16/Jan/2025 17:28:04] "[32mGET / HTTP/1.1[0m" 302 -
+2025-01-16 17:28:04,887:INFO:127.0.0.1 - - [16/Jan/2025 17:28:04] "[32mGET / HTTP/1.1[0m" 302 -
+2025-01-16 17:28:04,892:INFO:∑Œ±◊¿Œ Ω√µµ
+2025-01-16 17:28:04,936:INFO:127.0.0.1 - - [16/Jan/2025 17:28:04] "GET /login HTTP/1.1" 200 -
+2025-01-16 17:28:05,040:INFO:127.0.0.1 - - [16/Jan/2025 17:28:05] "GET /static/css/home.css HTTP/1.1" 200 -
+2025-01-16 17:28:14,413:INFO:∑Œ±◊¿Œ Ω√µµ
+2025-01-16 17:28:14,687:INFO:127.0.0.1 - - [16/Jan/2025 17:28:14] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-01-16 17:28:14,694:INFO:127.0.0.1 - - [16/Jan/2025 17:28:14] "GET / HTTP/1.1" 200 -
+2025-01-16 17:28:14,720:INFO:127.0.0.1 - - [16/Jan/2025 17:28:14] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-16 17:28:18,851:INFO:127.0.0.1 - - [16/Jan/2025 17:28:18] "GET /search HTTP/1.1" 200 -
+2025-01-16 17:28:18,876:INFO:127.0.0.1 - - [16/Jan/2025 17:28:18] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-16 17:28:18,892:INFO:127.0.0.1 - - [16/Jan/2025 17:28:18] "[36mGET /static/css/view.css HTTP/1.1[0m" 304 -
+2025-01-16 17:28:18,893:INFO:127.0.0.1 - - [16/Jan/2025 17:28:18] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-16 17:28:20,052:INFO:127.0.0.1 - - [16/Jan/2025 17:28:20] "GET / HTTP/1.1" 200 -
+2025-01-16 17:28:20,075:INFO:127.0.0.1 - - [16/Jan/2025 17:28:20] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:07,440:INFO:127.0.0.1 - - [16/Jan/2025 17:35:07] "GET /settings HTTP/1.1" 200 -
+2025-01-16 17:35:07,460:INFO:127.0.0.1 - - [16/Jan/2025 17:35:07] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:07,477:INFO:127.0.0.1 - - [16/Jan/2025 17:35:07] "[36mGET /static/css/setting.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:07,975:INFO:0∞≥¿« πÆ¿«ªÁ«◊¿ª ∫“∑Øø‘Ω¿¥œ¥Ÿ.
+2025-01-16 17:35:08,009:INFO:127.0.0.1 - - [16/Jan/2025 17:35:08] "GET /inquiry HTTP/1.1" 200 -
+2025-01-16 17:35:08,029:INFO:127.0.0.1 - - [16/Jan/2025 17:35:08] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:08,036:INFO:127.0.0.1 - - [16/Jan/2025 17:35:08] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:08,046:INFO:127.0.0.1 - - [16/Jan/2025 17:35:08] "[36mGET /static/css/inquiry_write_go.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:09,046:INFO:127.0.0.1 - - [16/Jan/2025 17:35:09] "GET /security HTTP/1.1" 200 -
+2025-01-16 17:35:09,065:INFO:127.0.0.1 - - [16/Jan/2025 17:35:09] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:09,074:INFO:127.0.0.1 - - [16/Jan/2025 17:35:09] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:09,081:INFO:127.0.0.1 - - [16/Jan/2025 17:35:09] "[36mGET /static/css/security.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:09,472:INFO:127.0.0.1 - - [16/Jan/2025 17:35:09] "GET /work HTTP/1.1" 200 -
+2025-01-16 17:35:09,493:INFO:127.0.0.1 - - [16/Jan/2025 17:35:09] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:09,503:INFO:127.0.0.1 - - [16/Jan/2025 17:35:09] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:09,512:INFO:127.0.0.1 - - [16/Jan/2025 17:35:09] "[36mGET /static/css/back.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:10,741:INFO:127.0.0.1 - - [16/Jan/2025 17:35:10] "GET /alerts HTTP/1.1" 200 -
+2025-01-16 17:35:10,761:INFO:127.0.0.1 - - [16/Jan/2025 17:35:10] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:10,770:INFO:127.0.0.1 - - [16/Jan/2025 17:35:10] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:11,517:INFO:127.0.0.1 - - [16/Jan/2025 17:35:11] "GET /search-results HTTP/1.1" 200 -
+2025-01-16 17:35:11,545:INFO:127.0.0.1 - - [16/Jan/2025 17:35:11] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:11,546:INFO:127.0.0.1 - - [16/Jan/2025 17:35:11] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:11,562:INFO:127.0.0.1 - - [16/Jan/2025 17:35:11] "[36mGET /static/css/search_results.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:12,986:INFO:127.0.0.1 - - [16/Jan/2025 17:35:12] "GET /work HTTP/1.1" 200 -
+2025-01-16 17:35:13,015:INFO:127.0.0.1 - - [16/Jan/2025 17:35:13] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:13,015:INFO:127.0.0.1 - - [16/Jan/2025 17:35:13] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:13,016:INFO:127.0.0.1 - - [16/Jan/2025 17:35:13] "[36mGET /static/css/back.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:13,687:INFO:127.0.0.1 - - [16/Jan/2025 17:35:13] "GET /search HTTP/1.1" 200 -
+2025-01-16 17:35:13,707:INFO:127.0.0.1 - - [16/Jan/2025 17:35:13] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:13,715:INFO:127.0.0.1 - - [16/Jan/2025 17:35:13] "[36mGET /static/css/view.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:13,715:INFO:127.0.0.1 - - [16/Jan/2025 17:35:13] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:32,495:INFO:127.0.0.1 - - [16/Jan/2025 17:35:32] "GET /search HTTP/1.1" 200 -
+2025-01-16 17:35:32,509:INFO:127.0.0.1 - - [16/Jan/2025 17:35:32] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:32,515:INFO:127.0.0.1 - - [16/Jan/2025 17:35:32] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:32,517:INFO:127.0.0.1 - - [16/Jan/2025 17:35:32] "[36mGET /static/css/view.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:33,551:INFO:127.0.0.1 - - [16/Jan/2025 17:35:33] "GET /search-results HTTP/1.1" 200 -
+2025-01-16 17:35:33,579:INFO:127.0.0.1 - - [16/Jan/2025 17:35:33] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:33,582:INFO:127.0.0.1 - - [16/Jan/2025 17:35:33] "[36mGET /static/css/search_results.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:33,582:INFO:127.0.0.1 - - [16/Jan/2025 17:35:33] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:34,645:INFO:127.0.0.1 - - [16/Jan/2025 17:35:34] "GET / HTTP/1.1" 200 -
+2025-01-16 17:35:34,664:INFO:127.0.0.1 - - [16/Jan/2025 17:35:34] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-21 09:25:58,633:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-01-21 09:26:02,126:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-21 09:26:02,126:INFO:[33mPress CTRL+C to quit[0m
+2025-01-21 09:26:02,129:INFO: * Restarting with stat
+2025-01-21 09:26:09,147:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-01-21 09:26:11,897:WARNING: * Debugger is active!
+2025-01-21 09:26:11,904:INFO: * Debugger PIN: 992-663-157
+2025-01-21 09:26:12,035:INFO:127.0.0.1 - - [21/Jan/2025 09:26:12] "[32mGET / HTTP/1.1[0m" 302 -
+2025-01-21 09:26:12,043:INFO:∑Œ±◊¿Œ Ω√µµ
+2025-01-21 09:26:12,094:INFO:127.0.0.1 - - [21/Jan/2025 09:26:12] "GET /login HTTP/1.1" 200 -
+2025-01-21 09:26:12,201:INFO:127.0.0.1 - - [21/Jan/2025 09:26:12] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-21 09:26:12,234:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-01-21 09:26:12,255:INFO:127.0.0.1 - - [21/Jan/2025 09:26:12] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-01-21 09:26:15,085:INFO:∑Œ±◊¿Œ Ω√µµ
+2025-01-21 09:26:15,368:INFO:127.0.0.1 - - [21/Jan/2025 09:26:15] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-01-21 09:26:15,376:INFO:127.0.0.1 - - [21/Jan/2025 09:26:15] "GET / HTTP/1.1" 200 -
+2025-01-21 09:26:15,399:INFO:127.0.0.1 - - [21/Jan/2025 09:26:15] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-21 09:26:15,420:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-01-21 09:26:15,422:INFO:127.0.0.1 - - [21/Jan/2025 09:26:15] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-01-21 09:27:18,221:INFO:0∞≥¿« πÆ¿«ªÁ«◊¿ª ∫“∑Øø‘Ω¿¥œ¥Ÿ.
+2025-01-21 09:27:18,245:INFO:127.0.0.1 - - [21/Jan/2025 09:27:18] "GET /inquiry HTTP/1.1" 200 -
+2025-01-21 09:27:18,271:INFO:127.0.0.1 - - [21/Jan/2025 09:27:18] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-21 09:27:18,275:INFO:127.0.0.1 - - [21/Jan/2025 09:27:18] "[36mGET /static/css/inquiry_write_go.css HTTP/1.1[0m" 304 -
+2025-01-21 09:27:18,277:INFO:127.0.0.1 - - [21/Jan/2025 09:27:18] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-21 09:27:18,295:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-01-21 09:27:18,296:INFO:127.0.0.1 - - [21/Jan/2025 09:27:18] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-01-21 09:27:32,097:INFO:0∞≥¿« πÆ¿«ªÁ«◊¿ª ∫“∑Øø‘Ω¿¥œ¥Ÿ.
+2025-01-21 09:27:32,116:INFO:127.0.0.1 - - [21/Jan/2025 09:27:32] "GET /inquiry HTTP/1.1" 200 -
+2025-01-21 09:27:32,138:INFO:127.0.0.1 - - [21/Jan/2025 09:27:32] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-21 09:27:32,139:INFO:127.0.0.1 - - [21/Jan/2025 09:27:32] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-21 09:27:32,142:INFO:127.0.0.1 - - [21/Jan/2025 09:27:32] "[36mGET /static/css/inquiry_write_go.css HTTP/1.1[0m" 304 -
+2025-01-21 09:27:32,156:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-01-21 09:27:32,157:INFO:127.0.0.1 - - [21/Jan/2025 09:27:32] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-01-21 09:27:33,059:INFO:0∞≥¿« πÆ¿«ªÁ«◊¿ª ∫“∑Øø‘Ω¿¥œ¥Ÿ.
+2025-01-21 09:27:33,061:INFO:127.0.0.1 - - [21/Jan/2025 09:27:33] "GET /inquiry HTTP/1.1" 200 -
+2025-01-21 09:27:33,073:INFO:127.0.0.1 - - [21/Jan/2025 09:27:33] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-21 09:27:33,082:INFO:127.0.0.1 - - [21/Jan/2025 09:27:33] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-21 09:27:33,082:INFO:127.0.0.1 - - [21/Jan/2025 09:27:33] "[36mGET /static/css/inquiry_write_go.css HTTP/1.1[0m" 304 -
+2025-01-21 09:27:33,094:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-01-21 09:27:33,095:INFO:127.0.0.1 - - [21/Jan/2025 09:27:33] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-01-21 09:27:38,030:INFO:127.0.0.1 - - [21/Jan/2025 09:27:38] "GET /settings HTTP/1.1" 200 -
+2025-01-21 09:27:38,054:INFO:127.0.0.1 - - [21/Jan/2025 09:27:38] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-21 09:27:38,054:INFO:127.0.0.1 - - [21/Jan/2025 09:27:38] "[36mGET /static/css/setting.css HTTP/1.1[0m" 304 -
+2025-01-21 09:27:38,071:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-01-21 09:27:38,072:INFO:127.0.0.1 - - [21/Jan/2025 09:27:38] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-01-21 09:27:38,618:INFO:127.0.0.1 - - [21/Jan/2025 09:27:38] "GET /security HTTP/1.1" 200 -
+2025-01-21 09:27:38,641:INFO:127.0.0.1 - - [21/Jan/2025 09:27:38] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-21 09:27:38,652:INFO:127.0.0.1 - - [21/Jan/2025 09:27:38] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-21 09:27:38,652:INFO:127.0.0.1 - - [21/Jan/2025 09:27:38] "[36mGET /static/css/security.css HTTP/1.1[0m" 304 -
+2025-01-21 09:27:38,671:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-01-21 09:27:38,671:INFO:127.0.0.1 - - [21/Jan/2025 09:27:38] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-01-21 09:27:39,435:INFO:127.0.0.1 - - [21/Jan/2025 09:27:39] "GET /work HTTP/1.1" 200 -
+2025-01-21 09:27:39,462:INFO:127.0.0.1 - - [21/Jan/2025 09:27:39] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-21 09:27:39,470:INFO:127.0.0.1 - - [21/Jan/2025 09:27:39] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-21 09:27:39,470:INFO:127.0.0.1 - - [21/Jan/2025 09:27:39] "[36mGET /static/css/back.css HTTP/1.1[0m" 304 -
+2025-01-21 09:27:39,488:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-01-21 09:27:39,488:INFO:127.0.0.1 - - [21/Jan/2025 09:27:39] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -

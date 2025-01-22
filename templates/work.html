@@ -1,59 +1,68 @@
-{% extends 'home.html' %}
-
-{% block content %}
+{% extends 'home.html' %} {% block content %}
 <!-- CSS 파일 추가 -->
-<link rel="stylesheet" href="{{ url_for('static', filename='report.css') }}">
-<link rel="stylesheet" href="{{ url_for('static', filename='back.css') }}">
+<link
+  rel="stylesheet"
+  href="{{ url_for('static', filename='css/report.css') }}"
+/>
+<link
+  rel="stylesheet"
+  href="{{ url_for('static', filename='css/back.css') }}"
+/>
 
 <h1>출퇴근 목록</h1>
 
 <!-- 보고서 테이블 -->
 <table>
-    <thead>
-        <tr>
-            <th>작성자</th>
-            <th>입차 수</th>
-            <th>출차 수</th>
-            <th>현재 주차 수</th>
-            <th>출근</th>
-            <th>퇴근</th>
-            <th>총 요금</th>
-        </tr>
-    </thead>
-    <tbody>
-        {% for report in reports.items %}
-        <tr>
-            <td>{{ report.user_name }}</td> <!-- 수정된 부분 -->
-            <td>{{ report.entry_count }}</td>
-            <td>{{ report.exit_count }}</td>
-            <td>{{ report.current_parking_count }}</td>
-            <td>{{ report.start_time.strftime('%Y-%m-%d %H:%M:%S') if report.start_time else '' }}</td> <!-- 초 포함 -->
-            <td>{{ report.end_time.strftime('%Y-%m-%d %H:%M:%S') if report.end_time else '' }}</td> <!-- 초 포함 -->
-            <td>{{ report.total_fee }}원</td>
-        </tr>
-        {% endfor %}
-    </tbody>
+  <thead>
+    <tr>
+      <th>작성자</th>
+      <th>입차 수</th>
+      <th>출차 수</th>
+      <th>현재 주차 수</th>
+      <th>출근</th>
+      <th>퇴근</th>
+      <th>총 요금</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for report in reports.items %}
+    <tr>
+      <td>{{ report.user_name }}</td>
+      <!-- 수정된 부분 -->
+      <td>{{ report.entry_count }}</td>
+      <td>{{ report.exit_count }}</td>
+      <td>{{ report.current_parking_count }}</td>
+      <td>
+        {{ report.start_time.strftime('%Y-%m-%d %H:%M:%S') if report.start_time
+        else '' }}
+      </td>
+      <!-- 초 포함 -->
+      <td>
+        {{ report.end_time.strftime('%Y-%m-%d %H:%M:%S') if report.end_time else
+        '' }}
+      </td>
+      <!-- 초 포함 -->
+      <td>{{ report.total_fee }}원</td>
+    </tr>
+    {% endfor %}
+  </tbody>
 </table>
 
 <!-- 페이지네이션 -->
 <div class="pagination">
-    {% if reports.has_prev %}
-    <a href="?page={{ reports.prev_num }}">이전</a>
-    {% endif %}
-    {% for page in reports.iter_pages(left_edge=1, right_edge=1, left_current=2, right_current=2) %}
-        {% if page %}
-            {% if page == reports.page %}
-            <a class="active">{{ page }}</a>
-            {% else %}
-            <a href="?page={{ page }}">{{ page }}</a>
-            {% endif %}
-        {% else %}
-            <span>...</span>
-        {% endif %}
-    {% endfor %}
-    {% if reports.has_next %}
-    <a href="?page={{ reports.next_num }}">다음</a>
-    {% endif %}
+  {% if reports.has_prev %}
+  <a href="?page={{ reports.prev_num }}">이전</a>
+  {% endif %} {% for page in reports.iter_pages(left_edge=1, right_edge=1,
+  left_current=2, right_current=2) %} {% if page %} {% if page == reports.page
+  %}
+  <a class="active">{{ page }}</a>
+  {% else %}
+  <a href="?page={{ page }}">{{ page }}</a>
+  {% endif %} {% else %}
+  <span>...</span>
+  {% endif %} {% endfor %} {% if reports.has_next %}
+  <a href="?page={{ reports.next_num }}">다음</a>
+  {% endif %}
 </div>
 
 {% endblock %}

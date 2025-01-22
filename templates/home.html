@@ -1,69 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CCTV Platform</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='home.css') }}">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/home.css') }}"
+    />
+  </head>
+  <body>
     <!-- 상단 바 -->
     <header>
-        <div class="logo" >
-            <a href="/">CCTV</a>
-        </div>
-        <div class="buttons">
-            {% if session['logged_in'] %}
-                <!-- 로그인한 경우에만 로그아웃 버튼을 홈 버튼 왼쪽에 표시 -->
-                <form action="{{ url_for('logout') }}" method="POST" style="display:inline;">
-                    <button type="submit">로그아웃</button>
-                </form>
-            {% endif %}
-            <button onclick="window.location.href='/entry-recognition'">입차 인식</button>
-            <button onclick="window.location.href='/exit-recognition'">출차 인식</button>
-            <button onclick="window.location.href='/light-vehicle-recognition'">경차 인식</button>
-            <button onclick="window.location.href='/disabled-vehicle-recognition'">장애인 차량 인식</button>
-            <button onclick="window.location.href='/illegal-parking-recognition'">불법 주차 차량 인식</button>
-        </div>
+      <div class="logo">
+        <a href="/">CCTV</a>
+      </div>
+      <div class="buttons">
+        {% if session['logged_in'] %}
+        <!-- 로그인한 경우에만 로그아웃 버튼을 홈 버튼 왼쪽에 표시 -->
+        <form
+          action="{{ url_for('logout') }}"
+          method="POST"
+          style="display: inline"
+        >
+          <button type="submit">로그아웃</button>
+        </form>
+        {% endif %}
+        <button onclick="window.location.href='/entry-recognition'">
+          입차 인식
+        </button>
+        <button onclick="window.location.href='/exit-recognition'">
+          출차 인식
+        </button>
+        <button onclick="window.location.href='/light-vehicle-recognition'">
+          경차 인식
+        </button>
+        <button onclick="window.location.href='/disabled-vehicle-recognition'">
+          장애인 차량 인식
+        </button>
+        <button onclick="window.location.href='/illegal-parking-recognition'">
+          불법 주차 차량 인식
+        </button>
+      </div>
     </header>
 
     <!-- 좌측 사이드 바 -->
     <nav>
-        <ul>
-            {% if session['logged_in'] and session['role'] != 'pending' %}
-                <!-- 모든 사용자가 볼 수 있는 링크 -->
-                <li><a href="/search">검색 리스트</a></li>
-                <li><a href="/search-results">검색 결과</a></li>
-                <li><a href="/alerts">알람 현황</a></li>
-                
-                <!-- 관리자만 볼 수 있는 링크 -->
-                {% if session['role'] == 'admin' %}
-                    <li><a href="/work">출퇴근 목록</a></li>
-                    <li><a href="/security">보안 / 로그인</a></li>
-                    <li><a href="/settings">환경 설정</a></li>
-                {% endif %}
-                
-                <!-- 일반 사용자만 볼 수 있는 링크 -->
-                {% if session['role'] == 'user' %}
-                    <li><a href="/report">보고서 작성</a></li>
-                {% endif %}
-                <li><a href="/inquiry">문의 사항</a></li>
-            {% endif %}
-            {%if session['role'] == 'pending'%}
-            <p>관리자 승인이 필요합니다.<p>
-            <p>관리자에게 문의해주세요.<p>
-            {% endif %}
-        </ul>
+      <ul>
+        {% if session['logged_in'] and session['role'] != 'pending' %}
+        <!-- 모든 사용자가 볼 수 있는 링크 -->
+        <li><a href="/search">검색 리스트</a></li>
+        <li><a href="/search-results">검색 결과</a></li>
+        <li><a href="/alerts">알람 현황</a></li>
+
+        <!-- 관리자만 볼 수 있는 링크 -->
+        {% if session['role'] == 'admin' %}
+        <li><a href="/work">출퇴근 목록</a></li>
+        <li><a href="/security">보안 / 로그인</a></li>
+        <li><a href="/settings">환경 설정</a></li>
+        {% endif %}
+
+        <!-- 일반 사용자만 볼 수 있는 링크 -->
+        {% if session['role'] == 'user' %}
+        <li><a href="/report">보고서 작성</a></li>
+        {% endif %}
+        <li><a href="/inquiry">요청 사항</a></li>
+        {% endif %} {%if session['role'] == 'pending'%}
+        <p>관리자 승인이 필요합니다.</p>
+        <p></p>
+        <p>관리자에게 문의해주세요.</p>
+        <p>{% endif %}</p>
+      </ul>
     </nav>
 
     <!-- 본문 영역 -->
     <div class="main-content">
-        {% block content %}
-        <h1>HOME</h1>
-        {% endblock %}
+      {% block content %}
+      <h1>HOME</h1>
+      {% endblock %}
     </div>
     <div class="admin_email">
-        관리자 이메일 <p></p>{{ g.admin_email }}
+      관리자 이메일
+      <p></p>
+      {{ g.admin_email }}
     </div>
-</body>
+  </body>
 </html>

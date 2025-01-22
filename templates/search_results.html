@@ -1,45 +1,51 @@
-{% extends 'home.html' %}
-
-{% block content %}
-<link rel="stylesheet" href="{{ url_for('static', filename='report.css') }}">
-<link rel="stylesheet" href="{{ url_for('static', filename='search_results.css') }}">
+{% extends 'home.html' %} {% block content %}
+<link
+  rel="stylesheet"
+  href="{{ url_for('static', filename='css/report.css') }}"
+/>
+<link
+  rel="stylesheet"
+  href="{{ url_for('static', filename='css/search_results.css') }}"
+/>
 
 <!-- 검색 입력 폼 -->
 <form method="POST" action="{{ url_for('search_results') }}" class="fixed-form">
-    <label for="query">차량 번호 4자리:</label>
-    <input type="text" id="query" name="query" maxlength="4" pattern="\d{4}" required>
-    <button type="submit">검색</button>
+  <label for="query">차량 번호 4자리:</label>
+  <input
+    type="text"
+    id="query"
+    name="query"
+    maxlength="4"
+    pattern="\d{4}"
+    required
+  />
+  <button type="submit">검색</button>
 </form>
 
 <!-- 검색 결과 -->
 {% if query %}
 <h2>검색 결과: "{{ query }}"</h2>
 
-    {% for category, records in results.items() %}
-        {% if records|length > 0 %}
-        <h3 class="search-category-title">{{ category }}</h3>
-        <table class="search-results-table">
-            <thead>
-                <tr>
-                    <th>차량 번호</th>
-                    <th>핸드폰 번호</th>
-                    <th>인식 시간</th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for record in records %}
-                <tr>
-                    <td>{{ record.vehicle_number }}</td>
-                    <td>{{ record.phone_number }}</td>
-                    <td>{{ record.recognition_time }}</td>
-                </tr>
-                {% endfor %}
-            </tbody>
-        </table>
-        {% endif %}
+{% for category, records in results.items() %} {% if records|length > 0 %}
+<h3 class="search-category-title">{{ category }}</h3>
+<table class="search-results-table">
+  <thead>
+    <tr>
+      <th>차량 번호</th>
+      <th>핸드폰 번호</th>
+      <th>인식 시간</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for record in records %}
+    <tr>
+      <td>{{ record.vehicle_number }}</td>
+      <td>{{ record.phone_number }}</td>
+      <td>{{ record.recognition_time }}</td>
+    </tr>
     {% endfor %}
-{% else %}
+  </tbody>
+</table>
+{% endif %} {% endfor %} {% else %}
 <p>검색 결과가 없습니다.</p>
-{% endif %}
-
-{% endblock %}
+{% endif %} {% endblock %}
