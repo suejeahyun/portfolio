@@ -1,11 +1,12 @@
-from flask import Blueprint, render_template, session, redirect, url_for, request, flash, Response, current_app, jsonify
+from flask import Blueprint, render_template, session, redirect, url_for, request, flash, Response, current_app, jsonify,  stream_with_context
 from app import db, bcrypt
-from app.models import User, CCTV, DetectionLog, AbnormalBehaviorLog
-from .utils import load_yolov8_model
+from app.models import User, CCTV, DetectionLog, AbnormalBehaviorLog, Setting
+from .utils import get_latest_frame, calculate_density, generate_frames, load_model
 from datetime import datetime
+from pytz import timezone
 import cv2
 import os
-import logging
+import base64
 
 main = Blueprint('main', __name__)
 
@@ -18,57 +19,17 @@ def require_login():
 @main.route('/')
 def index():
     try:
-        # 데이터베이스에서 CCTV 데이터 가져오기
+        # CCTV 데이터를 데이터베이스에서 가져오기
         cctvs = CCTV.query.all()
-        cctvs_data = [cctv.to_dict() for cctv in cctvs]  # 직렬화 가능한 형식으로 변환
-
-        # 템플릿 렌더링
-        return render_template('cctv.html', cctvs=cctvs_data)
-
+        cctv_ids = [cctv.cctv_id for cctv in cctvs]
+        
+        # home.html 렌더링 시 CCTV ID 데이터 전달
+        return render_template('home.html', cctv_ids=cctv_ids)
+    
     except Exception as e:
-        current_app.logger.error(f"Error fetching CCTV data: {e}")
-        return f"An error occurred: {e}", 500
-
-
-    except Exception as e:
-        # 오류 발생 시 로그 기록
-        current_app.logger.error('An error occurred while fetching CCTV data', exc_info=True)
-        current_app.logger.critical(f'Critical error: {e}', exc_info=True)
-        return f"An error occurred: {str(e)}", 500
-
-@main.route('/video_feed/<int:camera_index>')
-def video_feed(camera_index):
-    def generate_frames():
-        model = load_yolov8_model()
-        cap = cv2.VideoCapture(camera_index)
-        if not cap.isOpened():
-            raise RuntimeError("웹캠을 열 수 없습니다.")
-
-        while True:
-            ret, frame = cap.read()
-            if not ret:
-                break
-
-            # YOLOv8로 탐지 및 박싱
-            results = model.predict(source=frame, save=False, verbose=False)
-            detections = results[0].boxes.data.cpu().numpy()
-
-            for detection in detections:
-                x1, y1, x2, y2, conf, cls = detection
-                if int(cls) == 0 and conf >= 0.5:
-                    cv2.rectangle(frame, (int(x1), int(y1)), (int(x2), int(y2)), (255, 0, 0), 2)
-                    label = f"Person: {conf:.2f}"
-                    cv2.putText(frame, label, (int(x1), int(y1) - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 0, 0), 2)
-
-            # 프레임을 JPEG로 인코딩하여 스트리밍
-            _, buffer = cv2.imencode('.jpg', frame)
-            frame = buffer.tobytes()
-            yield (b'--frame\r\n'
-                   b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n')
-
-        cap.release()
-
-    return Response(generate_frames(), mimetype='multipart/x-mixed-replace; boundary=frame')
+        # 오류 발생 시 로그 기록 및 사용자에게 메시지 표시
+        current_app.logger.error(f"Error fetching CCTV data: {e}", exc_info=True)
+        return f"An error occurred while fetching CCTV data: {e}", 500
 
 @main.route('/login')
 def login():
@@ -179,6 +140,11 @@ def delete_cctv(cctv_id):
     cctv = CCTV.query.get(cctv_id)
     if cctv:
         try:
+            # CCTV가 삭제되기 전에 관련된 로그들을 수동으로 삭제
+            DetectionLog.query.filter_by(cctv_id=cctv.cctv_id).delete()
+            AbnormalBehaviorLog.query.filter_by(cctv_id=cctv.id).delete()
+
+            # CCTV 삭제
             db.session.delete(cctv)
             db.session.commit()
             flash(f"{cctv.location} (ID: {cctv.cctv_id})이 삭제되었습니다.")
@@ -188,6 +154,7 @@ def delete_cctv(cctv_id):
     else:
         flash("존재하지 않는 CCTV입니다.")
     return redirect(url_for('main.cctv_list'))
+
 
 
 # 사용자 관리 페이지
@@ -253,75 +220,195 @@ def add_detection_log():
 
 @main.route('/abnormal-behavior')
 def abnormal_behavior():
-    """
-    이상행동 감지 데이터를 조회하고 템플릿으로 렌더링합니다.
-    """
-    # 데이터베이스에서 이상행동 감지 데이터 조회
+    page = request.args.get('page', 1, type=int)
+
+    # 데이터베이스에서 이상행동 감지 데이터 조회 (페이지네이션 10개 항목)
     logs = AbnormalBehaviorLog.query.join(CCTV).add_columns(
         AbnormalBehaviorLog.id,
         AbnormalBehaviorLog.detection_time,
         CCTV.location,
         AbnormalBehaviorLog.image_url,
         AbnormalBehaviorLog.fall_status
-    ).all()
+    ).order_by(AbnormalBehaviorLog.detection_time.desc()).paginate(page=page, per_page=10, error_out=False)  # 페이지네이션 (1페이지, 10개 항목)
 
     # 템플릿 렌더링
-    return render_template('abnormal_behavior.html', logs=logs)    
+    return render_template('abnormal_behavior.html', logs=logs)   
 
 @main.route('/warning')
 def density_stats():
-    # 밀집도 통계 데이터 조회
+    # 페이지 번호를 쿼리 문자열에서 가져오기 (기본값: 1)
+    page = request.args.get('page', 1, type=int)
+
+    # 밀집도 통계 데이터 조회 (페이지네이션 10개 항목)
     logs = DetectionLog.query.join(CCTV).add_columns(
         DetectionLog.id,
         DetectionLog.detection_time,
         CCTV.location,
         DetectionLog.density_level,
-        DetectionLog.overcrowding_level,
         DetectionLog.object_count,
         DetectionLog.image_url
-    ).all()
+    ).order_by(DetectionLog.detection_time.desc()).paginate(page=page, per_page=10, error_out=False) # 페이지네이션 (1페이지, 10개 항목)
+
     return render_template('warning.html', logs=logs)
 
-@main.route('/capture/<cctv_id>', methods=['POST'])
-def capture_cctv(cctv_id):
+
+@main.route('/save-capture', methods=['POST'])
+def save_capture():
+    data = request.json
+    cctv_id = data.get("cctv_id")
+    image_data = data.get("image_data")
+
+    if not cctv_id or not image_data:
+        return jsonify({"error": "Missing data"}), 400
+
+    # 이미지 데이터 디코딩
+    header, encoded = image_data.split(",", 1)
+    image_binary = base64.b64decode(encoded)
+
+    # 파일 저장 경로 및 이름 설정
+    timestamp = datetime.now(timezone('Asia/Seoul')).strftime("%Y%m%d%H%M%S")
+    filename = f"{cctv_id}_{timestamp}.jpg"
+    save_dir = os.path.join("app", "static", "images", "cctv_capture")
+    os.makedirs(save_dir, exist_ok=True)
+    filepath = os.path.join(save_dir, filename)
+
+    # 파일 저장
     try:
-        # cctv_id에서 숫자를 추출하고 -1 계산
-        try:
-            webcam_index = int(''.join(filter(str.isdigit, cctv_id))) - 1
-        except ValueError:
-            raise ValueError(f"유효하지 않은 CCTV ID: {cctv_id}")
-
-        # 데이터베이스에서 CCTV 위치 조회
-        cctv = CCTV.query.filter_by(cctv_id=cctv_id).first()
-        if not cctv:
-            raise ValueError(f"CCTV ID {cctv_id}에 해당하는 데이터가 없습니다.")
-        
-        location = cctv.location.replace(" ", "_")  # 공백 제거 및 파일명 안전화
-
-        # 해당 웹캠 인덱스로 비디오 스트림 열기
-        cap = cv2.VideoCapture(webcam_index)
-        if not cap.isOpened():
-            raise RuntimeError(f"CCTV {cctv_id}에 접근할 수 없습니다. (웹캠 인덱스: {webcam_index})")
-
-        # 프레임 읽기
-        ret, frame = cap.read()
-        if not ret:
-            raise RuntimeError(f"CCTV {cctv_id}의 프레임을 읽을 수 없습니다.")
-        
-        # 캡쳐 파일 저장 경로 생성
-        timestamp = datetime.now().strftime('%Y_%m_%d_%H_%M')
-        file_name = f"{location}_{timestamp}.jpg"
-        file_path = os.path.join(current_app.root_path, 'static/images/cctv_capture', file_name)
-        
-        # 디렉토리 생성 (없을 경우)
-        os.makedirs(os.path.dirname(file_path), exist_ok=True)
-
-        # 이미지 저장
-        cv2.imwrite(file_path, frame)
-        cap.release()
-
-        # 성공 응답
-        return jsonify({"success": True, "file_path": file_name})
+        with open(filepath, "wb") as f:
+            f.write(image_binary)
+        return jsonify({"message": "Image saved successfully", "filename": filename}), 200
     except Exception as e:
-        current_app.logger.error(f"CCTV 캡쳐 중 오류 발생: {e}")
-        return jsonify({"success": False, "error": str(e)}), 500
+        return jsonify({"error": str(e)}), 500
+
+#마지막 접근 라우트
+@main.route('/update-last-access/<cctv_id>', methods=['POST'])
+def update_last_access(cctv_id):
+    # CCTV 모델에서 해당 ID 검색
+    cctv = CCTV.query.filter_by(cctv_id=cctv_id).first()
+    if not cctv:
+        return jsonify({"error": f"CCTV ID '{cctv_id}' not found"}), 404
+
+    # 현재 시간으로 last_access 업데이트
+    cctv.last_access = datetime.now(timezone('Asia/Seoul'))
+    try:
+        db.session.commit()
+        return jsonify({"success": True, "message": "Last access updated", "last_access": cctv.last_access.isoformat()}), 200
+    except Exception as e:
+        db.session.rollback()
+        return jsonify({"success": False, "message": str(e)}), 500
+
+@main.route('/focus-webcam/<cctv_id>')
+def webcam_focus(cctv_id):
+    # CCTV ID로 CCTV 데이터를 검색
+    cctv = CCTV.query.filter_by(cctv_id=cctv_id).first()
+    if not cctv:
+        flash(f"CCTV ID '{cctv_id}'에 해당하는 데이터가 없습니다.")
+        return redirect(url_for('main.cctv_list'))  # CCTV 목록 페이지로 리다이렉트
+
+    return render_template('webcam_focus.html', cctv=cctv)
+
+@main.route('/video-stream/<cctv_id>/<model_type>')
+def video_stream(cctv_id, model_type):
+    # 장치 인덱스 계산
+    try:
+        device_index = int(cctv_id.replace('CCTV', '')) - 1
+    except ValueError:
+        return jsonify({"error": "Invalid CCTV ID format"}), 400
+
+    # 설정값 가져오기
+    settings = Setting.query.order_by(Setting.level).all()
+    thresholds = {setting.level: setting.max_density for setting in settings}
+    
+    # 모델 로드
+    try:
+        model = load_model(model_type)  # 모델을 한번만 로드
+    except Exception as e:
+        return jsonify({"error": f"Failed to load YOLO model: {str(e)}"}), 500
+
+    # 스트리밍을 위해 모델과 함께 새로 프레임을 생성
+    return Response(
+        stream_with_context(generate_frames(model, model_type, device_index, thresholds, cctv_id)),
+        mimetype='multipart/x-mixed-replace; boundary=frame'
+    )
+
+@main.route('/settings', methods=['GET', 'POST'])
+def settings():
+    if request.method == 'POST':
+        level = request.form.get('level')
+        max_density = request.form.get('max_density')
+        description = request.form.get('description')
+
+        # 기존 레벨 수정/추가
+        setting = Setting.query.filter_by(level=level).first()
+        if not setting:
+            setting = Setting(level=level, max_density=max_density, description=description)
+            db.session.add(setting)
+        else:
+            setting.max_density = max_density
+            setting.description = description
+        
+        try:
+            db.session.commit()
+            flash("설정이 성공적으로 업데이트되었습니다.")
+        except Exception as e:
+            db.session.rollback()
+            flash(f"설정 업데이트 중 오류가 발생했습니다: {e}")
+
+        return redirect(url_for('main.settings'))
+
+    settings = Setting.query.order_by(Setting.level).all()
+    return render_template('settings.html', settings=settings)
+
+@main.route('/add-setting', methods=['GET', 'POST'])
+def add_setting():
+    if request.method == 'POST':
+        level = request.form.get('level')
+        max_density = request.form.get('max_density')
+        description = request.form.get('description')
+
+        # 새 설정 추가
+        new_setting = Setting(level=level, max_density=max_density, description=description)
+        try:
+            db.session.add(new_setting)
+            db.session.commit()
+            flash("새 설정이 성공적으로 추가되었습니다.")
+        except Exception as e:
+            db.session.rollback()
+            flash(f"설정 추가 중 오류가 발생했습니다: {e}")
+
+        return redirect(url_for('main.settings'))
+
+    return render_template('add_setting.html')
+
+@main.route('/edit-setting/<int:setting_id>', methods=['GET'])
+def edit_setting(setting_id):
+    setting = Setting.query.get_or_404(setting_id)
+    return render_template('edit_setting.html', setting=setting)
+
+@main.route('/update-setting/<int:setting_id>', methods=['POST'])
+def update_setting(setting_id):
+    setting = Setting.query.get_or_404(setting_id)
+    setting.max_density = request.form.get('max_density')
+    setting.description = request.form.get('description')
+
+    try:
+        db.session.commit()
+        flash(f"'{setting.level}' 단계 설정이 성공적으로 수정되었습니다.")
+    except Exception as e:
+        db.session.rollback()
+        flash(f"설정 수정 중 오류가 발생했습니다: {e}")
+    
+    return redirect(url_for('main.settings'))
+
+@main.route('/delete-setting/<int:setting_id>', methods=['POST'])
+def delete_setting(setting_id):
+    setting = Setting.query.get_or_404(setting_id)
+    try:
+        db.session.delete(setting)
+        db.session.commit()
+        flash(f"'{setting.level}' 단계 설정이 성공적으로 삭제되었습니다.")
+    except Exception as e:
+        db.session.rollback()
+        flash(f"설정 삭제 중 오류가 발생했습니다: {e}")
+    
+    return redirect(url_for('main.settings'))

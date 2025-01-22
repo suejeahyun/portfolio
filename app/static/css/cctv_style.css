@@ -7,7 +7,8 @@ table {
   text-align: left;
 }
 
-table th, table td {
+table th,
+table td {
   border: 1px solid #ddd;
   padding: 10px;
   text-align: center;
@@ -72,6 +73,19 @@ form select {
 
 form select:focus {
   outline: none;
-  border-color: #4CAF50;
+  border-color: #4caf50;
   box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+.setting_btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.focused-video {
+  width: 125%;
+  height: 125%;
+}
+.focused-webcam-container {
 }
