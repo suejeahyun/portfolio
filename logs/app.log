@@ -1,0 +1,1060 @@
+2025-02-11 15:42:49,203 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-11 15:42:49,203 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-11 15:42:49,203 - INFO -  * Restarting with stat
+2025-02-11 15:42:51,168 - WARNING -  * Debugger is active!
+2025-02-11 15:42:51,184 - INFO -  * Debugger PIN: 180-681-625
+2025-02-11 15:43:30,465 - INFO - 127.0.0.1 - - [11/Feb/2025 15:43:30] "GET /dashboard?start_date=2025-02-01&end_date=2025-02-11 HTTP/1.1" 200 -
+2025-02-11 15:43:30,483 - INFO - 127.0.0.1 - - [11/Feb/2025 15:43:30] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-11 15:43:30,497 - INFO - 127.0.0.1 - - [11/Feb/2025 15:43:30] "GET /static/images/pie_chart.png HTTP/1.1" 200 -
+2025-02-11 15:43:30,497 - INFO - 127.0.0.1 - - [11/Feb/2025 15:43:30] "GET /static/images/bar_chart.png HTTP/1.1" 200 -
+2025-02-11 15:43:30,511 - INFO - 127.0.0.1 - - [11/Feb/2025 15:43:30] "GET /static/images/daily_bar_chart.png HTTP/1.1" 200 -
+2025-02-11 15:43:30,513 - INFO - 127.0.0.1 - - [11/Feb/2025 15:43:30] "GET /static/images/daily_line_chart.png HTTP/1.1" 200 -
+2025-02-11 15:45:28,735 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\utils\\graph.py', reloading
+2025-02-11 15:45:29,345 - INFO -  * Restarting with stat
+2025-02-11 15:45:31,430 - WARNING -  * Debugger is active!
+2025-02-11 15:45:31,437 - INFO -  * Debugger PIN: 180-681-625
+2025-02-11 15:45:50,478 - ERROR - 🚨 기간별 비교 막대 차트 생성 오류: Could not interpret value `x_column` for `hue`. An entry with this name does not appear in `data`.
+2025-02-11 15:45:50,707 - INFO - 127.0.0.1 - - [11/Feb/2025 15:45:50] "GET /dashboard?start_date=2025-02-01&end_date=2025-02-11 HTTP/1.1" 200 -
+2025-02-11 15:45:50,723 - INFO - 127.0.0.1 - - [11/Feb/2025 15:45:50] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-11 15:45:50,732 - INFO - 127.0.0.1 - - [11/Feb/2025 15:45:50] "GET /static/images/pie_chart.png HTTP/1.1" 200 -
+2025-02-11 15:45:50,736 - INFO - 127.0.0.1 - - [11/Feb/2025 15:45:50] "GET /static/images/bar_chart.png HTTP/1.1" 200 -
+2025-02-11 15:45:50,741 - INFO - 127.0.0.1 - - [11/Feb/2025 15:45:50] "GET /static/images/daily_line_chart.png HTTP/1.1" 200 -
+2025-02-11 15:46:31,359 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\utils\\graph.py', reloading
+2025-02-11 15:46:32,000 - INFO -  * Restarting with stat
+2025-02-11 15:46:34,003 - WARNING -  * Debugger is active!
+2025-02-11 15:46:34,019 - INFO -  * Debugger PIN: 180-681-625
+2025-02-11 15:47:09,584 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\utils\\graph.py', reloading
+2025-02-11 15:47:09,774 - INFO -  * Restarting with stat
+2025-02-11 15:47:11,704 - WARNING -  * Debugger is active!
+2025-02-11 15:47:11,715 - INFO -  * Debugger PIN: 180-681-625
+2025-02-11 15:48:00,293 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\utils\\graph.py', reloading
+2025-02-11 15:48:00,467 - INFO -  * Restarting with stat
+2025-02-11 15:48:02,622 - WARNING -  * Debugger is active!
+2025-02-11 15:48:02,638 - INFO -  * Debugger PIN: 180-681-625
+2025-02-11 15:48:22,767 - INFO - 127.0.0.1 - - [11/Feb/2025 15:48:22] "GET /dashboard?start_date=2025-02-01&end_date=2025-02-11 HTTP/1.1" 200 -
+2025-02-11 15:48:22,784 - INFO - 127.0.0.1 - - [11/Feb/2025 15:48:22] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-11 15:48:22,794 - INFO - 127.0.0.1 - - [11/Feb/2025 15:48:22] "GET /static/images/pie_chart.png HTTP/1.1" 200 -
+2025-02-11 15:48:22,796 - INFO - 127.0.0.1 - - [11/Feb/2025 15:48:22] "GET /static/images/bar_chart.png HTTP/1.1" 200 -
+2025-02-11 15:48:22,802 - INFO - 127.0.0.1 - - [11/Feb/2025 15:48:22] "GET /static/images/daily_bar_chart.png HTTP/1.1" 200 -
+2025-02-11 15:48:22,806 - INFO - 127.0.0.1 - - [11/Feb/2025 15:48:22] "GET /static/images/daily_line_chart.png HTTP/1.1" 200 -
+2025-02-11 15:49:04,772 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\utils\\graph.py', reloading
+2025-02-11 15:49:45,567 - INFO -  * Restarting with stat
+2025-02-11 15:49:47,573 - WARNING -  * Debugger is active!
+2025-02-11 15:49:47,594 - INFO -  * Debugger PIN: 180-681-625
+2025-02-11 15:50:07,352 - INFO - 127.0.0.1 - - [11/Feb/2025 15:50:07] "GET /dashboard?start_date=2025-02-01&end_date=2025-02-11 HTTP/1.1" 200 -
+2025-02-11 15:50:07,485 - INFO - 127.0.0.1 - - [11/Feb/2025 15:50:07] "GET /dashboard?start_date=2025-02-01&end_date=2025-02-11 HTTP/1.1" 200 -
+2025-02-11 15:50:07,531 - INFO - 127.0.0.1 - - [11/Feb/2025 15:50:07] "GET /dashboard?start_date=2025-02-01&end_date=2025-02-11 HTTP/1.1" 200 -
+2025-02-11 15:50:21,621 - INFO - 127.0.0.1 - - [11/Feb/2025 15:50:21] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-11 15:50:21,632 - INFO - 127.0.0.1 - - [11/Feb/2025 15:50:21] "GET /static/images/pie_chart.png HTTP/1.1" 200 -
+2025-02-11 15:50:21,636 - INFO - 127.0.0.1 - - [11/Feb/2025 15:50:21] "GET /static/images/bar_chart.png HTTP/1.1" 200 -
+2025-02-11 15:50:21,637 - INFO - 127.0.0.1 - - [11/Feb/2025 15:50:21] "GET /static/images/daily_bar_chart.png HTTP/1.1" 200 -
+2025-02-11 15:50:21,647 - INFO - 127.0.0.1 - - [11/Feb/2025 15:50:21] "GET /static/images/daily_line_chart.png HTTP/1.1" 200 -
+2025-02-11 15:50:25,117 - INFO - 127.0.0.1 - - [11/Feb/2025 15:50:25] "GET /dashboard?start_date=2025-02-01&end_date=2025-02-11 HTTP/1.1" 200 -
+2025-02-11 15:50:25,133 - INFO - 127.0.0.1 - - [11/Feb/2025 15:50:25] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-11 15:50:25,144 - INFO - 127.0.0.1 - - [11/Feb/2025 15:50:25] "GET /static/images/pie_chart.png HTTP/1.1" 200 -
+2025-02-11 15:50:25,144 - INFO - 127.0.0.1 - - [11/Feb/2025 15:50:25] "GET /static/images/daily_bar_chart.png HTTP/1.1" 200 -
+2025-02-11 15:50:25,144 - INFO - 127.0.0.1 - - [11/Feb/2025 15:50:25] "GET /static/images/bar_chart.png HTTP/1.1" 200 -
+2025-02-11 15:50:25,158 - INFO - 127.0.0.1 - - [11/Feb/2025 15:50:25] "GET /static/images/daily_line_chart.png HTTP/1.1" 200 -
+2025-02-11 15:50:29,514 - INFO - 127.0.0.1 - - [11/Feb/2025 15:50:29] "GET /dashboard?start_date=2025-02-01&end_date=2025-02-11 HTTP/1.1" 200 -
+2025-02-11 15:50:29,531 - INFO - 127.0.0.1 - - [11/Feb/2025 15:50:29] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-11 15:50:29,544 - INFO - 127.0.0.1 - - [11/Feb/2025 15:50:29] "GET /static/images/pie_chart.png HTTP/1.1" 200 -
+2025-02-11 15:50:29,548 - INFO - 127.0.0.1 - - [11/Feb/2025 15:50:29] "GET /static/images/daily_bar_chart.png HTTP/1.1" 200 -
+2025-02-11 15:50:29,549 - INFO - 127.0.0.1 - - [11/Feb/2025 15:50:29] "GET /static/images/bar_chart.png HTTP/1.1" 200 -
+2025-02-11 15:50:29,555 - INFO - 127.0.0.1 - - [11/Feb/2025 15:50:29] "GET /static/images/daily_line_chart.png HTTP/1.1" 200 -
+2025-02-11 15:50:50,515 - INFO - 127.0.0.1 - - [11/Feb/2025 15:50:50] "GET / HTTP/1.1" 200 -
+2025-02-11 15:50:50,548 - INFO - 127.0.0.1 - - [11/Feb/2025 15:50:50] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-02-11 15:50:52,588 - INFO - 127.0.0.1 - - [11/Feb/2025 15:50:52] "GET /normal_abnormal HTTP/1.1" 200 -
+2025-02-11 15:50:52,612 - INFO - 127.0.0.1 - - [11/Feb/2025 15:50:52] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-11 15:50:52,624 - INFO - 127.0.0.1 - - [11/Feb/2025 15:50:52] "[36mGET /static/js/cam_reload.js HTTP/1.1[0m" 304 -
+2025-02-11 15:50:52,629 - INFO - 127.0.0.1 - - [11/Feb/2025 15:50:52] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-11 15:50:55,588 - INFO - 127.0.0.1 - - [11/Feb/2025 15:50:55] "GET /video_feed_1 HTTP/1.1" 200 -
+2025-02-11 15:51:01,024 - INFO - 127.0.0.1 - - [11/Feb/2025 15:51:01] "GET / HTTP/1.1" 200 -
+2025-02-11 15:51:01,048 - INFO - 127.0.0.1 - - [11/Feb/2025 15:51:01] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-02-11 15:51:05,069 - INFO - 127.0.0.1 - - [11/Feb/2025 15:51:05] "GET /standard HTTP/1.1" 200 -
+2025-02-11 15:51:05,097 - INFO - 127.0.0.1 - - [11/Feb/2025 15:51:05] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-11 15:51:05,100 - INFO - 127.0.0.1 - - [11/Feb/2025 15:51:05] "[36mGET /static/js/cam_reload.js HTTP/1.1[0m" 304 -
+2025-02-11 15:51:05,111 - INFO - 127.0.0.1 - - [11/Feb/2025 15:51:05] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-11 15:51:05,468 - INFO - 127.0.0.1 - - [11/Feb/2025 15:51:05] "GET /video_feed_2 HTTP/1.1" 200 -
+2025-02-11 15:51:08,293 - INFO - 127.0.0.1 - - [11/Feb/2025 15:51:08] "GET / HTTP/1.1" 200 -
+2025-02-11 15:51:08,314 - INFO - 127.0.0.1 - - [11/Feb/2025 15:51:08] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-02-11 15:52:46,785 - INFO - 127.0.0.1 - - [11/Feb/2025 15:52:46] "GET / HTTP/1.1" 200 -
+2025-02-11 15:52:46,800 - INFO - 127.0.0.1 - - [11/Feb/2025 15:52:46] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-02-11 15:53:04,999 - INFO - 127.0.0.1 - - [11/Feb/2025 15:53:04] "GET /normal_abnormal HTTP/1.1" 200 -
+2025-02-11 15:53:05,023 - INFO - 127.0.0.1 - - [11/Feb/2025 15:53:05] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-11 15:53:05,048 - INFO - 127.0.0.1 - - [11/Feb/2025 15:53:05] "GET /static/js/cam_control.js HTTP/1.1" 200 -
+2025-02-11 15:53:47,203 - INFO - 127.0.0.1 - - [11/Feb/2025 15:53:47] "GET /normal_abnormal HTTP/1.1" 200 -
+2025-02-11 15:53:47,239 - INFO - 127.0.0.1 - - [11/Feb/2025 15:53:47] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-11 15:53:47,243 - INFO - 127.0.0.1 - - [11/Feb/2025 15:53:47] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-11 15:57:14,139 - INFO - 127.0.0.1 - - [11/Feb/2025 15:57:14] "GET /normal_abnormal HTTP/1.1" 200 -
+2025-02-11 15:57:14,155 - INFO - 127.0.0.1 - - [11/Feb/2025 15:57:14] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-11 15:57:14,157 - INFO - 127.0.0.1 - - [11/Feb/2025 15:57:14] "GET /static/js/cam_control.js HTTP/1.1" 200 -
+2025-02-11 15:57:35,833 - INFO - 127.0.0.1 - - [11/Feb/2025 15:57:35] "GET /normal_abnormal HTTP/1.1" 200 -
+2025-02-11 15:57:35,848 - INFO - 127.0.0.1 - - [11/Feb/2025 15:57:35] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-11 15:57:35,856 - INFO - 127.0.0.1 - - [11/Feb/2025 15:57:35] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-11 15:57:41,049 - INFO - 127.0.0.1 - - [11/Feb/2025 15:57:41] "GET /normal_abnormal HTTP/1.1" 200 -
+2025-02-11 15:57:41,064 - INFO - 127.0.0.1 - - [11/Feb/2025 15:57:41] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-11 15:57:41,067 - INFO - 127.0.0.1 - - [11/Feb/2025 15:57:41] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-11 15:57:50,515 - INFO - 127.0.0.1 - - [11/Feb/2025 15:57:50] "GET /normal_abnormal HTTP/1.1" 200 -
+2025-02-11 15:57:50,533 - INFO - 127.0.0.1 - - [11/Feb/2025 15:57:50] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-11 15:57:50,534 - INFO - 127.0.0.1 - - [11/Feb/2025 15:57:50] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-11 15:58:30,471 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-11 15:58:30,471 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-11 15:58:30,471 - INFO -  * Restarting with stat
+2025-02-11 15:58:32,307 - WARNING -  * Debugger is active!
+2025-02-11 15:58:32,307 - INFO -  * Debugger PIN: 180-681-625
+2025-02-11 15:58:36,030 - INFO - 127.0.0.1 - - [11/Feb/2025 15:58:36] "GET /normal_abnormal HTTP/1.1" 200 -
+2025-02-11 15:58:36,063 - INFO - 127.0.0.1 - - [11/Feb/2025 15:58:36] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-11 15:58:36,065 - INFO - 127.0.0.1 - - [11/Feb/2025 15:58:36] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-11 15:58:39,846 - INFO - 127.0.0.1 - - [11/Feb/2025 15:58:39] "GET / HTTP/1.1" 200 -
+2025-02-11 15:58:39,899 - INFO - 127.0.0.1 - - [11/Feb/2025 15:58:39] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-02-11 15:58:40,856 - INFO - 127.0.0.1 - - [11/Feb/2025 15:58:40] "GET /normal_abnormal HTTP/1.1" 200 -
+2025-02-11 15:58:40,880 - INFO - 127.0.0.1 - - [11/Feb/2025 15:58:40] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-11 15:58:40,881 - INFO - 127.0.0.1 - - [11/Feb/2025 15:58:40] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-11 15:58:57,895 - INFO - 127.0.0.1 - - [11/Feb/2025 15:58:57] "[32mGET /update_daily_counts HTTP/1.1[0m" 302 -
+2025-02-11 15:59:07,460 - INFO - 127.0.0.1 - - [11/Feb/2025 15:59:07] "GET /normal_abnormal HTTP/1.1" 200 -
+2025-02-11 15:59:07,476 - INFO - 127.0.0.1 - - [11/Feb/2025 15:59:07] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-11 15:59:07,480 - INFO - 127.0.0.1 - - [11/Feb/2025 15:59:07] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-11 15:59:07,487 - INFO - 127.0.0.1 - - [11/Feb/2025 15:59:07] "GET /static/js/cam_reload.js HTTP/1.1" 200 -
+2025-02-11 15:59:10,397 - WARNING - 🚨 날짜 범위 미설정
+2025-02-11 15:59:10,406 - INFO - 127.0.0.1 - - [11/Feb/2025 15:59:10] "GET /dashboard HTTP/1.1" 200 -
+2025-02-11 15:59:10,430 - INFO - 127.0.0.1 - - [11/Feb/2025 15:59:10] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-11 15:59:12,883 - INFO - 127.0.0.1 - - [11/Feb/2025 15:59:12] "GET / HTTP/1.1" 200 -
+2025-02-11 15:59:12,906 - INFO - 127.0.0.1 - - [11/Feb/2025 15:59:12] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-02-11 15:59:13,821 - INFO - 127.0.0.1 - - [11/Feb/2025 15:59:13] "GET /normal_abnormal HTTP/1.1" 200 -
+2025-02-11 15:59:13,841 - INFO - 127.0.0.1 - - [11/Feb/2025 15:59:13] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-11 15:59:13,849 - INFO - 127.0.0.1 - - [11/Feb/2025 15:59:13] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-11 15:59:13,852 - INFO - 127.0.0.1 - - [11/Feb/2025 15:59:13] "[36mGET /static/js/cam_reload.js HTTP/1.1[0m" 304 -
+2025-02-11 15:59:20,075 - INFO - 127.0.0.1 - - [11/Feb/2025 15:59:20] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-11 15:59:48,751 - INFO - 127.0.0.1 - - [11/Feb/2025 15:59:48] "GET /normal_abnormal HTTP/1.1" 200 -
+2025-02-11 15:59:48,780 - INFO - 127.0.0.1 - - [11/Feb/2025 15:59:48] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-11 15:59:48,783 - INFO - 127.0.0.1 - - [11/Feb/2025 15:59:48] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-11 15:59:48,794 - INFO - 127.0.0.1 - - [11/Feb/2025 15:59:48] "[36mGET /static/js/cam_reload.js HTTP/1.1[0m" 304 -
+2025-02-11 15:59:50,432 - INFO - 127.0.0.1 - - [11/Feb/2025 15:59:50] "GET / HTTP/1.1" 200 -
+2025-02-11 15:59:50,463 - INFO - 127.0.0.1 - - [11/Feb/2025 15:59:50] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-02-11 15:59:51,117 - INFO - 127.0.0.1 - - [11/Feb/2025 15:59:51] "GET /standard HTTP/1.1" 200 -
+2025-02-11 15:59:51,143 - INFO - 127.0.0.1 - - [11/Feb/2025 15:59:51] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-11 15:59:51,160 - INFO - 127.0.0.1 - - [11/Feb/2025 15:59:51] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-11 15:59:51,167 - INFO - 127.0.0.1 - - [11/Feb/2025 15:59:51] "[36mGET /static/js/cam_reload.js HTTP/1.1[0m" 304 -
+2025-02-11 15:59:54,146 - INFO - 127.0.0.1 - - [11/Feb/2025 15:59:54] "GET /video_feed_2 HTTP/1.1" 200 -
+2025-02-11 15:59:57,639 - INFO - 127.0.0.1 - - [11/Feb/2025 15:59:57] "GET / HTTP/1.1" 200 -
+2025-02-11 15:59:57,688 - INFO - 127.0.0.1 - - [11/Feb/2025 15:59:57] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-02-11 16:00:00,995 - INFO - 127.0.0.1 - - [11/Feb/2025 16:00:00] "GET /normal_abnormal HTTP/1.1" 200 -
+2025-02-11 16:00:01,039 - INFO - 127.0.0.1 - - [11/Feb/2025 16:00:01] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-11 16:00:01,041 - INFO - 127.0.0.1 - - [11/Feb/2025 16:00:01] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-11 16:00:01,046 - INFO - 127.0.0.1 - - [11/Feb/2025 16:00:01] "[36mGET /static/js/cam_reload.js HTTP/1.1[0m" 304 -
+2025-02-11 16:00:04,025 - INFO - 127.0.0.1 - - [11/Feb/2025 16:00:04] "GET /normal_abnormal HTTP/1.1" 200 -
+2025-02-11 16:00:04,064 - INFO - 127.0.0.1 - - [11/Feb/2025 16:00:04] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-11 16:00:04,065 - INFO - 127.0.0.1 - - [11/Feb/2025 16:00:04] "[36mGET /static/js/cam_reload.js HTTP/1.1[0m" 304 -
+2025-02-11 16:00:04,069 - INFO - 127.0.0.1 - - [11/Feb/2025 16:00:04] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-11 16:00:11,284 - INFO - 127.0.0.1 - - [11/Feb/2025 16:00:11] "GET /normal_abnormal HTTP/1.1" 200 -
+2025-02-11 16:00:11,317 - INFO - 127.0.0.1 - - [11/Feb/2025 16:00:11] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-11 16:00:11,320 - INFO - 127.0.0.1 - - [11/Feb/2025 16:00:11] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-11 16:00:11,330 - INFO - 127.0.0.1 - - [11/Feb/2025 16:00:11] "[36mGET /static/js/cam_reload.js HTTP/1.1[0m" 304 -
+2025-02-11 16:00:11,530 - INFO - 127.0.0.1 - - [11/Feb/2025 16:00:11] "GET /video_feed_2 HTTP/1.1" 200 -
+2025-02-11 16:00:13,890 - INFO - 127.0.0.1 - - [11/Feb/2025 16:00:13] "GET / HTTP/1.1" 200 -
+2025-02-11 16:00:13,932 - INFO - 127.0.0.1 - - [11/Feb/2025 16:00:13] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-02-11 16:00:14,821 - INFO - 127.0.0.1 - - [11/Feb/2025 16:00:14] "GET /standard HTTP/1.1" 200 -
+2025-02-11 16:00:14,864 - INFO - 127.0.0.1 - - [11/Feb/2025 16:00:14] "[36mGET /static/js/cam_reload.js HTTP/1.1[0m" 304 -
+2025-02-11 16:00:14,866 - INFO - 127.0.0.1 - - [11/Feb/2025 16:00:14] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-11 16:00:14,870 - INFO - 127.0.0.1 - - [11/Feb/2025 16:00:14] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-11 16:00:15,262 - INFO - 127.0.0.1 - - [11/Feb/2025 16:00:15] "GET /video_feed_2 HTTP/1.1" 200 -
+2025-02-11 16:00:17,300 - INFO - 127.0.0.1 - - [11/Feb/2025 16:00:17] "GET / HTTP/1.1" 200 -
+2025-02-11 16:00:17,333 - INFO - 127.0.0.1 - - [11/Feb/2025 16:00:17] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-02-13 09:31:25,503 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-13 09:31:25,503 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-13 09:31:25,520 - INFO -  * Restarting with stat
+2025-02-13 09:31:27,468 - WARNING -  * Debugger is active!
+2025-02-13 09:31:27,483 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 09:31:33,487 - INFO - 127.0.0.1 - - [13/Feb/2025 09:31:33] "GET / HTTP/1.1" 200 -
+2025-02-13 09:31:57,489 - INFO - 127.0.0.1 - - [13/Feb/2025 09:31:57] "GET / HTTP/1.1" 200 -
+2025-02-13 09:31:59,029 - INFO - 127.0.0.1 - - [13/Feb/2025 09:31:59] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-02-13 09:31:59,093 - INFO - 127.0.0.1 - - [13/Feb/2025 09:31:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-13 09:32:00,875 - INFO - 127.0.0.1 - - [13/Feb/2025 09:32:00] "GET /normal_abnormal HTTP/1.1" 200 -
+2025-02-13 09:32:00,911 - INFO - 127.0.0.1 - - [13/Feb/2025 09:32:00] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-13 09:32:00,926 - INFO - 127.0.0.1 - - [13/Feb/2025 09:32:00] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-13 09:32:00,946 - INFO - 127.0.0.1 - - [13/Feb/2025 09:32:00] "[36mGET /static/js/cam_reload.js HTTP/1.1[0m" 304 -
+2025-02-13 09:32:22,742 - INFO - 127.0.0.1 - - [13/Feb/2025 09:32:22] "GET /video_feed_2 HTTP/1.1" 200 -
+2025-02-13 09:32:25,646 - INFO - 127.0.0.1 - - [13/Feb/2025 09:32:25] "GET / HTTP/1.1" 200 -
+2025-02-13 09:32:25,663 - INFO - 127.0.0.1 - - [13/Feb/2025 09:32:25] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-02-13 09:34:20,122 - INFO - 127.0.0.1 - - [13/Feb/2025 09:34:20] "GET /standard HTTP/1.1" 200 -
+2025-02-13 09:34:20,158 - INFO - 127.0.0.1 - - [13/Feb/2025 09:34:20] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-13 09:34:20,161 - INFO - 127.0.0.1 - - [13/Feb/2025 09:34:20] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-13 09:34:20,164 - INFO - 127.0.0.1 - - [13/Feb/2025 09:34:20] "[36mGET /static/js/cam_reload.js HTTP/1.1[0m" 304 -
+2025-02-13 09:34:20,342 - INFO - 127.0.0.1 - - [13/Feb/2025 09:34:20] "GET /video_feed_2 HTTP/1.1" 200 -
+2025-02-13 09:34:30,465 - INFO - 127.0.0.1 - - [13/Feb/2025 09:34:30] "GET / HTTP/1.1" 200 -
+2025-02-13 09:34:30,488 - INFO - 127.0.0.1 - - [13/Feb/2025 09:34:30] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-02-13 09:34:33,620 - WARNING - 🚨 날짜 범위 미설정
+2025-02-13 09:34:33,639 - INFO - 127.0.0.1 - - [13/Feb/2025 09:34:33] "GET /dashboard HTTP/1.1" 200 -
+2025-02-13 09:34:33,667 - INFO - 127.0.0.1 - - [13/Feb/2025 09:34:33] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 09:34:41,811 - INFO - 127.0.0.1 - - [13/Feb/2025 09:34:41] "GET /dashboard?start_date=2025-02-01&end_date=2025-02-11 HTTP/1.1" 200 -
+2025-02-13 09:34:41,830 - INFO - 127.0.0.1 - - [13/Feb/2025 09:34:41] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 09:34:41,845 - INFO - 127.0.0.1 - - [13/Feb/2025 09:34:41] "GET /static/images/pie_chart.png HTTP/1.1" 200 -
+2025-02-13 09:34:41,858 - INFO - 127.0.0.1 - - [13/Feb/2025 09:34:41] "GET /static/images/bar_chart.png HTTP/1.1" 200 -
+2025-02-13 09:34:41,870 - INFO - 127.0.0.1 - - [13/Feb/2025 09:34:41] "GET /static/images/daily_line_chart.png HTTP/1.1" 200 -
+2025-02-13 09:34:41,873 - INFO - 127.0.0.1 - - [13/Feb/2025 09:34:41] "GET /static/images/daily_bar_chart.png HTTP/1.1" 200 -
+2025-02-13 09:36:58,167 - INFO - 127.0.0.1 - - [13/Feb/2025 09:36:58] "GET /dashboard?start_date=2025-02-02&end_date=2025-02-11 HTTP/1.1" 200 -
+2025-02-13 09:36:58,184 - INFO - 127.0.0.1 - - [13/Feb/2025 09:36:58] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 09:36:58,194 - INFO - 127.0.0.1 - - [13/Feb/2025 09:36:58] "GET /static/images/pie_chart.png HTTP/1.1" 200 -
+2025-02-13 09:36:58,194 - INFO - 127.0.0.1 - - [13/Feb/2025 09:36:58] "GET /static/images/bar_chart.png HTTP/1.1" 200 -
+2025-02-13 09:36:58,194 - INFO - 127.0.0.1 - - [13/Feb/2025 09:36:58] "GET /static/images/daily_bar_chart.png HTTP/1.1" 200 -
+2025-02-13 09:36:58,212 - INFO - 127.0.0.1 - - [13/Feb/2025 09:36:58] "GET /static/images/daily_line_chart.png HTTP/1.1" 200 -
+2025-02-13 09:38:21,205 - INFO - 127.0.0.1 - - [13/Feb/2025 09:38:21] "GET / HTTP/1.1" 200 -
+2025-02-13 09:38:21,227 - INFO - 127.0.0.1 - - [13/Feb/2025 09:38:21] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-02-13 09:38:22,162 - WARNING - 🚨 날짜 범위 미설정
+2025-02-13 09:38:22,163 - INFO - 127.0.0.1 - - [13/Feb/2025 09:38:22] "GET /dashboard HTTP/1.1" 200 -
+2025-02-13 09:38:22,186 - INFO - 127.0.0.1 - - [13/Feb/2025 09:38:22] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 09:38:23,331 - INFO - 127.0.0.1 - - [13/Feb/2025 09:38:23] "GET / HTTP/1.1" 200 -
+2025-02-13 09:38:23,351 - INFO - 127.0.0.1 - - [13/Feb/2025 09:38:23] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-02-13 09:38:24,142 - WARNING - 🚨 날짜 범위 미설정
+2025-02-13 09:38:24,145 - INFO - 127.0.0.1 - - [13/Feb/2025 09:38:24] "GET /dashboard HTTP/1.1" 200 -
+2025-02-13 09:38:24,164 - INFO - 127.0.0.1 - - [13/Feb/2025 09:38:24] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 09:38:26,880 - INFO - 127.0.0.1 - - [13/Feb/2025 09:38:26] "GET / HTTP/1.1" 200 -
+2025-02-13 09:38:26,916 - INFO - 127.0.0.1 - - [13/Feb/2025 09:38:26] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-02-13 09:38:27,744 - WARNING - 🚨 날짜 범위 미설정
+2025-02-13 09:38:27,745 - INFO - 127.0.0.1 - - [13/Feb/2025 09:38:27] "GET /dashboard HTTP/1.1" 200 -
+2025-02-13 09:38:27,767 - INFO - 127.0.0.1 - - [13/Feb/2025 09:38:27] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 09:38:28,656 - INFO - 127.0.0.1 - - [13/Feb/2025 09:38:28] "GET / HTTP/1.1" 200 -
+2025-02-13 09:38:28,679 - INFO - 127.0.0.1 - - [13/Feb/2025 09:38:28] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-02-13 09:38:29,312 - WARNING - 🚨 날짜 범위 미설정
+2025-02-13 09:38:29,313 - INFO - 127.0.0.1 - - [13/Feb/2025 09:38:29] "GET /dashboard HTTP/1.1" 200 -
+2025-02-13 09:38:29,333 - INFO - 127.0.0.1 - - [13/Feb/2025 09:38:29] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 09:38:59,276 - WARNING - 🚨 날짜 범위 미설정
+2025-02-13 09:38:59,309 - INFO - 127.0.0.1 - - [13/Feb/2025 09:38:59] "GET /dashboard HTTP/1.1" 200 -
+2025-02-13 09:38:59,327 - INFO - 127.0.0.1 - - [13/Feb/2025 09:38:59] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 09:40:05,143 - WARNING - 🚨 날짜 범위 미설정
+2025-02-13 09:40:05,160 - INFO - 127.0.0.1 - - [13/Feb/2025 09:40:05] "GET /dashboard HTTP/1.1" 200 -
+2025-02-13 09:40:05,187 - INFO - 127.0.0.1 - - [13/Feb/2025 09:40:05] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 09:40:17,495 - WARNING - 🚨 날짜 범위 미설정
+2025-02-13 09:40:17,497 - INFO - 127.0.0.1 - - [13/Feb/2025 09:40:17] "GET /dashboard HTTP/1.1" 200 -
+2025-02-13 09:40:17,512 - INFO - 127.0.0.1 - - [13/Feb/2025 09:40:17] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 09:40:29,273 - WARNING - 🚨 날짜 범위 미설정
+2025-02-13 09:40:29,279 - INFO - 127.0.0.1 - - [13/Feb/2025 09:40:29] "GET /dashboard HTTP/1.1" 200 -
+2025-02-13 09:40:29,295 - INFO - 127.0.0.1 - - [13/Feb/2025 09:40:29] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 09:40:30,197 - WARNING - 🚨 날짜 범위 미설정
+2025-02-13 09:40:30,199 - INFO - 127.0.0.1 - - [13/Feb/2025 09:40:30] "GET /dashboard HTTP/1.1" 200 -
+2025-02-13 09:40:30,229 - INFO - 127.0.0.1 - - [13/Feb/2025 09:40:30] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 09:40:54,063 - INFO - 127.0.0.1 - - [13/Feb/2025 09:40:54] "GET /standard HTTP/1.1" 200 -
+2025-02-13 09:40:54,085 - INFO - 127.0.0.1 - - [13/Feb/2025 09:40:54] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-13 09:40:54,092 - INFO - 127.0.0.1 - - [13/Feb/2025 09:40:54] "[36mGET /static/js/cam_reload.js HTTP/1.1[0m" 304 -
+2025-02-13 09:40:54,095 - INFO - 127.0.0.1 - - [13/Feb/2025 09:40:54] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-13 09:40:54,263 - INFO - 127.0.0.1 - - [13/Feb/2025 09:40:54] "GET /video_feed_2 HTTP/1.1" 200 -
+2025-02-13 09:40:57,735 - INFO - 127.0.0.1 - - [13/Feb/2025 09:40:57] "GET /normal_abnormal HTTP/1.1" 200 -
+2025-02-13 09:40:57,751 - INFO - 127.0.0.1 - - [13/Feb/2025 09:40:57] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-13 09:40:57,764 - INFO - 127.0.0.1 - - [13/Feb/2025 09:40:57] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-13 09:40:57,766 - INFO - 127.0.0.1 - - [13/Feb/2025 09:40:57] "[36mGET /static/js/cam_reload.js HTTP/1.1[0m" 304 -
+2025-02-13 09:40:57,927 - INFO - 127.0.0.1 - - [13/Feb/2025 09:40:57] "GET /video_feed_2 HTTP/1.1" 200 -
+2025-02-13 09:41:24,384 - WARNING - 🚨 날짜 범위 미설정
+2025-02-13 09:41:24,386 - INFO - 127.0.0.1 - - [13/Feb/2025 09:41:24] "GET /dashboard HTTP/1.1" 200 -
+2025-02-13 09:41:24,411 - INFO - 127.0.0.1 - - [13/Feb/2025 09:41:24] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 09:41:30,232 - WARNING - 🚨 당일 데이터 조회 불가
+2025-02-13 09:41:30,234 - INFO - 127.0.0.1 - - [13/Feb/2025 09:41:30] "GET /dashboard?start_date=2025-02-13&end_date=2025-02-13 HTTP/1.1" 200 -
+2025-02-13 09:41:30,718 - INFO - 127.0.0.1 - - [13/Feb/2025 09:41:30] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 09:41:34,811 - INFO - 127.0.0.1 - - [13/Feb/2025 09:41:34] "GET / HTTP/1.1" 200 -
+2025-02-13 09:41:34,832 - INFO - 127.0.0.1 - - [13/Feb/2025 09:41:34] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-02-13 09:41:35,681 - INFO - 127.0.0.1 - - [13/Feb/2025 09:41:35] "GET /normal_abnormal HTTP/1.1" 200 -
+2025-02-13 09:41:35,702 - INFO - 127.0.0.1 - - [13/Feb/2025 09:41:35] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-13 09:41:35,709 - INFO - 127.0.0.1 - - [13/Feb/2025 09:41:35] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-13 09:41:35,713 - INFO - 127.0.0.1 - - [13/Feb/2025 09:41:35] "[36mGET /static/js/cam_reload.js HTTP/1.1[0m" 304 -
+2025-02-13 09:41:35,881 - INFO - 127.0.0.1 - - [13/Feb/2025 09:41:35] "GET /video_feed_2 HTTP/1.1" 200 -
+2025-02-13 09:41:37,814 - INFO - 127.0.0.1 - - [13/Feb/2025 09:41:37] "[32mGET /update_daily_counts HTTP/1.1[0m" 302 -
+2025-02-13 09:41:37,828 - INFO - 127.0.0.1 - - [13/Feb/2025 09:41:37] "GET /normal_abnormal HTTP/1.1" 200 -
+2025-02-13 09:41:37,846 - INFO - 127.0.0.1 - - [13/Feb/2025 09:41:37] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-13 09:41:37,850 - INFO - 127.0.0.1 - - [13/Feb/2025 09:41:37] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-13 09:41:37,854 - INFO - 127.0.0.1 - - [13/Feb/2025 09:41:37] "[36mGET /static/js/cam_reload.js HTTP/1.1[0m" 304 -
+2025-02-13 09:41:38,173 - INFO - 127.0.0.1 - - [13/Feb/2025 09:41:38] "GET /video_feed_2 HTTP/1.1" 200 -
+2025-02-13 09:41:39,685 - INFO - 127.0.0.1 - - [13/Feb/2025 09:41:39] "GET / HTTP/1.1" 200 -
+2025-02-13 09:41:39,709 - INFO - 127.0.0.1 - - [13/Feb/2025 09:41:39] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-02-13 09:41:42,114 - WARNING - 🚨 날짜 범위 미설정
+2025-02-13 09:41:42,116 - INFO - 127.0.0.1 - - [13/Feb/2025 09:41:42] "GET /dashboard HTTP/1.1" 200 -
+2025-02-13 09:41:42,136 - INFO - 127.0.0.1 - - [13/Feb/2025 09:41:42] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 09:41:46,164 - WARNING - 🚨 당일 데이터 조회 불가
+2025-02-13 09:41:46,165 - INFO - 127.0.0.1 - - [13/Feb/2025 09:41:46] "GET /dashboard?start_date=2025-02-13&end_date=2025-02-13 HTTP/1.1" 200 -
+2025-02-13 09:41:46,188 - INFO - 127.0.0.1 - - [13/Feb/2025 09:41:46] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 09:45:19,739 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\routes\\main.py', reloading
+2025-02-13 09:45:21,063 - INFO -  * Restarting with stat
+2025-02-13 09:45:23,115 - WARNING -  * Debugger is active!
+2025-02-13 09:45:23,131 - INFO -  * Debugger PIN: 111-264-651
+2025-02-13 09:47:17,668 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\routes\\main.py', reloading
+2025-02-13 09:47:17,783 - INFO -  * Restarting with stat
+2025-02-13 09:47:19,779 - WARNING -  * Debugger is active!
+2025-02-13 09:47:19,792 - INFO -  * Debugger PIN: 111-264-651
+2025-02-13 09:49:55,992 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\utils\\generate_frames_1.py', reloading
+2025-02-13 09:49:56,153 - INFO -  * Restarting with stat
+2025-02-13 09:49:58,097 - WARNING -  * Debugger is active!
+2025-02-13 09:49:58,109 - INFO -  * Debugger PIN: 111-264-651
+2025-02-13 09:51:44,504 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\models.py', reloading
+2025-02-13 09:51:44,635 - INFO -  * Restarting with stat
+2025-02-13 09:51:47,057 - WARNING -  * Debugger is active!
+2025-02-13 09:51:47,068 - INFO -  * Debugger PIN: 111-264-651
+2025-02-13 09:51:58,242 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\models.py', reloading
+2025-02-13 09:51:58,389 - INFO -  * Restarting with stat
+2025-02-13 09:52:00,300 - WARNING -  * Debugger is active!
+2025-02-13 09:52:00,316 - INFO -  * Debugger PIN: 111-264-651
+2025-02-13 09:52:09,472 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\models.py', reloading
+2025-02-13 09:52:09,654 - INFO -  * Restarting with stat
+2025-02-13 09:52:11,420 - WARNING -  * Debugger is active!
+2025-02-13 09:52:11,422 - INFO -  * Debugger PIN: 111-264-651
+2025-02-13 10:25:00,043 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-13 10:25:00,043 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-13 10:25:00,043 - INFO -  * Restarting with stat
+2025-02-13 10:25:01,889 - WARNING -  * Debugger is active!
+2025-02-13 10:25:01,911 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 10:25:30,079 - INFO - 127.0.0.1 - - [13/Feb/2025 10:25:30] "[35m[1mGET /dashboard?start_date=2025-02-13&end_date=2025-02-13 HTTP/1.1[0m" 500 -
+2025-02-13 10:25:30,097 - INFO - 127.0.0.1 - - [13/Feb/2025 10:25:30] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-13 10:25:30,099 - INFO - 127.0.0.1 - - [13/Feb/2025 10:25:30] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-13 10:25:30,112 - INFO - 127.0.0.1 - - [13/Feb/2025 10:25:30] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=epthqxUpQGHxjdkOxT5o HTTP/1.1" 200 -
+2025-02-13 10:25:30,159 - INFO - 127.0.0.1 - - [13/Feb/2025 10:25:30] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-13 10:25:58,663 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\models.py', reloading
+2025-02-13 10:25:58,855 - INFO -  * Restarting with stat
+2025-02-13 10:26:01,217 - WARNING -  * Debugger is active!
+2025-02-13 10:26:01,235 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 10:26:01,272 - INFO - 127.0.0.1 - - [13/Feb/2025 10:26:01] "[35m[1mGET /dashboard?start_date=2025-02-13&end_date=2025-02-13 HTTP/1.1[0m" 500 -
+2025-02-13 10:26:01,288 - INFO - 127.0.0.1 - - [13/Feb/2025 10:26:01] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-13 10:26:01,289 - INFO - 127.0.0.1 - - [13/Feb/2025 10:26:01] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-13 10:26:01,301 - INFO - 127.0.0.1 - - [13/Feb/2025 10:26:01] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=lfnZaM4C6OTCIDKDdHcc HTTP/1.1" 200 -
+2025-02-13 10:26:01,308 - INFO - 127.0.0.1 - - [13/Feb/2025 10:26:01] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-13 10:26:05,463 - INFO - 127.0.0.1 - - [13/Feb/2025 10:26:05] "[35m[1mGET /dashboard?start_date=2025-02-13&end_date=2025-02-13 HTTP/1.1[0m" 500 -
+2025-02-13 10:26:05,481 - INFO - 127.0.0.1 - - [13/Feb/2025 10:26:05] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-13 10:26:05,482 - INFO - 127.0.0.1 - - [13/Feb/2025 10:26:05] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-13 10:26:05,496 - INFO - 127.0.0.1 - - [13/Feb/2025 10:26:05] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=lfnZaM4C6OTCIDKDdHcc HTTP/1.1[0m" 304 -
+2025-02-13 10:26:05,500 - INFO - 127.0.0.1 - - [13/Feb/2025 10:26:05] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-13 10:26:07,594 - INFO - 127.0.0.1 - - [13/Feb/2025 10:26:07] "[35m[1mGET /dashboard?start_date=2025-02-13&end_date=2025-02-13 HTTP/1.1[0m" 500 -
+2025-02-13 10:26:07,613 - INFO - 127.0.0.1 - - [13/Feb/2025 10:26:07] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-13 10:26:07,614 - INFO - 127.0.0.1 - - [13/Feb/2025 10:26:07] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-13 10:26:07,621 - INFO - 127.0.0.1 - - [13/Feb/2025 10:26:07] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=lfnZaM4C6OTCIDKDdHcc HTTP/1.1[0m" 304 -
+2025-02-13 10:26:07,632 - INFO - 127.0.0.1 - - [13/Feb/2025 10:26:07] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-13 10:26:10,396 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\models.py', reloading
+2025-02-13 10:26:10,576 - INFO -  * Restarting with stat
+2025-02-13 10:26:12,755 - WARNING -  * Debugger is active!
+2025-02-13 10:26:12,767 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 10:26:15,838 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\utils\\save_and_reset_counts.py', reloading
+2025-02-13 10:26:16,018 - INFO -  * Restarting with stat
+2025-02-13 10:26:18,027 - WARNING -  * Debugger is active!
+2025-02-13 10:26:18,027 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 10:26:25,145 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\utils\\save_and_reset_counts.py', reloading
+2025-02-13 10:26:25,311 - INFO -  * Restarting with stat
+2025-02-13 10:26:27,368 - WARNING -  * Debugger is active!
+2025-02-13 10:26:27,368 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 10:26:40,602 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\utils\\generate_frames_1.py', reloading
+2025-02-13 10:26:40,807 - INFO -  * Restarting with stat
+2025-02-13 10:26:42,701 - WARNING -  * Debugger is active!
+2025-02-13 10:26:42,713 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 10:27:07,998 - INFO - 127.0.0.1 - - [13/Feb/2025 10:27:07] "[35m[1mGET /dashboard?start_date=2025-02-13&end_date=2025-02-13 HTTP/1.1[0m" 500 -
+2025-02-13 10:27:08,018 - INFO - 127.0.0.1 - - [13/Feb/2025 10:27:08] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-13 10:27:08,020 - INFO - 127.0.0.1 - - [13/Feb/2025 10:27:08] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-13 10:27:08,032 - INFO - 127.0.0.1 - - [13/Feb/2025 10:27:08] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=XEjSw679pKrDNhuhenRo HTTP/1.1" 200 -
+2025-02-13 10:27:08,046 - INFO - 127.0.0.1 - - [13/Feb/2025 10:27:08] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-13 10:27:12,862 - INFO - 127.0.0.1 - - [13/Feb/2025 10:27:12] "[35m[1mGET /dashboard?start_date=2025-02-13&end_date=2025-02-13 HTTP/1.1[0m" 500 -
+2025-02-13 10:27:12,882 - INFO - 127.0.0.1 - - [13/Feb/2025 10:27:12] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-13 10:27:12,888 - INFO - 127.0.0.1 - - [13/Feb/2025 10:27:12] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-13 10:27:12,895 - INFO - 127.0.0.1 - - [13/Feb/2025 10:27:12] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=XEjSw679pKrDNhuhenRo HTTP/1.1[0m" 304 -
+2025-02-13 10:27:12,904 - INFO - 127.0.0.1 - - [13/Feb/2025 10:27:12] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-13 10:27:59,172 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\utils\\update_daily_final_counts.py', reloading
+2025-02-13 10:27:59,745 - INFO -  * Restarting with stat
+2025-02-13 10:28:01,761 - WARNING -  * Debugger is active!
+2025-02-13 10:28:01,776 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 10:28:49,603 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\utils\\update_daily_final_counts.py', reloading
+2025-02-13 10:28:49,784 - INFO -  * Restarting with stat
+2025-02-13 10:28:51,789 - WARNING -  * Debugger is active!
+2025-02-13 10:28:51,795 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 10:29:52,815 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\utils\\update_daily_final_counts.py', reloading
+2025-02-13 10:29:52,964 - INFO -  * Restarting with stat
+2025-02-13 10:29:54,813 - WARNING -  * Debugger is active!
+2025-02-13 10:29:54,813 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 10:30:14,232 - WARNING - 🚨 당일 데이터 조회 불가
+2025-02-13 10:30:14,257 - INFO - 127.0.0.1 - - [13/Feb/2025 10:30:14] "GET /dashboard?start_date=2025-02-13&end_date=2025-02-13 HTTP/1.1" 200 -
+2025-02-13 10:30:14,272 - INFO - 127.0.0.1 - - [13/Feb/2025 10:30:14] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 10:30:20,838 - INFO - 127.0.0.1 - - [13/Feb/2025 10:30:20] "GET / HTTP/1.1" 200 -
+2025-02-13 10:30:20,858 - INFO - 127.0.0.1 - - [13/Feb/2025 10:30:20] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-02-13 10:30:22,642 - INFO - 127.0.0.1 - - [13/Feb/2025 10:30:22] "GET /normal_abnormal HTTP/1.1" 200 -
+2025-02-13 10:30:22,664 - INFO - 127.0.0.1 - - [13/Feb/2025 10:30:22] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-13 10:30:22,666 - INFO - 127.0.0.1 - - [13/Feb/2025 10:30:22] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-13 10:30:22,675 - INFO - 127.0.0.1 - - [13/Feb/2025 10:30:22] "[36mGET /static/js/cam_reload.js HTTP/1.1[0m" 304 -
+2025-02-13 10:30:25,646 - INFO - 127.0.0.1 - - [13/Feb/2025 10:30:25] "GET /video_feed_2 HTTP/1.1" 200 -
+2025-02-13 10:30:50,753 - WARNING - 🚨 날짜 범위 미설정
+2025-02-13 10:30:50,756 - INFO - 127.0.0.1 - - [13/Feb/2025 10:30:50] "GET /dashboard HTTP/1.1" 200 -
+2025-02-13 10:30:50,778 - INFO - 127.0.0.1 - - [13/Feb/2025 10:30:50] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 10:30:51,869 - INFO - 127.0.0.1 - - [13/Feb/2025 10:30:51] "GET /standard HTTP/1.1" 200 -
+2025-02-13 10:30:51,888 - INFO - 127.0.0.1 - - [13/Feb/2025 10:30:51] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-13 10:30:51,901 - INFO - 127.0.0.1 - - [13/Feb/2025 10:30:51] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-13 10:30:51,902 - INFO - 127.0.0.1 - - [13/Feb/2025 10:30:51] "[36mGET /static/js/cam_reload.js HTTP/1.1[0m" 304 -
+2025-02-13 10:30:52,236 - INFO - 127.0.0.1 - - [13/Feb/2025 10:30:52] "GET /video_feed_2 HTTP/1.1" 200 -
+2025-02-13 10:30:54,578 - INFO - 127.0.0.1 - - [13/Feb/2025 10:30:54] "GET / HTTP/1.1" 200 -
+2025-02-13 10:30:54,598 - INFO - 127.0.0.1 - - [13/Feb/2025 10:30:54] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-02-13 10:31:24,655 - INFO - 127.0.0.1 - - [13/Feb/2025 10:31:24] "GET /normal_abnormal HTTP/1.1" 200 -
+2025-02-13 10:31:24,685 - INFO - 127.0.0.1 - - [13/Feb/2025 10:31:24] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-13 10:31:24,686 - INFO - 127.0.0.1 - - [13/Feb/2025 10:31:24] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-13 10:31:24,689 - INFO - 127.0.0.1 - - [13/Feb/2025 10:31:24] "[36mGET /static/js/cam_reload.js HTTP/1.1[0m" 304 -
+2025-02-13 10:31:24,848 - INFO - 127.0.0.1 - - [13/Feb/2025 10:31:24] "GET /video_feed_2 HTTP/1.1" 200 -
+2025-02-13 10:31:29,362 - INFO - 127.0.0.1 - - [13/Feb/2025 10:31:29] "GET / HTTP/1.1" 200 -
+2025-02-13 10:31:29,384 - INFO - 127.0.0.1 - - [13/Feb/2025 10:31:29] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-02-13 10:31:30,282 - INFO - 127.0.0.1 - - [13/Feb/2025 10:31:30] "GET /standard HTTP/1.1" 200 -
+2025-02-13 10:31:30,303 - INFO - 127.0.0.1 - - [13/Feb/2025 10:31:30] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-13 10:31:30,314 - INFO - 127.0.0.1 - - [13/Feb/2025 10:31:30] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-13 10:31:30,316 - INFO - 127.0.0.1 - - [13/Feb/2025 10:31:30] "[36mGET /static/js/cam_reload.js HTTP/1.1[0m" 304 -
+2025-02-13 10:31:30,641 - INFO - 127.0.0.1 - - [13/Feb/2025 10:31:30] "GET /video_feed_2 HTTP/1.1" 200 -
+2025-02-13 10:31:34,315 - INFO - 127.0.0.1 - - [13/Feb/2025 10:31:34] "GET / HTTP/1.1" 200 -
+2025-02-13 10:31:34,337 - INFO - 127.0.0.1 - - [13/Feb/2025 10:31:34] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-02-13 10:33:26,613 - INFO - 127.0.0.1 - - [13/Feb/2025 10:33:26] "[35m[1mGET /normal_abnormal HTTP/1.1[0m" 500 -
+2025-02-13 10:33:26,634 - INFO - 127.0.0.1 - - [13/Feb/2025 10:33:26] "[36mGET /normal_abnormal?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-13 10:33:26,637 - INFO - 127.0.0.1 - - [13/Feb/2025 10:33:26] "[36mGET /normal_abnormal?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-13 10:33:26,649 - INFO - 127.0.0.1 - - [13/Feb/2025 10:33:26] "GET /normal_abnormal?__debugger__=yes&cmd=resource&f=console.png&s=m8XBct6gibagEbotG3GP HTTP/1.1" 200 -
+2025-02-13 10:33:26,668 - INFO - 127.0.0.1 - - [13/Feb/2025 10:33:26] "[36mGET /normal_abnormal?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-13 10:34:35,546 - INFO - 127.0.0.1 - - [13/Feb/2025 10:34:35] "[35m[1mGET /normal_abnormal HTTP/1.1[0m" 500 -
+2025-02-13 10:34:35,568 - INFO - 127.0.0.1 - - [13/Feb/2025 10:34:35] "[36mGET /normal_abnormal?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-13 10:34:35,571 - INFO - 127.0.0.1 - - [13/Feb/2025 10:34:35] "[36mGET /normal_abnormal?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-13 10:34:35,584 - INFO - 127.0.0.1 - - [13/Feb/2025 10:34:35] "[36mGET /normal_abnormal?__debugger__=yes&cmd=resource&f=console.png&s=m8XBct6gibagEbotG3GP HTTP/1.1[0m" 304 -
+2025-02-13 10:34:40,575 - INFO - 127.0.0.1 - - [13/Feb/2025 10:34:40] "GET /standard HTTP/1.1" 200 -
+2025-02-13 10:34:40,596 - INFO - 127.0.0.1 - - [13/Feb/2025 10:34:40] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-13 10:34:40,608 - INFO - 127.0.0.1 - - [13/Feb/2025 10:34:40] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-13 10:34:40,609 - INFO - 127.0.0.1 - - [13/Feb/2025 10:34:40] "[36mGET /static/js/cam_reload.js HTTP/1.1[0m" 304 -
+2025-02-13 10:34:40,945 - INFO - 127.0.0.1 - - [13/Feb/2025 10:34:40] "GET /video_feed_1 HTTP/1.1" 200 -
+2025-02-13 10:34:42,943 - INFO - 127.0.0.1 - - [13/Feb/2025 10:34:42] "[35m[1mGET /normal_abnormal HTTP/1.1[0m" 500 -
+2025-02-13 10:34:42,964 - INFO - 127.0.0.1 - - [13/Feb/2025 10:34:42] "[36mGET /normal_abnormal?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-13 10:34:42,968 - INFO - 127.0.0.1 - - [13/Feb/2025 10:34:42] "[36mGET /normal_abnormal?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-13 10:34:42,978 - INFO - 127.0.0.1 - - [13/Feb/2025 10:34:42] "[36mGET /normal_abnormal?__debugger__=yes&cmd=resource&f=console.png&s=m8XBct6gibagEbotG3GP HTTP/1.1[0m" 304 -
+2025-02-13 10:35:10,572 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\routes\\main.py', reloading
+2025-02-13 10:35:11,765 - INFO -  * Restarting with stat
+2025-02-13 10:35:13,633 - WARNING -  * Debugger is active!
+2025-02-13 10:35:13,641 - INFO -  * Debugger PIN: 111-264-651
+2025-02-13 10:35:17,722 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\routes\\main.py', reloading
+2025-02-13 10:35:17,856 - INFO -  * Restarting with stat
+2025-02-13 10:35:19,807 - WARNING -  * Debugger is active!
+2025-02-13 10:35:19,817 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 10:35:22,872 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\routes\\main.py', reloading
+2025-02-13 10:35:23,023 - INFO -  * Restarting with stat
+2025-02-13 10:35:25,138 - WARNING -  * Debugger is active!
+2025-02-13 10:35:25,148 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 10:35:38,060 - INFO - 127.0.0.1 - - [13/Feb/2025 10:35:38] "GET /normal_abnormal HTTP/1.1" 200 -
+2025-02-13 10:35:38,069 - INFO - 127.0.0.1 - - [13/Feb/2025 10:35:38] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-13 10:35:38,069 - INFO - 127.0.0.1 - - [13/Feb/2025 10:35:38] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-13 10:35:38,085 - INFO - 127.0.0.1 - - [13/Feb/2025 10:35:38] "[36mGET /static/js/cam_reload.js HTTP/1.1[0m" 304 -
+2025-02-13 10:35:54,234 - INFO - 127.0.0.1 - - [13/Feb/2025 10:35:54] "GET /video_feed_2 HTTP/1.1" 200 -
+2025-02-13 10:36:02,957 - INFO - 127.0.0.1 - - [13/Feb/2025 10:36:02] "GET / HTTP/1.1" 200 -
+2025-02-13 10:36:02,980 - INFO - 127.0.0.1 - - [13/Feb/2025 10:36:02] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-02-13 10:36:04,102 - INFO - 127.0.0.1 - - [13/Feb/2025 10:36:04] "GET /standard HTTP/1.1" 200 -
+2025-02-13 10:36:04,125 - INFO - 127.0.0.1 - - [13/Feb/2025 10:36:04] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-13 10:36:04,132 - INFO - 127.0.0.1 - - [13/Feb/2025 10:36:04] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-13 10:36:04,135 - INFO - 127.0.0.1 - - [13/Feb/2025 10:36:04] "[36mGET /static/js/cam_reload.js HTTP/1.1[0m" 304 -
+2025-02-13 10:36:04,558 - INFO - 127.0.0.1 - - [13/Feb/2025 10:36:04] "GET /video_feed_1 HTTP/1.1" 200 -
+2025-02-13 10:36:08,100 - INFO - 127.0.0.1 - - [13/Feb/2025 10:36:08] "GET / HTTP/1.1" 200 -
+2025-02-13 10:36:08,122 - INFO - 127.0.0.1 - - [13/Feb/2025 10:36:08] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-02-13 10:36:35,481 - INFO - 127.0.0.1 - - [13/Feb/2025 10:36:35] "GET /normal_abnormal HTTP/1.1" 200 -
+2025-02-13 10:36:35,512 - INFO - 127.0.0.1 - - [13/Feb/2025 10:36:35] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-13 10:36:35,515 - INFO - 127.0.0.1 - - [13/Feb/2025 10:36:35] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-13 10:36:35,524 - INFO - 127.0.0.1 - - [13/Feb/2025 10:36:35] "[36mGET /static/js/cam_reload.js HTTP/1.1[0m" 304 -
+2025-02-13 10:36:35,710 - INFO - 127.0.0.1 - - [13/Feb/2025 10:36:35] "GET /video_feed_2 HTTP/1.1" 200 -
+2025-02-13 10:36:35,722 - ERROR - 웹캠에서 영상을 가져올 수 없습니다.
+2025-02-13 10:36:38,678 - INFO - 127.0.0.1 - - [13/Feb/2025 10:36:38] "[32mGET /update_daily_counts HTTP/1.1[0m" 302 -
+2025-02-13 10:36:38,686 - INFO - 127.0.0.1 - - [13/Feb/2025 10:36:38] "GET /normal_abnormal HTTP/1.1" 200 -
+2025-02-13 10:36:38,706 - INFO - 127.0.0.1 - - [13/Feb/2025 10:36:38] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-13 10:36:38,709 - INFO - 127.0.0.1 - - [13/Feb/2025 10:36:38] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-13 10:36:38,714 - INFO - 127.0.0.1 - - [13/Feb/2025 10:36:38] "[36mGET /static/js/cam_reload.js HTTP/1.1[0m" 304 -
+2025-02-13 10:36:38,733 - ERROR - 웹캠에서 영상을 가져올 수 없습니다.
+2025-02-13 10:36:38,738 - INFO - 127.0.0.1 - - [13/Feb/2025 10:36:38] "GET /video_feed_2 HTTP/1.1" 200 -
+2025-02-13 10:36:41,692 - INFO - 127.0.0.1 - - [13/Feb/2025 10:36:41] "GET / HTTP/1.1" 200 -
+2025-02-13 10:36:41,711 - INFO - 127.0.0.1 - - [13/Feb/2025 10:36:41] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-02-13 10:36:55,311 - WARNING - 🚨 날짜 범위 미설정
+2025-02-13 10:37:17,055 - INFO - 127.0.0.1 - - [13/Feb/2025 10:37:17] "GET /dashboard HTTP/1.1" 200 -
+2025-02-13 10:37:17,078 - INFO - 127.0.0.1 - - [13/Feb/2025 10:37:17] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 10:43:23,996 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-13 10:43:23,996 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-13 10:43:23,996 - INFO -  * Restarting with stat
+2025-02-13 10:43:25,847 - WARNING -  * Debugger is active!
+2025-02-13 10:43:25,869 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 10:43:40,131 - ERROR - 🚨 파이 차트 생성 오류: 'label' must be of length 'x'
+2025-02-13 10:43:40,157 - ERROR - 🚨 파이 차트 생성 오류: 'label' must be of length 'x'
+2025-02-13 10:43:40,429 - ERROR - 🚨 기간별 비교 막대 차트 생성 오류: "The following 'value_vars' are not present in the DataFrame: ['breaknormal']"
+2025-02-13 10:43:40,550 - ERROR - 🚨 기간별 비교 막대 차트 생성 오류: "The following 'value_vars' are not present in the DataFrame: ['breaknormal']"
+2025-02-13 10:43:40,968 - INFO - 127.0.0.1 - - [13/Feb/2025 10:43:40] "GET /dashboard?start_date=2025-02-01&end_date=2025-02-12 HTTP/1.1" 200 -
+2025-02-13 10:43:41,041 - INFO - 127.0.0.1 - - [13/Feb/2025 10:43:41] "GET /dashboard?start_date=2025-02-01&end_date=2025-02-12 HTTP/1.1" 200 -
+2025-02-13 10:43:41,063 - INFO - 127.0.0.1 - - [13/Feb/2025 10:43:41] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 10:43:41,073 - INFO - 127.0.0.1 - - [13/Feb/2025 10:43:41] "GET /static/images/bar_chart.png HTTP/1.1" 200 -
+2025-02-13 10:43:41,079 - INFO - 127.0.0.1 - - [13/Feb/2025 10:43:41] "GET /static/images/daily_line_chart.png HTTP/1.1" 200 -
+2025-02-13 10:45:31,204 - INFO - 127.0.0.1 - - [13/Feb/2025 10:45:31] "GET / HTTP/1.1" 200 -
+2025-02-13 10:45:31,225 - INFO - 127.0.0.1 - - [13/Feb/2025 10:45:31] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-02-13 10:45:42,994 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\utils\\graph.py', reloading
+2025-02-13 10:45:43,759 - INFO -  * Restarting with stat
+2025-02-13 10:45:45,923 - WARNING -  * Debugger is active!
+2025-02-13 10:45:45,935 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 10:45:59,825 - WARNING - 🚨 날짜 범위 미설정
+2025-02-13 10:45:59,842 - INFO - 127.0.0.1 - - [13/Feb/2025 10:45:59] "GET /dashboard HTTP/1.1" 200 -
+2025-02-13 10:45:59,863 - INFO - 127.0.0.1 - - [13/Feb/2025 10:45:59] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 10:46:12,493 - ERROR - 🚨 기간별 비교 막대 차트 생성 오류: Could not interpret value `count` for `y`. An entry with this name does not appear in `data`.
+2025-02-13 10:46:12,775 - INFO - 127.0.0.1 - - [13/Feb/2025 10:46:12] "GET /dashboard?start_date=2025-02-01&end_date=2025-02-12 HTTP/1.1" 200 -
+2025-02-13 10:46:12,797 - INFO - 127.0.0.1 - - [13/Feb/2025 10:46:12] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 10:46:12,814 - INFO - 127.0.0.1 - - [13/Feb/2025 10:46:12] "GET /static/images/pie_chart.png HTTP/1.1" 200 -
+2025-02-13 10:46:12,815 - INFO - 127.0.0.1 - - [13/Feb/2025 10:46:12] "GET /static/images/bar_chart.png HTTP/1.1" 200 -
+2025-02-13 10:46:12,816 - INFO - 127.0.0.1 - - [13/Feb/2025 10:46:12] "GET /static/images/daily_line_chart.png HTTP/1.1" 200 -
+2025-02-13 10:49:30,531 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\utils\\graph.py', reloading
+2025-02-13 10:49:31,279 - INFO -  * Restarting with stat
+2025-02-13 10:49:33,363 - WARNING -  * Debugger is active!
+2025-02-13 10:49:33,375 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 10:52:35,524 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\routes\\main.py', reloading
+2025-02-13 10:52:35,687 - INFO -  * Restarting with stat
+2025-02-13 10:52:37,991 - WARNING -  * Debugger is active!
+2025-02-13 10:52:38,003 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 10:52:53,568 - ERROR - 🚨 기간별 비교 막대 차트 생성 오류: Could not interpret value `count` for `y`. An entry with this name does not appear in `data`.
+2025-02-13 10:52:53,879 - INFO - 127.0.0.1 - - [13/Feb/2025 10:52:53] "GET /dashboard?start_date=2025-02-01&end_date=2025-02-12 HTTP/1.1" 200 -
+2025-02-13 10:52:53,903 - INFO - 127.0.0.1 - - [13/Feb/2025 10:52:53] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 10:52:53,924 - INFO - 127.0.0.1 - - [13/Feb/2025 10:52:53] "GET /static/images/pie_chart.png HTTP/1.1" 200 -
+2025-02-13 10:52:53,925 - INFO - 127.0.0.1 - - [13/Feb/2025 10:52:53] "GET /static/images/daily_line_chart.png HTTP/1.1" 200 -
+2025-02-13 10:52:53,933 - INFO - 127.0.0.1 - - [13/Feb/2025 10:52:53] "GET /static/images/bar_chart.png HTTP/1.1" 200 -
+2025-02-13 10:54:03,330 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\utils\\graph.py', reloading
+2025-02-13 10:54:04,018 - INFO -  * Restarting with stat
+2025-02-13 10:54:06,317 - WARNING -  * Debugger is active!
+2025-02-13 10:54:06,331 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 10:54:22,479 - INFO - 127.0.0.1 - - [13/Feb/2025 10:54:22] "GET /dashboard?start_date=2025-02-01&end_date=2025-02-12 HTTP/1.1" 200 -
+2025-02-13 10:54:22,497 - INFO - 127.0.0.1 - - [13/Feb/2025 10:54:22] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 10:54:22,502 - INFO - 127.0.0.1 - - [13/Feb/2025 10:54:22] "GET /static/images/pie_chart.png HTTP/1.1" 200 -
+2025-02-13 10:54:22,505 - INFO - 127.0.0.1 - - [13/Feb/2025 10:54:22] "GET /static/images/bar_chart.png HTTP/1.1" 200 -
+2025-02-13 10:54:22,519 - INFO - 127.0.0.1 - - [13/Feb/2025 10:54:22] "GET /static/images/daily_bar_chart.png HTTP/1.1" 200 -
+2025-02-13 10:54:22,519 - INFO - 127.0.0.1 - - [13/Feb/2025 10:54:22] "GET /static/images/daily_line_chart.png HTTP/1.1" 200 -
+2025-02-13 10:57:24,157 - WARNING - 🚨 당일 데이터 조회 불가
+2025-02-13 10:57:24,157 - INFO - 127.0.0.1 - - [13/Feb/2025 10:57:24] "GET /dashboard?start_date=2025-02-13&end_date=2025-02-13 HTTP/1.1" 200 -
+2025-02-13 10:57:24,179 - INFO - 127.0.0.1 - - [13/Feb/2025 10:57:24] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 10:58:46,550 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\utils\\graph.py', reloading
+2025-02-13 10:58:47,275 - INFO -  * Restarting with stat
+2025-02-13 10:58:49,255 - WARNING -  * Debugger is active!
+2025-02-13 10:58:49,271 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 10:59:01,702 - WARNING - 🚨 당일 데이터 조회 불가
+2025-02-13 10:59:01,702 - INFO - 127.0.0.1 - - [13/Feb/2025 10:59:01] "GET /dashboard?start_date=2025-02-13&end_date=2025-02-13 HTTP/1.1" 200 -
+2025-02-13 10:59:01,730 - INFO - 127.0.0.1 - - [13/Feb/2025 10:59:01] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 10:59:11,023 - INFO - 127.0.0.1 - - [13/Feb/2025 10:59:11] "GET /dashboard?start_date=2025-02-01&end_date=2025-02-12 HTTP/1.1" 200 -
+2025-02-13 10:59:11,047 - INFO - 127.0.0.1 - - [13/Feb/2025 10:59:11] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 10:59:11,056 - INFO - 127.0.0.1 - - [13/Feb/2025 10:59:11] "GET /static/images/pie_chart.png HTTP/1.1" 200 -
+2025-02-13 10:59:11,058 - INFO - 127.0.0.1 - - [13/Feb/2025 10:59:11] "GET /static/images/bar_chart.png HTTP/1.1" 200 -
+2025-02-13 10:59:11,060 - INFO - 127.0.0.1 - - [13/Feb/2025 10:59:11] "GET /static/images/daily_bar_chart.png HTTP/1.1" 200 -
+2025-02-13 10:59:11,066 - INFO - 127.0.0.1 - - [13/Feb/2025 10:59:11] "GET /static/images/daily_line_chart.png HTTP/1.1" 200 -
+2025-02-13 11:00:32,084 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\utils\\graph.py', reloading
+2025-02-13 11:00:32,708 - INFO -  * Restarting with stat
+2025-02-13 11:00:34,706 - WARNING -  * Debugger is active!
+2025-02-13 11:00:34,717 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 11:01:30,457 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\utils\\graph.py', reloading
+2025-02-13 11:01:30,620 - INFO -  * Restarting with stat
+2025-02-13 11:01:32,741 - WARNING -  * Debugger is active!
+2025-02-13 11:01:32,755 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 11:02:00,306 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\utils\\graph.py', reloading
+2025-02-13 11:02:00,475 - INFO -  * Restarting with stat
+2025-02-13 11:02:02,628 - WARNING -  * Debugger is active!
+2025-02-13 11:02:02,640 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 11:02:17,928 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\utils\\graph.py', reloading
+2025-02-13 11:02:18,096 - INFO -  * Restarting with stat
+2025-02-13 11:02:20,069 - WARNING -  * Debugger is active!
+2025-02-13 11:02:20,086 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 11:02:25,168 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\utils\\graph.py', reloading
+2025-02-13 11:02:25,341 - INFO -  * Restarting with stat
+2025-02-13 11:02:27,495 - WARNING -  * Debugger is active!
+2025-02-13 11:02:27,507 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 11:02:34,640 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\utils\\graph.py', reloading
+2025-02-13 11:02:34,822 - INFO -  * Restarting with stat
+2025-02-13 11:02:36,947 - WARNING -  * Debugger is active!
+2025-02-13 11:02:36,958 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 11:02:52,714 - INFO - 127.0.0.1 - - [13/Feb/2025 11:02:52] "GET /dashboard?start_date=2025-02-01&end_date=2025-02-12 HTTP/1.1" 200 -
+2025-02-13 11:02:52,737 - INFO - 127.0.0.1 - - [13/Feb/2025 11:02:52] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 11:02:52,765 - INFO - 127.0.0.1 - - [13/Feb/2025 11:02:52] "GET /static/images/bar_chart.png HTTP/1.1" 200 -
+2025-02-13 11:02:52,766 - INFO - 127.0.0.1 - - [13/Feb/2025 11:02:52] "GET /static/images/pie_chart.png HTTP/1.1" 200 -
+2025-02-13 11:02:52,766 - INFO - 127.0.0.1 - - [13/Feb/2025 11:02:52] "GET /static/images/daily_bar_chart.png HTTP/1.1" 200 -
+2025-02-13 11:02:52,769 - INFO - 127.0.0.1 - - [13/Feb/2025 11:02:52] "GET /static/images/daily_line_chart.png HTTP/1.1" 200 -
+2025-02-13 11:03:49,642 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\utils\\graph.py', reloading
+2025-02-13 11:03:50,399 - INFO -  * Restarting with stat
+2025-02-13 11:03:52,560 - WARNING -  * Debugger is active!
+2025-02-13 11:03:52,572 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 11:05:35,225 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\utils\\graph.py', reloading
+2025-02-13 11:05:35,377 - INFO -  * Restarting with stat
+2025-02-13 11:05:37,477 - WARNING -  * Debugger is active!
+2025-02-13 11:05:37,489 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 11:05:44,602 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\utils\\graph.py', reloading
+2025-02-13 11:05:44,809 - INFO -  * Restarting with stat
+2025-02-13 11:05:47,000 - WARNING -  * Debugger is active!
+2025-02-13 11:05:47,011 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 11:05:51,125 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\utils\\graph.py', reloading
+2025-02-13 11:05:51,273 - INFO -  * Restarting with stat
+2025-02-13 11:05:53,393 - WARNING -  * Debugger is active!
+2025-02-13 11:05:53,404 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 11:06:07,626 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\utils\\graph.py', reloading
+2025-02-13 11:06:07,792 - INFO -  * Restarting with stat
+2025-02-13 11:06:09,960 - WARNING -  * Debugger is active!
+2025-02-13 11:06:09,972 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 11:06:24,789 - ERROR - 🚨 기간별 비교 막대 차트 생성 오류: RGBA sequence should have length 3 or 4
+2025-02-13 11:06:25,084 - INFO - 127.0.0.1 - - [13/Feb/2025 11:06:25] "GET /dashboard?start_date=2025-02-01&end_date=2025-02-12 HTTP/1.1" 200 -
+2025-02-13 11:06:25,099 - INFO - 127.0.0.1 - - [13/Feb/2025 11:06:25] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 11:06:25,112 - INFO - 127.0.0.1 - - [13/Feb/2025 11:06:25] "GET /static/images/pie_chart.png HTTP/1.1" 200 -
+2025-02-13 11:06:25,112 - INFO - 127.0.0.1 - - [13/Feb/2025 11:06:25] "GET /static/images/bar_chart.png HTTP/1.1" 200 -
+2025-02-13 11:06:25,123 - INFO - 127.0.0.1 - - [13/Feb/2025 11:06:25] "GET /static/images/daily_line_chart.png HTTP/1.1" 200 -
+2025-02-13 11:07:20,195 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\utils\\graph.py', reloading
+2025-02-13 11:07:20,854 - INFO -  * Restarting with stat
+2025-02-13 11:07:23,105 - WARNING -  * Debugger is active!
+2025-02-13 11:07:23,116 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 11:07:24,149 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\utils\\graph.py', reloading
+2025-02-13 11:07:24,365 - INFO -  * Restarting with stat
+2025-02-13 11:07:26,360 - WARNING -  * Debugger is active!
+2025-02-13 11:07:26,372 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 11:07:42,492 - INFO - 127.0.0.1 - - [13/Feb/2025 11:07:42] "GET /dashboard?start_date=2025-02-01&end_date=2025-02-12 HTTP/1.1" 200 -
+2025-02-13 11:07:42,560 - INFO - 127.0.0.1 - - [13/Feb/2025 11:07:42] "GET /dashboard?start_date=2025-02-01&end_date=2025-02-12 HTTP/1.1" 200 -
+2025-02-13 11:07:42,581 - INFO - 127.0.0.1 - - [13/Feb/2025 11:07:42] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 11:07:42,590 - INFO - 127.0.0.1 - - [13/Feb/2025 11:07:42] "GET /static/images/pie_chart.png HTTP/1.1" 200 -
+2025-02-13 11:07:42,593 - INFO - 127.0.0.1 - - [13/Feb/2025 11:07:42] "GET /static/images/bar_chart.png HTTP/1.1" 200 -
+2025-02-13 11:07:42,601 - INFO - 127.0.0.1 - - [13/Feb/2025 11:07:42] "GET /static/images/daily_bar_chart.png HTTP/1.1" 200 -
+2025-02-13 11:07:42,604 - INFO - 127.0.0.1 - - [13/Feb/2025 11:07:42] "GET /static/images/daily_line_chart.png HTTP/1.1" 200 -
+2025-02-13 11:08:33,570 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\utils\\graph.py', reloading
+2025-02-13 11:08:34,240 - INFO -  * Restarting with stat
+2025-02-13 11:08:36,272 - WARNING -  * Debugger is active!
+2025-02-13 11:08:36,290 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 11:08:50,963 - ERROR - 🚨 기간별 비교 막대 차트 생성 오류: "The following 'value_vars' are not present in the DataFrame: ['규격 불량', '정상', '파손 불량']"
+2025-02-13 11:08:51,274 - INFO - 127.0.0.1 - - [13/Feb/2025 11:08:51] "GET /dashboard?start_date=2025-02-01&end_date=2025-02-12 HTTP/1.1" 200 -
+2025-02-13 11:08:51,295 - INFO - 127.0.0.1 - - [13/Feb/2025 11:08:51] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 11:08:51,305 - INFO - 127.0.0.1 - - [13/Feb/2025 11:08:51] "GET /static/images/pie_chart.png HTTP/1.1" 200 -
+2025-02-13 11:08:51,309 - INFO - 127.0.0.1 - - [13/Feb/2025 11:08:51] "GET /static/images/bar_chart.png HTTP/1.1" 200 -
+2025-02-13 11:08:51,309 - INFO - 127.0.0.1 - - [13/Feb/2025 11:08:51] "GET /static/images/daily_line_chart.png HTTP/1.1" 200 -
+2025-02-13 11:09:08,880 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\utils\\graph.py', reloading
+2025-02-13 11:09:09,452 - INFO -  * Restarting with stat
+2025-02-13 11:09:11,292 - WARNING -  * Debugger is active!
+2025-02-13 11:09:11,312 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 11:09:28,430 - INFO - 127.0.0.1 - - [13/Feb/2025 11:09:28] "GET /dashboard?start_date=2025-02-01&end_date=2025-02-12 HTTP/1.1" 200 -
+2025-02-13 11:09:28,444 - INFO - 127.0.0.1 - - [13/Feb/2025 11:09:28] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 11:09:28,465 - INFO - 127.0.0.1 - - [13/Feb/2025 11:09:28] "GET /static/images/pie_chart.png HTTP/1.1" 200 -
+2025-02-13 11:09:28,472 - INFO - 127.0.0.1 - - [13/Feb/2025 11:09:28] "GET /static/images/daily_bar_chart.png HTTP/1.1" 200 -
+2025-02-13 11:09:28,475 - INFO - 127.0.0.1 - - [13/Feb/2025 11:09:28] "GET /static/images/bar_chart.png HTTP/1.1" 200 -
+2025-02-13 11:09:28,476 - INFO - 127.0.0.1 - - [13/Feb/2025 11:09:28] "GET /static/images/daily_line_chart.png HTTP/1.1" 200 -
+2025-02-13 11:10:31,064 - INFO - 127.0.0.1 - - [13/Feb/2025 11:10:31] "GET /dashboard?start_date=2025-02-01&end_date=2025-02-01 HTTP/1.1" 200 -
+2025-02-13 11:10:31,081 - INFO - 127.0.0.1 - - [13/Feb/2025 11:10:31] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 11:10:31,102 - INFO - 127.0.0.1 - - [13/Feb/2025 11:10:31] "GET /static/images/pie_chart.png HTTP/1.1" 200 -
+2025-02-13 11:10:31,103 - INFO - 127.0.0.1 - - [13/Feb/2025 11:10:31] "GET /static/images/bar_chart.png HTTP/1.1" 200 -
+2025-02-13 11:10:31,104 - INFO - 127.0.0.1 - - [13/Feb/2025 11:10:31] "GET /static/images/daily_bar_chart.png HTTP/1.1" 200 -
+2025-02-13 11:10:31,105 - INFO - 127.0.0.1 - - [13/Feb/2025 11:10:31] "GET /static/images/daily_line_chart.png HTTP/1.1" 200 -
+2025-02-13 11:12:02,521 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\routes\\main.py', reloading
+2025-02-13 11:12:03,155 - INFO -  * Restarting with stat
+2025-02-13 11:12:05,119 - WARNING -  * Debugger is active!
+2025-02-13 11:12:05,131 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 11:12:11,225 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\routes\\main.py', reloading
+2025-02-13 11:12:11,384 - INFO -  * Restarting with stat
+2025-02-13 11:12:13,594 - WARNING -  * Debugger is active!
+2025-02-13 11:12:13,604 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 11:12:28,312 - INFO - 127.0.0.1 - - [13/Feb/2025 11:12:28] "[35m[1mGET /dashboard?start_date=2025-02-01&end_date=2025-02-01 HTTP/1.1[0m" 500 -
+2025-02-13 11:12:28,331 - INFO - 127.0.0.1 - - [13/Feb/2025 11:12:28] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-13 11:12:28,333 - INFO - 127.0.0.1 - - [13/Feb/2025 11:12:28] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-13 11:12:28,375 - INFO - 127.0.0.1 - - [13/Feb/2025 11:12:28] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=l0LzwlyN4BCK7X9EbKLp HTTP/1.1" 200 -
+2025-02-13 11:12:28,387 - INFO - 127.0.0.1 - - [13/Feb/2025 11:12:28] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-13 11:12:55,517 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\routes\\main.py', reloading
+2025-02-13 11:12:56,114 - INFO -  * Restarting with stat
+2025-02-13 11:12:58,261 - WARNING -  * Debugger is active!
+2025-02-13 11:12:58,271 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 11:13:12,848 - INFO - 127.0.0.1 - - [13/Feb/2025 11:13:12] "GET /dashboard?start_date=2025-02-01&end_date=2025-02-01 HTTP/1.1" 200 -
+2025-02-13 11:13:12,876 - INFO - 127.0.0.1 - - [13/Feb/2025 11:13:12] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 11:13:12,889 - INFO - 127.0.0.1 - - [13/Feb/2025 11:13:12] "GET /static/images/pie_chart.png HTTP/1.1" 200 -
+2025-02-13 11:13:12,896 - INFO - 127.0.0.1 - - [13/Feb/2025 11:13:12] "GET /static/images/bar_chart.png HTTP/1.1" 200 -
+2025-02-13 11:13:34,840 - INFO - 127.0.0.1 - - [13/Feb/2025 11:13:34] "GET /dashboard?start_date=2025-02-01&end_date=2025-02-02 HTTP/1.1" 200 -
+2025-02-13 11:13:34,859 - INFO - 127.0.0.1 - - [13/Feb/2025 11:13:34] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 11:13:34,859 - INFO - 127.0.0.1 - - [13/Feb/2025 11:13:34] "GET /static/images/pie_chart.png HTTP/1.1" 200 -
+2025-02-13 11:13:34,876 - INFO - 127.0.0.1 - - [13/Feb/2025 11:13:34] "GET /static/images/daily_bar_chart.png HTTP/1.1" 200 -
+2025-02-13 11:13:34,876 - INFO - 127.0.0.1 - - [13/Feb/2025 11:13:34] "GET /static/images/bar_chart.png HTTP/1.1" 200 -
+2025-02-13 11:13:34,884 - INFO - 127.0.0.1 - - [13/Feb/2025 11:13:34] "GET /static/images/daily_line_chart.png HTTP/1.1" 200 -
+2025-02-13 11:13:47,691 - WARNING - 🚨 날짜 범위 재설정
+2025-02-13 11:13:47,692 - INFO - 127.0.0.1 - - [13/Feb/2025 11:13:47] "GET /dashboard?start_date=2025-02-01&end_date=2025-01-28 HTTP/1.1" 200 -
+2025-02-13 11:13:47,713 - INFO - 127.0.0.1 - - [13/Feb/2025 11:13:47] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 11:13:52,774 - INFO - 127.0.0.1 - - [13/Feb/2025 11:13:52] "GET / HTTP/1.1" 200 -
+2025-02-13 11:13:52,796 - INFO - 127.0.0.1 - - [13/Feb/2025 11:13:52] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-02-13 11:13:54,327 - WARNING - 🚨 날짜 범위 미설정
+2025-02-13 11:13:54,328 - INFO - 127.0.0.1 - - [13/Feb/2025 11:13:54] "GET /dashboard HTTP/1.1" 200 -
+2025-02-13 11:13:54,345 - INFO - 127.0.0.1 - - [13/Feb/2025 11:13:54] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 11:13:55,615 - INFO - 127.0.0.1 - - [13/Feb/2025 11:13:55] "GET / HTTP/1.1" 200 -
+2025-02-13 11:13:55,636 - INFO - 127.0.0.1 - - [13/Feb/2025 11:13:55] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-02-13 11:13:57,433 - INFO - 127.0.0.1 - - [13/Feb/2025 11:13:57] "GET /normal_abnormal HTTP/1.1" 200 -
+2025-02-13 11:13:57,449 - INFO - 127.0.0.1 - - [13/Feb/2025 11:13:57] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-13 11:13:57,460 - INFO - 127.0.0.1 - - [13/Feb/2025 11:13:57] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-13 11:13:57,467 - INFO - 127.0.0.1 - - [13/Feb/2025 11:13:57] "[36mGET /static/js/cam_reload.js HTTP/1.1[0m" 304 -
+2025-02-13 11:13:58,910 - INFO - 127.0.0.1 - - [13/Feb/2025 11:13:58] "GET / HTTP/1.1" 200 -
+2025-02-13 11:13:58,932 - INFO - 127.0.0.1 - - [13/Feb/2025 11:13:58] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-02-13 11:14:00,312 - INFO - 127.0.0.1 - - [13/Feb/2025 11:14:00] "GET /video_feed_2 HTTP/1.1" 200 -
+2025-02-13 11:17:47,334 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\utils\\generate_frames_1.py', reloading
+2025-02-13 11:17:48,532 - INFO -  * Restarting with stat
+2025-02-13 11:17:50,710 - WARNING -  * Debugger is active!
+2025-02-13 11:17:50,722 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 11:17:52,810 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\utils\\generate_frames_1.py', reloading
+2025-02-13 11:17:53,033 - INFO -  * Restarting with stat
+2025-02-13 11:17:55,082 - WARNING -  * Debugger is active!
+2025-02-13 11:17:55,093 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 11:25:03,929 - WARNING - 🚨 날짜 범위 미설정
+2025-02-13 11:25:03,940 - INFO - 127.0.0.1 - - [13/Feb/2025 11:25:03] "GET /dashboard HTTP/1.1" 200 -
+2025-02-13 11:25:03,955 - INFO - 127.0.0.1 - - [13/Feb/2025 11:25:03] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 11:26:00,386 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\routes\\main.py', reloading
+2025-02-13 11:26:00,961 - INFO -  * Restarting with stat
+2025-02-13 11:26:03,573 - WARNING -  * Debugger is active!
+2025-02-13 11:26:03,585 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 11:27:45,326 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\routes\\main.py', reloading
+2025-02-13 11:27:45,472 - INFO -  * Restarting with stat
+2025-02-13 11:27:47,581 - WARNING -  * Debugger is active!
+2025-02-13 11:27:47,593 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 11:29:07,899 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\routes\\main.py', reloading
+2025-02-13 11:29:08,068 - INFO -  * Restarting with stat
+2025-02-13 11:29:09,942 - WARNING -  * Debugger is active!
+2025-02-13 11:29:09,958 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 11:29:11,367 - INFO - 127.0.0.1 - - [13/Feb/2025 11:29:11] "GET / HTTP/1.1" 200 -
+2025-02-13 11:29:11,385 - INFO - 127.0.0.1 - - [13/Feb/2025 11:29:11] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-02-13 11:29:25,213 - INFO - 127.0.0.1 - - [13/Feb/2025 11:29:25] "GET /dashboard HTTP/1.1" 200 -
+2025-02-13 11:29:25,228 - INFO - 127.0.0.1 - - [13/Feb/2025 11:29:25] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 11:30:19,319 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\routes\\main.py', reloading
+2025-02-13 11:30:19,915 - INFO -  * Restarting with stat
+2025-02-13 11:30:22,042 - WARNING -  * Debugger is active!
+2025-02-13 11:30:22,052 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 11:31:13,822 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\routes\\main.py', reloading
+2025-02-13 11:31:13,976 - INFO -  * Restarting with stat
+2025-02-13 11:31:15,977 - WARNING -  * Debugger is active!
+2025-02-13 11:31:15,993 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 11:33:13,762 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\routes\\main.py', reloading
+2025-02-13 11:33:13,923 - INFO -  * Restarting with stat
+2025-02-13 11:33:15,961 - WARNING -  * Debugger is active!
+2025-02-13 11:33:15,977 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 11:33:20,047 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\routes\\main.py', reloading
+2025-02-13 11:33:20,202 - INFO -  * Restarting with stat
+2025-02-13 11:33:22,298 - WARNING -  * Debugger is active!
+2025-02-13 11:33:22,309 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 11:33:35,181 - INFO - 127.0.0.1 - - [13/Feb/2025 11:33:35] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2025-02-13 11:33:35,196 - INFO - 127.0.0.1 - - [13/Feb/2025 11:33:35] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-13 11:33:35,197 - INFO - 127.0.0.1 - - [13/Feb/2025 11:33:35] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-13 11:33:35,209 - INFO - 127.0.0.1 - - [13/Feb/2025 11:33:35] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=BvzXNc00GusmyNGaon3C HTTP/1.1" 200 -
+2025-02-13 11:33:35,236 - INFO - 127.0.0.1 - - [13/Feb/2025 11:33:35] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-13 11:34:38,627 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\routes\\main.py', reloading
+2025-02-13 11:34:39,258 - INFO -  * Restarting with stat
+2025-02-13 11:34:41,465 - WARNING -  * Debugger is active!
+2025-02-13 11:34:41,475 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 11:34:45,593 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\routes\\main.py', reloading
+2025-02-13 11:34:45,739 - INFO -  * Restarting with stat
+2025-02-13 11:34:47,703 - WARNING -  * Debugger is active!
+2025-02-13 11:34:47,717 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 11:35:01,847 - INFO - 127.0.0.1 - - [13/Feb/2025 11:35:01] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2025-02-13 11:35:01,860 - INFO - 127.0.0.1 - - [13/Feb/2025 11:35:01] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-13 11:35:01,861 - INFO - 127.0.0.1 - - [13/Feb/2025 11:35:01] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-13 11:35:01,874 - INFO - 127.0.0.1 - - [13/Feb/2025 11:35:01] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=0yQY7RolTr8S9r08S4g0 HTTP/1.1" 200 -
+2025-02-13 11:35:01,883 - INFO - 127.0.0.1 - - [13/Feb/2025 11:35:01] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-13 11:35:56,002 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\routes\\main.py', reloading
+2025-02-13 11:35:56,659 - INFO -  * Restarting with stat
+2025-02-13 11:35:58,760 - WARNING -  * Debugger is active!
+2025-02-13 11:35:58,760 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 11:36:00,828 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\routes\\main.py', reloading
+2025-02-13 11:36:01,190 - INFO -  * Restarting with stat
+2025-02-13 11:36:03,252 - WARNING -  * Debugger is active!
+2025-02-13 11:36:03,262 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 11:36:08,379 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\routes\\main.py', reloading
+2025-02-13 11:36:08,948 - INFO -  * Restarting with stat
+2025-02-13 11:36:11,003 - WARNING -  * Debugger is active!
+2025-02-13 11:36:11,015 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 11:36:26,397 - INFO - 127.0.0.1 - - [13/Feb/2025 11:36:26] "GET /dashboard HTTP/1.1" 200 -
+2025-02-13 11:36:26,432 - INFO - 127.0.0.1 - - [13/Feb/2025 11:36:26] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 11:36:33,598 - INFO - 127.0.0.1 - - [13/Feb/2025 11:36:33] "GET /dashboard?start_date=2025-02-13&end_date=2025-02-13 HTTP/1.1" 200 -
+2025-02-13 11:36:33,623 - INFO - 127.0.0.1 - - [13/Feb/2025 11:36:33] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 11:36:33,642 - INFO - 127.0.0.1 - - [13/Feb/2025 11:36:33] "GET /static/images/pie_chart.png HTTP/1.1" 200 -
+2025-02-13 11:36:33,649 - INFO - 127.0.0.1 - - [13/Feb/2025 11:36:33] "GET /static/images/bar_chart.png HTTP/1.1" 200 -
+2025-02-13 11:37:16,333 - INFO - 127.0.0.1 - - [13/Feb/2025 11:37:16] "GET /dashboard?start_date=2025-02-13&end_date=2025-02-13 HTTP/1.1" 200 -
+2025-02-13 11:37:16,349 - INFO - 127.0.0.1 - - [13/Feb/2025 11:37:16] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 11:37:16,361 - INFO - 127.0.0.1 - - [13/Feb/2025 11:37:16] "GET /static/images/pie_chart.png HTTP/1.1" 200 -
+2025-02-13 11:37:16,370 - INFO - 127.0.0.1 - - [13/Feb/2025 11:37:16] "GET /static/images/bar_chart.png HTTP/1.1" 200 -
+2025-02-13 11:37:49,902 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\utils\\graph.py', reloading
+2025-02-13 11:37:50,500 - INFO -  * Restarting with stat
+2025-02-13 11:37:52,591 - WARNING -  * Debugger is active!
+2025-02-13 11:37:52,607 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 11:38:11,082 - INFO - 127.0.0.1 - - [13/Feb/2025 11:38:11] "GET /dashboard?start_date=2025-02-13&end_date=2025-02-13 HTTP/1.1" 200 -
+2025-02-13 11:38:11,098 - INFO - 127.0.0.1 - - [13/Feb/2025 11:38:11] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 11:38:11,105 - INFO - 127.0.0.1 - - [13/Feb/2025 11:38:11] "GET /static/images/pie_chart.png HTTP/1.1" 200 -
+2025-02-13 11:38:11,118 - INFO - 127.0.0.1 - - [13/Feb/2025 11:38:11] "GET /static/images/bar_chart.png HTTP/1.1" 200 -
+2025-02-13 11:38:21,870 - INFO - 127.0.0.1 - - [13/Feb/2025 11:38:21] "GET /dashboard?start_date=2025-02-01&end_date=2025-02-12 HTTP/1.1" 200 -
+2025-02-13 11:38:21,886 - INFO - 127.0.0.1 - - [13/Feb/2025 11:38:21] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 11:38:21,906 - INFO - 127.0.0.1 - - [13/Feb/2025 11:38:21] "GET /static/images/pie_chart.png HTTP/1.1" 200 -
+2025-02-13 11:38:21,909 - INFO - 127.0.0.1 - - [13/Feb/2025 11:38:21] "GET /static/images/daily_bar_chart.png HTTP/1.1" 200 -
+2025-02-13 11:38:21,918 - INFO - 127.0.0.1 - - [13/Feb/2025 11:38:21] "GET /static/images/bar_chart.png HTTP/1.1" 200 -
+2025-02-13 11:38:21,921 - INFO - 127.0.0.1 - - [13/Feb/2025 11:38:21] "GET /static/images/daily_line_chart.png HTTP/1.1" 200 -
+2025-02-13 11:40:00,038 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\utils\\graph.py', reloading
+2025-02-13 11:40:00,677 - INFO -  * Restarting with stat
+2025-02-13 11:40:03,218 - WARNING -  * Debugger is active!
+2025-02-13 11:40:03,229 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 11:40:19,252 - INFO - 127.0.0.1 - - [13/Feb/2025 11:40:19] "GET /dashboard?start_date=2025-02-01&end_date=2025-02-12 HTTP/1.1" 200 -
+2025-02-13 11:40:19,271 - INFO - 127.0.0.1 - - [13/Feb/2025 11:40:19] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 11:40:19,278 - INFO - 127.0.0.1 - - [13/Feb/2025 11:40:19] "GET /static/images/pie_chart.png HTTP/1.1" 200 -
+2025-02-13 11:40:19,287 - INFO - 127.0.0.1 - - [13/Feb/2025 11:40:19] "GET /static/images/daily_bar_chart.png HTTP/1.1" 200 -
+2025-02-13 11:40:19,291 - INFO - 127.0.0.1 - - [13/Feb/2025 11:40:19] "GET /static/images/bar_chart.png HTTP/1.1" 200 -
+2025-02-13 11:40:19,291 - INFO - 127.0.0.1 - - [13/Feb/2025 11:40:19] "GET /static/images/daily_line_chart.png HTTP/1.1" 200 -
+2025-02-13 11:42:13,889 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\utils\\graph.py', reloading
+2025-02-13 11:42:14,577 - INFO -  * Restarting with stat
+2025-02-13 11:42:16,765 - WARNING -  * Debugger is active!
+2025-02-13 11:42:16,776 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 11:42:23,943 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\utils\\graph.py', reloading
+2025-02-13 11:42:24,122 - INFO -  * Restarting with stat
+2025-02-13 11:42:26,173 - WARNING -  * Debugger is active!
+2025-02-13 11:42:26,185 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 11:42:47,605 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\utils\\graph.py', reloading
+2025-02-13 11:42:47,785 - INFO -  * Restarting with stat
+2025-02-13 11:42:50,073 - WARNING -  * Debugger is active!
+2025-02-13 11:42:50,086 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 11:43:05,726 - INFO - 127.0.0.1 - - [13/Feb/2025 11:43:05] "GET /dashboard?start_date=2025-02-01&end_date=2025-02-12 HTTP/1.1" 200 -
+2025-02-13 11:43:05,742 - INFO - 127.0.0.1 - - [13/Feb/2025 11:43:05] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 11:43:05,752 - INFO - 127.0.0.1 - - [13/Feb/2025 11:43:05] "GET /static/images/pie_chart.png HTTP/1.1" 200 -
+2025-02-13 11:43:05,754 - INFO - 127.0.0.1 - - [13/Feb/2025 11:43:05] "GET /static/images/bar_chart.png HTTP/1.1" 200 -
+2025-02-13 11:43:05,760 - INFO - 127.0.0.1 - - [13/Feb/2025 11:43:05] "GET /static/images/daily_bar_chart.png HTTP/1.1" 200 -
+2025-02-13 11:43:05,767 - INFO - 127.0.0.1 - - [13/Feb/2025 11:43:05] "GET /static/images/daily_line_chart.png HTTP/1.1" 200 -
+2025-02-13 11:43:57,599 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\utils\\graph.py', reloading
+2025-02-13 11:43:58,312 - INFO -  * Restarting with stat
+2025-02-13 11:44:00,619 - WARNING -  * Debugger is active!
+2025-02-13 11:44:00,639 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 11:44:16,585 - INFO - 127.0.0.1 - - [13/Feb/2025 11:44:16] "GET /dashboard?start_date=2025-02-01&end_date=2025-02-12 HTTP/1.1" 200 -
+2025-02-13 11:44:16,603 - INFO - 127.0.0.1 - - [13/Feb/2025 11:44:16] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 11:44:16,616 - INFO - 127.0.0.1 - - [13/Feb/2025 11:44:16] "GET /static/images/pie_chart.png HTTP/1.1" 200 -
+2025-02-13 11:44:16,622 - INFO - 127.0.0.1 - - [13/Feb/2025 11:44:16] "GET /static/images/daily_bar_chart.png HTTP/1.1" 200 -
+2025-02-13 11:44:16,625 - INFO - 127.0.0.1 - - [13/Feb/2025 11:44:16] "GET /static/images/bar_chart.png HTTP/1.1" 200 -
+2025-02-13 11:44:16,632 - INFO - 127.0.0.1 - - [13/Feb/2025 11:44:16] "GET /static/images/daily_line_chart.png HTTP/1.1" 200 -
+2025-02-13 11:44:53,624 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\utils\\graph.py', reloading
+2025-02-13 11:44:54,302 - INFO -  * Restarting with stat
+2025-02-13 11:44:56,364 - WARNING -  * Debugger is active!
+2025-02-13 11:44:56,374 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 11:45:11,716 - INFO - 127.0.0.1 - - [13/Feb/2025 11:45:11] "GET /dashboard?start_date=2025-02-01&end_date=2025-02-12 HTTP/1.1" 200 -
+2025-02-13 11:45:11,738 - INFO - 127.0.0.1 - - [13/Feb/2025 11:45:11] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 11:45:11,748 - INFO - 127.0.0.1 - - [13/Feb/2025 11:45:11] "GET /static/images/pie_chart.png HTTP/1.1" 200 -
+2025-02-13 11:45:11,753 - INFO - 127.0.0.1 - - [13/Feb/2025 11:45:11] "GET /static/images/bar_chart.png HTTP/1.1" 200 -
+2025-02-13 11:45:11,760 - INFO - 127.0.0.1 - - [13/Feb/2025 11:45:11] "GET /static/images/daily_bar_chart.png HTTP/1.1" 200 -
+2025-02-13 11:45:11,761 - INFO - 127.0.0.1 - - [13/Feb/2025 11:45:11] "GET /static/images/daily_line_chart.png HTTP/1.1" 200 -
+2025-02-13 11:45:26,902 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\utils\\graph.py', reloading
+2025-02-13 11:45:27,599 - INFO -  * Restarting with stat
+2025-02-13 11:45:29,586 - WARNING -  * Debugger is active!
+2025-02-13 11:45:29,605 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 11:45:30,636 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\utils\\graph.py', reloading
+2025-02-13 11:45:30,825 - INFO -  * Restarting with stat
+2025-02-13 11:45:32,958 - WARNING -  * Debugger is active!
+2025-02-13 11:45:32,969 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 11:45:48,264 - INFO - 127.0.0.1 - - [13/Feb/2025 11:45:48] "GET /dashboard?start_date=2025-02-01&end_date=2025-02-12 HTTP/1.1" 200 -
+2025-02-13 11:45:48,279 - INFO - 127.0.0.1 - - [13/Feb/2025 11:45:48] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 11:45:48,289 - INFO - 127.0.0.1 - - [13/Feb/2025 11:45:48] "GET /static/images/bar_chart.png HTTP/1.1" 200 -
+2025-02-13 11:45:48,290 - INFO - 127.0.0.1 - - [13/Feb/2025 11:45:48] "GET /static/images/pie_chart.png HTTP/1.1" 200 -
+2025-02-13 11:45:48,293 - INFO - 127.0.0.1 - - [13/Feb/2025 11:45:48] "GET /static/images/daily_bar_chart.png HTTP/1.1" 200 -
+2025-02-13 11:45:48,305 - INFO - 127.0.0.1 - - [13/Feb/2025 11:45:48] "GET /static/images/daily_line_chart.png HTTP/1.1" 200 -
+2025-02-13 11:47:00,601 - INFO - 127.0.0.1 - - [13/Feb/2025 11:47:00] "GET / HTTP/1.1" 200 -
+2025-02-13 11:47:00,623 - INFO - 127.0.0.1 - - [13/Feb/2025 11:47:00] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-02-13 11:47:01,756 - INFO - 127.0.0.1 - - [13/Feb/2025 11:47:01] "GET /normal_abnormal HTTP/1.1" 200 -
+2025-02-13 11:47:01,775 - INFO - 127.0.0.1 - - [13/Feb/2025 11:47:01] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-13 11:47:01,790 - INFO - 127.0.0.1 - - [13/Feb/2025 11:47:01] "[36mGET /static/js/cam_reload.js HTTP/1.1[0m" 304 -
+2025-02-13 11:47:01,811 - INFO - 127.0.0.1 - - [13/Feb/2025 11:47:01] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-13 11:47:06,970 - INFO - 127.0.0.1 - - [13/Feb/2025 11:47:06] "GET /video_feed_2 HTTP/1.1" 200 -
+2025-02-13 11:47:09,788 - INFO - 127.0.0.1 - - [13/Feb/2025 11:47:09] "GET / HTTP/1.1" 200 -
+2025-02-13 11:47:09,809 - INFO - 127.0.0.1 - - [13/Feb/2025 11:47:09] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-02-13 11:47:41,354 - INFO - 127.0.0.1 - - [13/Feb/2025 11:47:41] "GET /normal_abnormal HTTP/1.1" 200 -
+2025-02-13 11:47:41,378 - INFO - 127.0.0.1 - - [13/Feb/2025 11:47:41] "GET /static/css/cam.css HTTP/1.1" 200 -
+2025-02-13 11:47:41,380 - INFO - 127.0.0.1 - - [13/Feb/2025 11:47:41] "[36mGET /static/js/cam_reload.js HTTP/1.1[0m" 304 -
+2025-02-13 11:47:41,381 - INFO - 127.0.0.1 - - [13/Feb/2025 11:47:41] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-13 11:47:41,556 - INFO - 127.0.0.1 - - [13/Feb/2025 11:47:41] "GET /video_feed_2 HTTP/1.1" 200 -
+2025-02-13 11:47:43,675 - INFO - 127.0.0.1 - - [13/Feb/2025 11:47:43] "GET / HTTP/1.1" 200 -
+2025-02-13 11:47:43,693 - INFO - 127.0.0.1 - - [13/Feb/2025 11:47:43] "GET /static/css/home.css HTTP/1.1" 200 -
+2025-02-13 11:47:44,942 - INFO - 127.0.0.1 - - [13/Feb/2025 11:47:44] "GET /normal_abnormal HTTP/1.1" 200 -
+2025-02-13 11:47:44,961 - INFO - 127.0.0.1 - - [13/Feb/2025 11:47:44] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-13 11:47:44,974 - INFO - 127.0.0.1 - - [13/Feb/2025 11:47:44] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-13 11:47:44,976 - INFO - 127.0.0.1 - - [13/Feb/2025 11:47:44] "[36mGET /static/js/cam_reload.js HTTP/1.1[0m" 304 -
+2025-02-13 11:47:45,137 - INFO - 127.0.0.1 - - [13/Feb/2025 11:47:45] "GET /video_feed_2 HTTP/1.1" 200 -
+2025-02-13 11:47:46,605 - INFO - 127.0.0.1 - - [13/Feb/2025 11:47:46] "GET /standard HTTP/1.1" 200 -
+2025-02-13 11:47:46,627 - INFO - 127.0.0.1 - - [13/Feb/2025 11:47:46] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-13 11:47:46,639 - INFO - 127.0.0.1 - - [13/Feb/2025 11:47:46] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-13 11:47:46,642 - INFO - 127.0.0.1 - - [13/Feb/2025 11:47:46] "[36mGET /static/js/cam_reload.js HTTP/1.1[0m" 304 -
+2025-02-13 11:47:47,054 - INFO - 127.0.0.1 - - [13/Feb/2025 11:47:47] "GET /video_feed_1 HTTP/1.1" 200 -
+2025-02-13 11:47:47,235 - ERROR - 웹캠에서 영상을 가져올 수 없습니다.
+2025-02-13 11:47:47,859 - INFO - 127.0.0.1 - - [13/Feb/2025 11:47:47] "GET /dashboard HTTP/1.1" 200 -
+2025-02-13 11:47:47,880 - INFO - 127.0.0.1 - - [13/Feb/2025 11:47:47] "GET /static/css/dashboard.css HTTP/1.1" 200 -
+2025-02-13 11:48:01,058 - INFO - 127.0.0.1 - - [13/Feb/2025 11:48:01] "GET /normal_abnormal HTTP/1.1" 200 -
+2025-02-13 11:48:01,086 - INFO - 127.0.0.1 - - [13/Feb/2025 11:48:01] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-13 11:48:01,097 - INFO - 127.0.0.1 - - [13/Feb/2025 11:48:01] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-13 11:48:01,099 - INFO - 127.0.0.1 - - [13/Feb/2025 11:48:01] "[36mGET /static/js/cam_reload.js HTTP/1.1[0m" 304 -
+2025-02-13 11:48:01,107 - ERROR - 웹캠에서 영상을 가져올 수 없습니다.
+2025-02-13 11:48:01,107 - INFO - 127.0.0.1 - - [13/Feb/2025 11:48:01] "GET /video_feed_2 HTTP/1.1" 200 -
+2025-02-13 11:48:12,017 - INFO - 127.0.0.1 - - [13/Feb/2025 11:48:12] "GET /normal_abnormal HTTP/1.1" 200 -
+2025-02-13 11:48:12,033 - INFO - 127.0.0.1 - - [13/Feb/2025 11:48:12] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-13 11:48:12,035 - INFO - 127.0.0.1 - - [13/Feb/2025 11:48:12] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-13 11:48:12,043 - INFO - 127.0.0.1 - - [13/Feb/2025 11:48:12] "[36mGET /static/js/cam_reload.js HTTP/1.1[0m" 304 -
+2025-02-13 11:48:12,060 - ERROR - 웹캠에서 영상을 가져올 수 없습니다.
+2025-02-13 11:48:12,060 - INFO - 127.0.0.1 - - [13/Feb/2025 11:48:12] "GET /video_feed_2 HTTP/1.1" 200 -
+2025-02-13 11:48:14,176 - INFO - 127.0.0.1 - - [13/Feb/2025 11:48:14] "GET / HTTP/1.1" 200 -
+2025-02-13 11:48:14,196 - INFO - 127.0.0.1 - - [13/Feb/2025 11:48:14] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-02-13 11:48:15,351 - INFO - 127.0.0.1 - - [13/Feb/2025 11:48:15] "GET /dashboard HTTP/1.1" 200 -
+2025-02-13 11:48:15,379 - INFO - 127.0.0.1 - - [13/Feb/2025 11:48:15] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 11:50:27,262 - INFO - 127.0.0.1 - - [13/Feb/2025 11:50:27] "GET /dashboard?start_date=2025-02-01&end_date=2025-02-12 HTTP/1.1" 200 -
+2025-02-13 11:50:27,293 - INFO - 127.0.0.1 - - [13/Feb/2025 11:50:27] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 11:50:27,313 - INFO - 127.0.0.1 - - [13/Feb/2025 11:50:27] "GET /static/images/pie_chart.png HTTP/1.1" 200 -
+2025-02-13 11:50:27,314 - INFO - 127.0.0.1 - - [13/Feb/2025 11:50:27] "GET /static/images/bar_chart.png HTTP/1.1" 200 -
+2025-02-13 11:50:27,329 - INFO - 127.0.0.1 - - [13/Feb/2025 11:50:27] "GET /static/images/daily_bar_chart.png HTTP/1.1" 200 -
+2025-02-13 11:50:27,332 - INFO - 127.0.0.1 - - [13/Feb/2025 11:50:27] "GET /static/images/daily_line_chart.png HTTP/1.1" 200 -
+2025-02-13 11:50:46,777 - INFO - 127.0.0.1 - - [13/Feb/2025 11:50:46] "GET /dashboard?start_date=2025-02-13&end_date=2025-02-13 HTTP/1.1" 200 -
+2025-02-13 11:50:46,795 - INFO - 127.0.0.1 - - [13/Feb/2025 11:50:46] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 11:50:46,809 - INFO - 127.0.0.1 - - [13/Feb/2025 11:50:46] "GET /static/images/bar_chart.png HTTP/1.1" 200 -
+2025-02-13 11:50:46,817 - INFO - 127.0.0.1 - - [13/Feb/2025 11:50:46] "GET /static/images/pie_chart.png HTTP/1.1" 200 -
+2025-02-13 11:50:52,811 - INFO - 127.0.0.1 - - [13/Feb/2025 11:50:52] "GET / HTTP/1.1" 200 -
+2025-02-13 11:50:52,834 - INFO - 127.0.0.1 - - [13/Feb/2025 11:50:52] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-02-13 11:50:53,814 - INFO - 127.0.0.1 - - [13/Feb/2025 11:50:53] "GET /dashboard HTTP/1.1" 200 -
+2025-02-13 11:50:53,836 - INFO - 127.0.0.1 - - [13/Feb/2025 11:50:53] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 11:50:54,883 - INFO - 127.0.0.1 - - [13/Feb/2025 11:50:54] "GET / HTTP/1.1" 200 -
+2025-02-13 11:50:54,902 - INFO - 127.0.0.1 - - [13/Feb/2025 11:50:54] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-02-13 11:50:55,852 - INFO - 127.0.0.1 - - [13/Feb/2025 11:50:55] "GET /dashboard HTTP/1.1" 200 -
+2025-02-13 11:50:55,876 - INFO - 127.0.0.1 - - [13/Feb/2025 11:50:55] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 11:50:56,494 - INFO - 127.0.0.1 - - [13/Feb/2025 11:50:56] "GET / HTTP/1.1" 200 -
+2025-02-13 11:50:56,517 - INFO - 127.0.0.1 - - [13/Feb/2025 11:50:56] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-02-13 11:50:57,311 - INFO - 127.0.0.1 - - [13/Feb/2025 11:50:57] "GET /dashboard HTTP/1.1" 200 -
+2025-02-13 11:50:57,332 - INFO - 127.0.0.1 - - [13/Feb/2025 11:50:57] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 11:51:02,717 - INFO - 127.0.0.1 - - [13/Feb/2025 11:51:02] "GET /standard HTTP/1.1" 200 -
+2025-02-13 11:51:02,743 - INFO - 127.0.0.1 - - [13/Feb/2025 11:51:02] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-13 11:51:02,749 - INFO - 127.0.0.1 - - [13/Feb/2025 11:51:02] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-13 11:51:02,750 - INFO - 127.0.0.1 - - [13/Feb/2025 11:51:02] "[36mGET /static/js/cam_reload.js HTTP/1.1[0m" 304 -
+2025-02-13 11:51:02,925 - INFO - 127.0.0.1 - - [13/Feb/2025 11:51:02] "GET /video_feed_1 HTTP/1.1" 200 -
+2025-02-13 11:51:04,830 - INFO - 127.0.0.1 - - [13/Feb/2025 11:51:04] "GET / HTTP/1.1" 200 -
+2025-02-13 11:51:04,860 - INFO - 127.0.0.1 - - [13/Feb/2025 11:51:04] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-02-13 11:51:06,081 - INFO - 127.0.0.1 - - [13/Feb/2025 11:51:06] "GET /normal_abnormal HTTP/1.1" 200 -
+2025-02-13 11:51:06,099 - INFO - 127.0.0.1 - - [13/Feb/2025 11:51:06] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-13 11:51:06,111 - INFO - 127.0.0.1 - - [13/Feb/2025 11:51:06] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-13 11:51:06,115 - INFO - 127.0.0.1 - - [13/Feb/2025 11:51:06] "[36mGET /static/js/cam_reload.js HTTP/1.1[0m" 304 -
+2025-02-13 11:51:06,125 - ERROR - 웹캠에서 영상을 가져올 수 없습니다.
+2025-02-13 11:51:06,126 - INFO - 127.0.0.1 - - [13/Feb/2025 11:51:06] "GET /video_feed_2 HTTP/1.1" 200 -
+2025-02-13 11:51:12,609 - INFO - 127.0.0.1 - - [13/Feb/2025 11:51:12] "GET /dashboard HTTP/1.1" 200 -
+2025-02-13 11:51:12,630 - INFO - 127.0.0.1 - - [13/Feb/2025 11:51:12] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 11:51:13,701 - INFO - 127.0.0.1 - - [13/Feb/2025 11:51:13] "GET /normal_abnormal HTTP/1.1" 200 -
+2025-02-13 11:51:13,726 - INFO - 127.0.0.1 - - [13/Feb/2025 11:51:13] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-13 11:51:13,734 - INFO - 127.0.0.1 - - [13/Feb/2025 11:51:13] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-13 11:51:13,735 - INFO - 127.0.0.1 - - [13/Feb/2025 11:51:13] "[36mGET /static/js/cam_reload.js HTTP/1.1[0m" 304 -
+2025-02-13 11:51:13,749 - ERROR - 웹캠에서 영상을 가져올 수 없습니다.
+2025-02-13 11:51:13,749 - INFO - 127.0.0.1 - - [13/Feb/2025 11:51:13] "GET /video_feed_2 HTTP/1.1" 200 -
+2025-02-13 11:51:15,518 - INFO - 127.0.0.1 - - [13/Feb/2025 11:51:15] "GET / HTTP/1.1" 200 -
+2025-02-13 11:51:15,543 - INFO - 127.0.0.1 - - [13/Feb/2025 11:51:15] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-02-13 11:51:18,127 - INFO - 127.0.0.1 - - [13/Feb/2025 11:51:18] "GET /dashboard HTTP/1.1" 200 -
+2025-02-13 11:51:18,148 - INFO - 127.0.0.1 - - [13/Feb/2025 11:51:18] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 11:51:19,174 - INFO - 127.0.0.1 - - [13/Feb/2025 11:51:19] "GET /standard HTTP/1.1" 200 -
+2025-02-13 11:51:19,194 - INFO - 127.0.0.1 - - [13/Feb/2025 11:51:19] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-13 11:51:19,206 - INFO - 127.0.0.1 - - [13/Feb/2025 11:51:19] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-13 11:51:19,209 - INFO - 127.0.0.1 - - [13/Feb/2025 11:51:19] "[36mGET /static/js/cam_reload.js HTTP/1.1[0m" 304 -
+2025-02-13 11:51:19,391 - INFO - 127.0.0.1 - - [13/Feb/2025 11:51:19] "GET /video_feed_1 HTTP/1.1" 200 -
+2025-02-13 11:51:21,650 - INFO - 127.0.0.1 - - [13/Feb/2025 11:51:21] "GET / HTTP/1.1" 200 -
+2025-02-13 11:51:21,677 - INFO - 127.0.0.1 - - [13/Feb/2025 11:51:21] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-02-13 11:51:24,917 - INFO - 127.0.0.1 - - [13/Feb/2025 11:51:24] "GET /normal_abnormal HTTP/1.1" 200 -
+2025-02-13 11:51:24,942 - INFO - 127.0.0.1 - - [13/Feb/2025 11:51:24] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-13 11:51:24,946 - INFO - 127.0.0.1 - - [13/Feb/2025 11:51:24] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-13 11:51:24,951 - INFO - 127.0.0.1 - - [13/Feb/2025 11:51:24] "[36mGET /static/js/cam_reload.js HTTP/1.1[0m" 304 -
+2025-02-13 11:51:24,959 - ERROR - 웹캠에서 영상을 가져올 수 없습니다.
+2025-02-13 11:51:24,959 - INFO - 127.0.0.1 - - [13/Feb/2025 11:51:24] "GET /video_feed_2 HTTP/1.1" 200 -
+2025-02-13 11:53:50,882 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-13 11:53:50,883 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-13 11:53:50,885 - INFO -  * Restarting with stat
+2025-02-13 11:53:52,891 - WARNING -  * Debugger is active!
+2025-02-13 11:53:52,891 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 11:54:01,333 - INFO - 127.0.0.1 - - [13/Feb/2025 11:54:01] "GET / HTTP/1.1" 200 -
+2025-02-13 11:54:01,355 - INFO - 127.0.0.1 - - [13/Feb/2025 11:54:01] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-02-13 11:54:04,731 - INFO - 127.0.0.1 - - [13/Feb/2025 11:54:04] "GET /normal_abnormal HTTP/1.1" 200 -
+2025-02-13 11:54:04,750 - INFO - 127.0.0.1 - - [13/Feb/2025 11:54:04] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-13 11:54:04,761 - INFO - 127.0.0.1 - - [13/Feb/2025 11:54:04] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-13 11:54:04,762 - INFO - 127.0.0.1 - - [13/Feb/2025 11:54:04] "[36mGET /static/js/cam_reload.js HTTP/1.1[0m" 304 -
+2025-02-13 11:54:13,200 - INFO - 127.0.0.1 - - [13/Feb/2025 11:54:13] "[35m[1mGET /break_frame HTTP/1.1[0m" 500 -
+2025-02-13 11:55:41,749 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\utils\\standard_frame.py', reloading
+2025-02-13 11:55:42,310 - INFO -  * Restarting with stat
+2025-02-13 11:55:44,520 - WARNING -  * Debugger is active!
+2025-02-13 11:55:44,531 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 11:55:51,632 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\utils\\break_frame.py', reloading
+2025-02-13 11:55:51,790 - INFO -  * Restarting with stat
+2025-02-13 11:55:53,875 - WARNING -  * Debugger is active!
+2025-02-13 11:55:53,875 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 11:55:53,895 - INFO - 127.0.0.1 - - [13/Feb/2025 11:55:53] "GET /normal_abnormal HTTP/1.1" 200 -
+2025-02-13 11:55:53,928 - INFO - 127.0.0.1 - - [13/Feb/2025 11:55:53] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-13 11:55:53,930 - INFO - 127.0.0.1 - - [13/Feb/2025 11:55:53] "[36mGET /static/js/cam_reload.js HTTP/1.1[0m" 304 -
+2025-02-13 11:55:53,930 - INFO - 127.0.0.1 - - [13/Feb/2025 11:55:53] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-13 11:56:08,993 - INFO - 127.0.0.1 - - [13/Feb/2025 11:56:08] "GET /break_frame HTTP/1.1" 200 -
+2025-02-13 11:56:14,940 - INFO - 127.0.0.1 - - [13/Feb/2025 11:56:14] "GET / HTTP/1.1" 200 -
+2025-02-13 11:56:14,963 - INFO - 127.0.0.1 - - [13/Feb/2025 11:56:14] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-02-13 11:56:15,824 - INFO - 127.0.0.1 - - [13/Feb/2025 11:56:15] "GET /standard HTTP/1.1" 200 -
+2025-02-13 11:56:15,846 - INFO - 127.0.0.1 - - [13/Feb/2025 11:56:15] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-13 11:56:15,854 - INFO - 127.0.0.1 - - [13/Feb/2025 11:56:15] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-13 11:56:15,855 - INFO - 127.0.0.1 - - [13/Feb/2025 11:56:15] "[36mGET /static/js/cam_reload.js HTTP/1.1[0m" 304 -
+2025-02-13 11:56:16,294 - INFO - 127.0.0.1 - - [13/Feb/2025 11:56:16] "GET /standard_frame HTTP/1.1" 200 -
+2025-02-13 11:56:16,566 - ERROR - 웹캠에서 영상을 가져올 수 없습니다.
+2025-02-13 11:56:18,687 - INFO - 127.0.0.1 - - [13/Feb/2025 11:56:18] "GET / HTTP/1.1" 200 -
+2025-02-13 11:56:18,711 - INFO - 127.0.0.1 - - [13/Feb/2025 11:56:18] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-02-13 11:56:22,056 - INFO - 127.0.0.1 - - [13/Feb/2025 11:56:22] "GET /normal_abnormal HTTP/1.1" 200 -
+2025-02-13 11:56:22,082 - INFO - 127.0.0.1 - - [13/Feb/2025 11:56:22] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-13 11:56:22,094 - INFO - 127.0.0.1 - - [13/Feb/2025 11:56:22] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-13 11:56:22,097 - INFO - 127.0.0.1 - - [13/Feb/2025 11:56:22] "[36mGET /static/js/cam_reload.js HTTP/1.1[0m" 304 -
+2025-02-13 11:56:22,117 - ERROR - 웹캠에서 영상을 가져올 수 없습니다.
+2025-02-13 11:56:22,118 - INFO - 127.0.0.1 - - [13/Feb/2025 11:56:22] "GET /break_frame HTTP/1.1" 200 -
+2025-02-13 11:56:28,790 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-13 11:56:28,790 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-13 11:56:28,790 - INFO -  * Restarting with stat
+2025-02-13 11:56:30,603 - WARNING -  * Debugger is active!
+2025-02-13 11:56:30,619 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 11:56:47,226 - INFO - 127.0.0.1 - - [13/Feb/2025 11:56:47] "GET /dashboard HTTP/1.1" 200 -
+2025-02-13 11:56:47,246 - INFO - 127.0.0.1 - - [13/Feb/2025 11:56:47] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 11:56:54,819 - INFO - 127.0.0.1 - - [13/Feb/2025 11:56:54] "GET /normal_abnormal HTTP/1.1" 200 -
+2025-02-13 11:56:54,838 - INFO - 127.0.0.1 - - [13/Feb/2025 11:56:54] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-13 11:56:54,850 - INFO - 127.0.0.1 - - [13/Feb/2025 11:56:54] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-13 11:56:54,852 - INFO - 127.0.0.1 - - [13/Feb/2025 11:56:54] "[36mGET /static/js/cam_reload.js HTTP/1.1[0m" 304 -
+2025-02-13 11:56:57,738 - INFO - 127.0.0.1 - - [13/Feb/2025 11:56:57] "GET /break_frame HTTP/1.1" 200 -
+2025-02-13 11:57:11,235 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\routes\\main.py', reloading
+2025-02-13 11:57:11,863 - INFO -  * Restarting with stat
+2025-02-13 11:57:14,001 - WARNING -  * Debugger is active!
+2025-02-13 11:57:14,010 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 11:57:33,881 - INFO - 127.0.0.1 - - [13/Feb/2025 11:57:33] "[33mGET /normal_abnormal HTTP/1.1[0m" 404 -
+2025-02-13 11:57:35,843 - INFO - 127.0.0.1 - - [13/Feb/2025 11:57:35] "[33mGET /normal_abnormal HTTP/1.1[0m" 404 -
+2025-02-13 11:58:13,964 - INFO -  * Detected change in 'D:\\AI3\\paper\\PaperCup\\app\\routes\\main.py', reloading
+2025-02-13 11:58:14,101 - INFO -  * Restarting with stat
+2025-02-13 11:58:16,114 - WARNING -  * Debugger is active!
+2025-02-13 11:58:16,124 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 11:58:26,652 - INFO - 127.0.0.1 - - [13/Feb/2025 11:58:26] "[33mGET /normal_abnormal HTTP/1.1[0m" 404 -
+2025-02-13 11:59:01,310 - INFO - 127.0.0.1 - - [13/Feb/2025 11:59:01] "GET /dashboard HTTP/1.1" 200 -
+2025-02-13 11:59:01,328 - INFO - 127.0.0.1 - - [13/Feb/2025 11:59:01] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 11:59:05,423 - INFO - 127.0.0.1 - - [13/Feb/2025 11:59:05] "GET /break HTTP/1.1" 200 -
+2025-02-13 11:59:05,446 - INFO - 127.0.0.1 - - [13/Feb/2025 11:59:05] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-13 11:59:05,448 - INFO - 127.0.0.1 - - [13/Feb/2025 11:59:05] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-13 11:59:05,452 - INFO - 127.0.0.1 - - [13/Feb/2025 11:59:05] "[36mGET /static/js/cam_reload.js HTTP/1.1[0m" 304 -
+2025-02-13 11:59:08,339 - INFO - 127.0.0.1 - - [13/Feb/2025 11:59:08] "GET /break_frame HTTP/1.1" 200 -
+2025-02-13 11:59:13,456 - INFO - 127.0.0.1 - - [13/Feb/2025 11:59:13] "GET / HTTP/1.1" 200 -
+2025-02-13 11:59:13,482 - INFO - 127.0.0.1 - - [13/Feb/2025 11:59:13] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-02-13 11:59:56,763 - INFO - 127.0.0.1 - - [13/Feb/2025 11:59:56] "GET /dashboard HTTP/1.1" 200 -
+2025-02-13 11:59:56,786 - INFO - 127.0.0.1 - - [13/Feb/2025 11:59:56] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 11:59:58,017 - INFO - 127.0.0.1 - - [13/Feb/2025 11:59:58] "GET / HTTP/1.1" 200 -
+2025-02-13 11:59:58,041 - INFO - 127.0.0.1 - - [13/Feb/2025 11:59:58] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-02-13 11:59:58,802 - INFO - 127.0.0.1 - - [13/Feb/2025 11:59:58] "GET /standard HTTP/1.1" 200 -
+2025-02-13 11:59:58,821 - INFO - 127.0.0.1 - - [13/Feb/2025 11:59:58] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-13 11:59:58,833 - INFO - 127.0.0.1 - - [13/Feb/2025 11:59:58] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-13 11:59:58,836 - INFO - 127.0.0.1 - - [13/Feb/2025 11:59:58] "[36mGET /static/js/cam_reload.js HTTP/1.1[0m" 304 -
+2025-02-13 11:59:59,172 - INFO - 127.0.0.1 - - [13/Feb/2025 11:59:59] "GET /standard_frame HTTP/1.1" 200 -
+2025-02-13 12:00:02,861 - INFO - 127.0.0.1 - - [13/Feb/2025 12:00:02] "GET / HTTP/1.1" 200 -
+2025-02-13 12:00:02,885 - INFO - 127.0.0.1 - - [13/Feb/2025 12:00:02] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-02-13 12:07:50,507 - INFO - 127.0.0.1 - - [13/Feb/2025 12:07:50] "GET / HTTP/1.1" 200 -
+2025-02-13 12:07:50,539 - INFO - 127.0.0.1 - - [13/Feb/2025 12:07:50] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-02-13 12:07:52,414 - INFO - 127.0.0.1 - - [13/Feb/2025 12:07:52] "GET /break HTTP/1.1" 200 -
+2025-02-13 12:07:52,437 - INFO - 127.0.0.1 - - [13/Feb/2025 12:07:52] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-13 12:07:52,440 - INFO - 127.0.0.1 - - [13/Feb/2025 12:07:52] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-13 12:07:52,445 - INFO - 127.0.0.1 - - [13/Feb/2025 12:07:52] "[36mGET /static/js/cam_reload.js HTTP/1.1[0m" 304 -
+2025-02-13 12:07:52,612 - INFO - 127.0.0.1 - - [13/Feb/2025 12:07:52] "GET /break_frame HTTP/1.1" 200 -
+2025-02-13 12:07:52,619 - ERROR - 웹캠에서 영상을 가져올 수 없습니다.
+2025-02-13 12:07:58,193 - INFO - 127.0.0.1 - - [13/Feb/2025 12:07:58] "GET /break HTTP/1.1" 200 -
+2025-02-13 12:07:58,216 - INFO - 127.0.0.1 - - [13/Feb/2025 12:07:58] "[36mGET /static/css/cam.css HTTP/1.1[0m" 304 -
+2025-02-13 12:07:58,232 - INFO - 127.0.0.1 - - [13/Feb/2025 12:07:58] "[36mGET /static/js/cam_reload.js HTTP/1.1[0m" 304 -
+2025-02-13 12:07:58,233 - INFO - 127.0.0.1 - - [13/Feb/2025 12:07:58] "[36mGET /static/js/cam_control.js HTTP/1.1[0m" 304 -
+2025-02-13 12:07:58,235 - ERROR - 웹캠에서 영상을 가져올 수 없습니다.
+2025-02-13 12:07:58,235 - INFO - 127.0.0.1 - - [13/Feb/2025 12:07:58] "GET /break_frame HTTP/1.1" 200 -
+2025-02-13 14:11:32,122 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-13 14:11:32,134 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-13 14:11:32,138 - INFO -  * Restarting with stat
+2025-02-13 14:11:34,216 - WARNING -  * Debugger is active!
+2025-02-13 14:11:34,228 - INFO -  * Debugger PIN: 250-805-850
+2025-02-13 14:37:27,838 - INFO - 127.0.0.1 - - [13/Feb/2025 14:37:27] "GET / HTTP/1.1" 200 -
+2025-02-13 15:15:30,303 - INFO - 127.0.0.1 - - [13/Feb/2025 15:15:30] "GET / HTTP/1.1" 200 -
+2025-02-13 15:15:39,111 - INFO - 127.0.0.1 - - [13/Feb/2025 15:15:39] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-02-13 15:16:01,250 - INFO - 127.0.0.1 - - [13/Feb/2025 15:16:01] "GET /dashboard HTTP/1.1" 200 -
+2025-02-13 15:16:12,649 - INFO - 127.0.0.1 - - [13/Feb/2025 15:16:12] "GET /dashboard HTTP/1.1" 200 -
+2025-02-13 15:17:38,415 - INFO - 127.0.0.1 - - [13/Feb/2025 15:17:38] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 15:17:48,019 - INFO - 127.0.0.1 - - [13/Feb/2025 15:17:48] "GET /dashboard?start_date=2025-02-01&end_date=2025-02-12 HTTP/1.1" 200 -
+2025-02-13 15:17:48,041 - INFO - 127.0.0.1 - - [13/Feb/2025 15:17:48] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 15:17:48,052 - INFO - 127.0.0.1 - - [13/Feb/2025 15:17:48] "GET /static/images/bar_chart.png HTTP/1.1" 200 -
+2025-02-13 15:17:48,054 - INFO - 127.0.0.1 - - [13/Feb/2025 15:17:48] "GET /static/images/daily_bar_chart.png HTTP/1.1" 200 -
+2025-02-13 15:17:48,057 - INFO - 127.0.0.1 - - [13/Feb/2025 15:17:48] "GET /static/images/pie_chart.png HTTP/1.1" 200 -
+2025-02-13 15:17:48,066 - INFO - 127.0.0.1 - - [13/Feb/2025 15:17:48] "GET /static/images/daily_line_chart.png HTTP/1.1" 200 -
+2025-02-13 15:25:57,413 - INFO - 127.0.0.1 - - [13/Feb/2025 15:25:57] "GET /dashboard?start_date=2025-02-11&end_date=2025-02-11 HTTP/1.1" 200 -
+2025-02-13 15:25:57,431 - INFO - 127.0.0.1 - - [13/Feb/2025 15:25:57] "[36mGET /static/css/dashboard.css HTTP/1.1[0m" 304 -
+2025-02-13 15:25:57,446 - INFO - 127.0.0.1 - - [13/Feb/2025 15:25:57] "GET /static/images/pie_chart.png HTTP/1.1" 200 -
+2025-02-13 15:25:57,453 - INFO - 127.0.0.1 - - [13/Feb/2025 15:25:57] "GET /static/images/bar_chart.png HTTP/1.1" 200 -
