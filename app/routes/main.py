@@ -141,7 +141,7 @@ def standard_width():
     standard_paper_size_cm = paper_size_data.standard_paper_size_cm
     pixel_to_cm = paper_size_data.pixel_to_cm
     logging.info("🎥 Width Video Feed 스트리밍 시작")
-
+    logging.info(f"📏 Width 기준값 - Tolerance: {tolerance_cm}, Standard Size: {standard_paper_size_cm}, Pixel to CM: {pixel_to_cm}")
     return Response(standard_frame_width(tolerance_cm, standard_paper_size_cm, pixel_to_cm),
                     mimetype='multipart/x-mixed-replace; boundary=frame')
 
@@ -161,7 +161,7 @@ def standard_height():
     standard_paper_size_cm = paper_size_data.standard_paper_size_cm
     pixel_to_cm = paper_size_data.pixel_to_cm
     logging.info("🎥 Height Video Feed 스트리밍 시작")
-
+    logging.info(f"📏 Width 기준값 - Tolerance: {tolerance_cm}, Standard Size: {standard_paper_size_cm}, Pixel to CM: {pixel_to_cm}")
     return Response(standard_frame_height(tolerance_cm, standard_paper_size_cm, pixel_to_cm),
                     mimetype='multipart/x-mixed-replace; boundary=frame')
 
@@ -227,9 +227,14 @@ def update_daily_counts_route():
 
     return redirect(request.referrer or url_for("main.home"))
 
-# 웹캠 스트리밍을 위한 함수
 @main_bp.route('/video_feed')
 def video_feed():
     from app.utils import generate
 
     return Response(generate(), mimetype='multipart/x-mixed-replace; boundary=frame')
+
+@main_bp.route('/video_feed_1')
+def video_feed_1():
+    from app.utils import generate_1
+
+    return Response(generate_1(), mimetype='multipart/x-mixed-replace; boundary=frame')
