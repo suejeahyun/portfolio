@@ -1,9 +1,12 @@
 from flask import render_template, request, Response, Blueprint, url_for, redirect
 from app.models import DailyCount
+from app import db
 import logging
 import pandas as pd
 import matplotlib
+import cv2
 from datetime import datetime
+import numpy as np
 
 matplotlib.use('Agg')
 
@@ -122,12 +125,89 @@ def dashboard():
         start_date=start_date.date(),
         end_date=end_date.date()
     )
+    
+@main_bp.route('/standard_width')
+def standard_width():
+    from app.utils import standard_frame_width
+    from app.models import paper_size
+    from app import db 
 
-@main_bp.route('/standard_frame')
-def standard_frame():
-    from app.utils import standard_frame
-    logging.info("🎥 Video Feed 1 스트리밍 시작")
-    return Response(standard_frame(), mimetype='multipart/x-mixed-replace; boundary=frame')
+    # MySQL에서 width 기준값 가져오기
+    paper_size_data = db.session.query(paper_size).filter_by(width_height="width").first()
+    if not paper_size_data:
+        return "Error: No width data found in the database", 500
+
+    tolerance_cm = paper_size_data.tolerance_cm
+    standard_paper_size_cm = paper_size_data.standard_paper_size_cm
+    pixel_to_cm = paper_size_data.pixel_to_cm
+    logging.info("🎥 Width Video Feed 스트리밍 시작")
+
+    return Response(standard_frame_width(tolerance_cm, standard_paper_size_cm, pixel_to_cm),
+                    mimetype='multipart/x-mixed-replace; boundary=frame')
+
+
+@main_bp.route('/standard_height')
+def standard_height():
+    from app.utils import standard_frame_height
+    from app.models import paper_size
+    from app import db 
+
+    # MySQL에서 height 기준값 가져오기
+    paper_size_data = db.session.query(paper_size).filter_by(width_height="height").first()
+    if not paper_size_data:
+        return "Error: No height data found in the database", 500
+
+    tolerance_cm = paper_size_data.tolerance_cm
+    standard_paper_size_cm = paper_size_data.standard_paper_size_cm
+    pixel_to_cm = paper_size_data.pixel_to_cm
+    logging.info("🎥 Height Video Feed 스트리밍 시작")
+
+    return Response(standard_frame_height(tolerance_cm, standard_paper_size_cm, pixel_to_cm),
+                    mimetype='multipart/x-mixed-replace; boundary=frame')
+
+
+
+@main_bp.route('/standard_setting', methods=['GET', 'POST'])
+def standard_setting():
+    from app.utils import width_height_calculation
+    from app.models import paper_size
+    
+    if request.method == 'POST':
+        standard_paper_size_cm = float(request.form.get('standard_paper_size_cm'))
+        width_height = request.form.get('width_height')  # 웹에서 선택한 너비 또는 높이
+        tolerance_cm = float(request.form.get('tolerance_cm', 0))  # 웹에서 입력받은 공차 값 (기본값 0)
+
+        # width_height_calculation 함수 호출
+        pixel_to_cm = width_height_calculation(standard_paper_size_cm, width_height)
+
+        if pixel_to_cm is not None:
+            # 기존에 동일한 width_height가 있는지 확인
+            existing_size = paper_size.query.filter_by(width_height=width_height).first()
+
+            if existing_size:
+                # 값이 존재하면 업데이트
+                existing_size.tolerance_cm = tolerance_cm
+                existing_size.standard_size_cm = standard_paper_size_cm
+                existing_size.pixel_to_cm = pixel_to_cm
+                db.session.commit()
+            else:
+                # 값이 없으면 새로운 데이터 추가
+                new_size = paper_size(
+                    width_height=width_height,
+                    tolerance_cm=tolerance_cm,
+                    standard_paper_size_cm=standard_paper_size_cm,
+                    pixel_to_cm=pixel_to_cm
+                )
+                db.session.add(new_size)
+                db.session.commit()
+
+            # 결과를 웹 페이지로 전달
+            return render_template('standard_setting.html', pixel_to_cm=pixel_to_cm)
+        else:
+            # 값 계산이 안되었을 경우 처리
+            return render_template('standard_setting.html', error="PIXEL_TO_CM calculation failed.")
+
+    return render_template('standard_setting.html')  # 입력 폼 렌더링
 
 @main_bp.route('/break_frame')
 def break_frame():
@@ -146,3 +226,10 @@ def update_daily_counts_route():
         logging.error(f"🚨 DailyCount 업데이트 실패: {str(e)}")
 
     return redirect(request.referrer or url_for("main.home"))
+
+# 웹캠 스트리밍을 위한 함수
+@main_bp.route('/video_feed')
+def video_feed():
+    from app.utils import generate
+
+    return Response(generate(), mimetype='multipart/x-mixed-replace; boundary=frame')

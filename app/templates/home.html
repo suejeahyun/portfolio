@@ -11,8 +11,10 @@
   </head>
   <body>
     <h1>home:</h1>
+    <a href="{{ url_for('main.home') }}">home으로 이동</a>
     <a href="{{ url_for('main.break_cam') }}">파손 cam 이동</a>
     <a href="{{ url_for('main.standard_cam') }}">규격 cam 이동</a>
     <a href="{{ url_for('main.dashboard') }}">대시보드로 이동</a>
+    <a href="{{ url_for('main.standard_setting') }}">규격 설정 이동</a>
   </body>
 </html>
