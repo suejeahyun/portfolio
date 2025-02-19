@@ -1,7 +1,7 @@
 # 📜 서재현 포트폴리오
 
 ## 👋 Intro
-안녕하세요! *"다양한 시각으로 배우고 도전하며 해결해 내는"* 서재현입니다.
+안녕하세요! "다양한 시각으로 배우고 도전하며 해결해 내는" 서재현입니다.
 CCTV를 기반으로 한 주차장 관리자 연동 웹 구현 팀 프로젝트에서 팀장을 맡으며 백엔드와 프론트엔드 개발자로서의 역량을 길렀고, 해당 프로젝트의 코드를 저장해 두었습니다.
 
 ## 📝 Projects
@@ -21,10 +21,11 @@ Back-end:
   - Language: Python
   - Framework: Flask
   - Database: MySQL
+  - Tools: Visual Studio Code, Anaconda, Spyder, GitHub
 
 Front-end:
   - Language: Python
-  - Framework: Flask, JSP
+  - Framework: Flask
 ```
 
 ---
@@ -38,10 +39,11 @@ Back-end:
   - Language: Python
   - Framework: Flask
   - Database: MySQL
+  - Tools: Visual Studio Code, Anaconda, OpenCV, NumPy, GitHub
 
 Front-end:
   - Language: Python
-  - Framework: Flask, JSP
+  - Framework: Flask
 ```
 
 ---
@@ -55,13 +57,13 @@ Back-end:
   - Language: Python
   - Framework: Flask
   - Database: MySQL
+  - Tools: Visual Studio Code, Anaconda, Spyder, GitHub
 
 Front-end:
   - Language: Python
-  - Framework: Flask, JSP
+  - Framework: Flask
 ```
 
 ---
 
 GitHub에 프로젝트를 업로드하여 관리하고 있으며, 관련된 프로젝트 경험을 바탕으로 지속적으로 성장하고 있습니다.
-
