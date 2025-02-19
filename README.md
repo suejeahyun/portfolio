@@ -4,5 +4,5 @@
 
 #2-cctv_project_2 branches : AI 기반 군중 밀집 CCTV 시스템
 
-#3-papercup_project_1 : CNN을 활용한 종이컵 불량 검출 스마트 팩토리 개발
+#3-papercup_project_1 branches : CNN을 활용한 종이컵 불량 검출 스마트 팩토리 개발
 
