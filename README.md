@@ -27,13 +27,12 @@ Front-end:
   - Language: Python
   - Framework: Flask
 ```
-
 ---
 
 ### 🙋‍♂️ AI 기반 군중 밀집 CCTV 시스템
 **개발 기간:** 2024.12 ~ 2025.01  
-**GitHub Repository:** `2-cctv_project_2 branches`
-
+**GitHub Repository:** `2-cctv_project_2 branches`  
+#### [프로젝트 링크](https://github.com/Vanhae94/Portfolio)
 ```yaml
 Back-end:
   - Language: Python
@@ -45,13 +44,12 @@ Front-end:
   - Language: Python
   - Framework: Flask
 ```
-
 ---
 
 ### 🥤 CNN을 활용한 종이컵 불량 검출 스마트 팩토리 개발
 **개발 기간:** 2025.02  
 **GitHub Repository:** `3-papercup_project_1 branches`
-
+#### [프로젝트 링크](https://github.com/Vanhae94/Portfolio)
 ```yaml
 Back-end:
   - Language: Python
